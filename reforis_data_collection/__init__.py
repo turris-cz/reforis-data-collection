@@ -41,9 +41,9 @@ def post_settings():
 
     response = current_app.backend.perform('sentinel', 'update_settings', request.json)
     if response.get('result') is not True:
-        raise APIError(_('Cannot create entity'), HTTPStatus.INTERNAL_SERVER_ERROR)
+        raise APIError(_('Cannot update sentinel settings'), HTTPStatus.INTERNAL_SERVER_ERROR)
 
-    return jsonify(response), HTTPStatus.CREATED
+    return jsonify(response), HTTPStatus.NO_CONTENT
 
 
 @blueprint.route('/eula', methods=['GET'])
