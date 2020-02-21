@@ -7,14 +7,15 @@
 
 import React from "react";
 import mockAxios from "jest-mock-axios";
-import { render } from "foris/testUtils/customTestRender";
+import { render,wait } from "foris/testUtils/customTestRender";
 
-import DataCollection from "./DataCollection";
+import DataCollection from '../DataCollection';
+
 
 describe("<DataCollection />", () => {
     it("should render component", () => {
         const { getByText } = render(<DataCollection />);
-        expect(getByText("Data Collection")).toBeDefined();
-        expect(mockAxios.get).toBeCalledWith("/reforis/data-collection/api/example", expect.anything());
+        wait(()=>getByText("Data Collection"));
+        expect(mockAxios.get).toBeCalledWith("/reforis/data-collection/api/settings", expect.anything());
     });
 });
