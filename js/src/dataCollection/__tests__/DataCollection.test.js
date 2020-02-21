@@ -9,7 +9,7 @@ import React from "react";
 import mockAxios from "jest-mock-axios";
 import { render } from "foris/testUtils/customTestRender";
 
-import DataCollection from "../DataCollection";
+import DataCollection from "./DataCollection";
 
 describe("<DataCollection />", () => {
     it("should render component", () => {

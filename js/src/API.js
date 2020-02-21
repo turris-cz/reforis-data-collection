@@ -11,7 +11,8 @@ const API_URL_PREFIX = `${REFORIS_URL_PREFIX}/data-collection/api`;
 
 const API_URLs = new Proxy(
     {
-        example: "/example",
+        settings: "/settings",
+        eula: "/eula",
     },
     {
         get: (target, name) => `${API_URL_PREFIX}${target[name]}`,
