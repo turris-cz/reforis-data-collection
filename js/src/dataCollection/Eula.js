@@ -5,51 +5,101 @@
  * See /LICENSE for more information.
  */
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import {
-    API_STATE, Button, ErrorMessage, Spinner, useAPIGet, useAPIPost,
+    API_STATE, Button, ErrorMessage, ForisForm, Modal, ModalBody, ModalHeader, RadioSet, Spinner, useAPIGet,
 } from "foris";
 
 import "./Eula.css";
 import API_URLs from "../API";
+
+const EULA_CHOICES = [
+    { value: "0", label: _("I do not accept the Terms of Participation in Turris Project (Data Collection)") },
+    { value: "1", label: _("I accept the Terms of Participation in Turris Project (Data Collection)") },
+];
 
 Eula.propTypes = {
     eula: PropTypes.number.isRequired,
 };
 
 export default function Eula({ eula }) {
+    const { shown, setShown } = useState(false);
+    return (
+        <>
+            <ForisForm
+                forisConfig={{
+                    endpoint: API_URLs.settings,
+                }}
+                prepDataToSubmit={prepDataToSubmit}
+            >
+                <h3>{_("License Agreement")}</h3>
+                <Button forisFormSize className="btn-outline-info">
+                    {_("Show Terms of Participation in Turris Project (Data Collection).")}
+                </Button>
+                <EULAForm />
+                <EULAModal
+                    shown={shown}
+                    setShown={setShown}
+                />
+            </ForisForm>
+        </>
+    );
+}
+
+function EULAForm({
+    formData, setFormValue, formErrors, ...props
+}) {
+    return (
+        <>
+            <RadioSet
+                choices={EULA_CHOICES}
+                name={_("Agreement")}
+                value={formData.eula.toString()}
+                onChange={
+                    setFormValue((value) => ({ eula: { $set: value } }))
+                }
+                {...props}
+            />
+        </>
+    );
+}
+
+function prepDataToSubmit(data) {
+    data.eula = parseInt(data.eula);
+    if (!data.token) delete data.token;
+    return data;
+}
+
+function EULAModal({ shown, setShown, formData }) {
+    const { eula } = formData;
     const [getEulaState, getEula] = useAPIGet(API_URLs.eula);
 
     useEffect(() => {
         getEula({ data: { eula } });
     }, [eula, getEula]);
 
-    const [setSettingsState, setSettings] = useAPIPost(API_URLs.settings);
-    function onAcceptEula() {
-        setSettings({ data: { eula: getEulaState.data.eula } });
-    }
-
+    let content;
     if (getEulaState.state === API_STATE.INIT || getEulaState.state === API_STATE.SENDING) {
-        return <Spinner />;
-    }
-
-    if (getEulaState.state === API_STATE.ERROR) {
-        return <ErrorMessage />;
+        content = <Spinner />;
+    } else if (getEulaState.state === API_STATE.ERROR) {
+        content = <ErrorMessage />;
+    } else {
+        content = (
+            <div className="display-linebreak">
+                {getEulaState.data.text}
+            </div>
+        );
     }
 
     return (
         <>
-            <h3>{_("License Agreement")}</h3>
-            <div className="display-linebreak">
-                {getEulaState.data.text}
-            </div>
-            <Button
-                onClick={onAcceptEula}
-                loading={setSettingsState.state === API_STATE.SENDING}
-            >
-                {_("I Accept")}
-            </Button>
+            <Modal setShown={setShown} shown={shown}>
+                <ModalHeader setShown={setShown} title={_("Wi-Fi QR Code")} />
+                <ModalBody>
+                    {content}
+                </ModalBody>
+            </Modal>
         </>
     );
 }
