@@ -37,7 +37,7 @@ def get_settings():
 
 @blueprint.route('/settings', methods=['POST'])
 def post_settings():
-    validate_json(request.json, {'eula': int, 'token': str})
+    validate_json(request.json, {'eula': int})
 
     response = current_app.backend.perform('sentinel', 'update_settings', request.json)
     if response.get('result') is not True:
