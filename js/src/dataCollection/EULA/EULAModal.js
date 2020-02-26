@@ -5,11 +5,13 @@
  * See /LICENSE for more information.
  */
 
+import React, { useEffect } from "react";
 import {
     API_STATE, ErrorMessage, Modal, ModalBody, ModalHeader, Spinner, useAPIGet,
 } from "foris";
-import React, { useEffect } from "react";
-import API_URLs from '../../API';
+
+import "./EULAModal.css";
+import API_URLs from "API";
 
 export default function EULAModal({ shown, setShown, formData }) {
     const { eula } = formData;
