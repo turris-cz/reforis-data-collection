@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DataCollection /> Should render form. 1`] = `
+<div>
+  <h3>
+    License Agreement
+  </h3>
+  <p>
+    It's required to confirm the Terms of Participation in Turris Project to participate in data collection.
+  </p>
+  <div
+    class="col-sm-12 offset-lg-1 col-lg-10 p-0 mb-3"
+  >
+    <form>
+      <div
+        class="form-group"
+      >
+        <div
+          class="custom-control custom-radio custom-control-inline"
+        >
+          <input
+            checked=""
+            class="custom-control-input"
+            id="Agreement-0"
+            name="Agreement"
+            type="radio"
+            value="0"
+          />
+          <label
+            class="custom-control-label"
+            for="Agreement-0"
+          >
+            <div>
+              I do not accept the 
+              <a
+                href="#"
+              >
+                Terms of Participation in Turris Project (Data Collection)
+              </a>
+              .
+            </div>
+          </label>
+        </div>
+        <div
+          class="custom-control custom-radio custom-control-inline"
+        >
+          <input
+            class="custom-control-input"
+            id="Agreement-1"
+            name="Agreement"
+            type="radio"
+            value="1"
+          />
+          <label
+            class="custom-control-label"
+            for="Agreement-1"
+          >
+            <div>
+              I accept the 
+              <a
+                href="#"
+              >
+                Terms of Participation in Turris Project (Data Collection)
+              </a>
+              .
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="text-right"
+      >
+        <button
+          class="btn btn-primary  col-sm-12 col-lg-3"
+          type="submit"
+        >
+           
+           
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    id="modal-container"
+  >
+    <div
+      class="modal fade "
+      role="dialog"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="modal-header"
+          >
+            <h5
+              class="modal-title"
+            >
+              Terms of Participation in Turris Project (Data Collection)
+            </h5>
+            <button
+              class="close"
+              type="button"
+            >
+              <span
+                aria-hidden="true"
+              >
+                ×
+              </span>
+            </button>
+          </div>
+          <div
+            class="modal-body"
+          >
+            <div
+              class="display-linebreak text-monospace"
+            >
+              eula text
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DataCollection /> Should toggle modal. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -78,11 +78,11 @@
+    </div>
+    <div
+      id=\\"modal-container\\"
+    >
+      <div
+-       class=\\"modal fade \\"
++       class=\\"modal fade show\\"
+        role=\\"dialog\\"
+      >
+        <div
+          class=\\"modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
+          role=\\"document\\""
+`;

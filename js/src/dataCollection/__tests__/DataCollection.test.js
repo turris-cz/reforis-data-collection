@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import mockAxios from "jest-mock-axios";
 import { render,wait } from "foris/testUtils/customTestRender";
 
 import DataCollection from '../DataCollection';
@@ -16,6 +15,5 @@ describe("<DataCollection />", () => {
     it("should render component", () => {
         const { getByText } = render(<DataCollection />);
         wait(()=>getByText("Data Collection"));
-        expect(mockAxios.get).toBeCalledWith("/reforis/data-collection/api/settings", expect.anything());
     });
 });
