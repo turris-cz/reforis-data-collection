@@ -7,22 +7,28 @@ from http import HTTPStatus
 from reforis.test_utils import mock_backend_response
 
 
-@mock_backend_response({'example_module': {'example_action': {'key': 'value'}}})
-def test_get_example(client):
-    response = client.get('/data-collection/api/example')
+@mock_backend_response({'sentinel': {'get_settings': {'eula': 0, 'token': "some1234token"}}})
+def test_get_settings(client):
+    response = client.get('/data-collection/api/settings')
     assert response.status_code == HTTPStatus.OK
-    assert response.json['key'] == 'value'
+    assert response.json['eula'] == 0
+    assert response.json['token'] == "some1234token"
 
 
-@mock_backend_response({'example_module': {'example_action': {'result': True}}})
-def test_post_example_invalid_json(client):
-    response = client.post('/data-collection/api/example', json=False)
+@mock_backend_response({'sentinel': {'update_settings': {'result': True}}})
+def test_post_settings_invalid_json(client):
+    response = client.post('/data-collection/api/settings', json=False)
     assert response.status_code == HTTPStatus.BAD_REQUEST
     assert response.json == 'Invalid JSON'
 
 
-@mock_backend_response({'example_module': {'example_action': {'key': 'value'}}})
-def test_post_example_backend_error(client):
-    response = client.post('/data-collection/api/example', json={'modules': []})
+@mock_backend_response({'sentinel': {'update_settings': {'result': True}}})
+def test_post_settings(client):
+    response = client.post('/data-collection/api/settings', json={'eula': 0, 'token': "some1234token"})
+    assert response.status_code == HTTPStatus.NO_CONTENT
+
+
+@mock_backend_response({'sentinel': {'update_settings': {'result': False}}})
+def test_post_settings_bad_foris_controller_response(client):
+    response = client.post('/data-collection/api/settings', json={'eula': 0, 'token': "some1234token"})
     assert response.status_code == HTTPStatus.INTERNAL_SERVER_ERROR
-    assert response.json == 'Cannot create entity'

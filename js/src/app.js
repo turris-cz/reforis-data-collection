@@ -5,14 +5,14 @@
  * See /LICENSE for more information.
  */
 
-import DataCollection from "./data_collection/DataCollection";
+import DataCollection from "./dataCollection/DataCollection";
 
 const DataCollectionPlugin = {
     name: _("Data Collection"),
-    weight: 100,
+    weight: 80,
     path: "/data-collection",
     component: DataCollection,
-    icon: "shield-alt",
+    icon: "database",
 };
 
 ForisPlugins.push(DataCollectionPlugin);

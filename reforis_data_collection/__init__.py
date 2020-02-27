@@ -30,17 +30,22 @@ data_collection = {
 }
 
 
-@blueprint.route('/example', methods=['GET'])
-def get_example():
-    return jsonify(current_app.backend.perform('example_module', 'example_action'))
+@blueprint.route('/settings', methods=['GET'])
+def get_settings():
+    return jsonify(current_app.backend.perform('sentinel', 'get_settings'))
 
 
-@blueprint.route('/example', methods=['POST'])
-def post_example():
-    validate_json(request.json, {'modules': list})
+@blueprint.route('/settings', methods=['POST'])
+def post_settings():
+    validate_json(request.json, {'eula': int})
 
-    response = current_app.backend.perform('example_module', 'example_action', request.json)
+    response = current_app.backend.perform('sentinel', 'update_settings', request.json)
     if response.get('result') is not True:
-        raise APIError(_('Cannot create entity'), HTTPStatus.INTERNAL_SERVER_ERROR)
+        raise APIError(_('Cannot update sentinel settings'), HTTPStatus.INTERNAL_SERVER_ERROR)
 
-    return jsonify(response), HTTPStatus.CREATED
+    return jsonify(response), HTTPStatus.NO_CONTENT
+
+
+@blueprint.route('/eula', methods=['GET'])
+def get_eula():
+    return jsonify(current_app.backend.perform('sentinel', 'get_eula'))

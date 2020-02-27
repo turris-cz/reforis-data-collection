@@ -5,22 +5,16 @@
  * See /LICENSE for more information.
  */
 
-import React, { useEffect } from "react";
+import React from "react";
 
-import { useAPIGet } from "foris";
-
-import API_URLs from "API";
+import EULA from "./EULA/EULA";
 
 export default function DataCollection() {
-    const [, getExample] = useAPIGet(API_URLs.example);
-    useEffect(() => {
-        getExample();
-    }, [getExample]);
-
     return (
         <>
             <h1>{_("Data Collection")}</h1>
             <p>{_("Participate in data collection and dynamic distributed firewall.")}</p>
+            <EULA />
         </>
     );
 }
