@@ -5,11 +5,21 @@
  * See /LICENSE for more information.
  */
 
-import { RadioSet } from "foris";
 import React from "react";
+import PropTypes from "prop-types";
+
+import { RadioSet } from "foris";
+
+EULAForm.propTypes = {
+    formData: PropTypes.shape({
+        eula: PropTypes.number.isRequired,
+    }).isRequired,
+    setFormValue: PropTypes.func.isRequired,
+    onModalToggle: PropTypes.func.isRequired,
+};
 
 export default function EULAForm({
-    formData, setFormValue, formErrors, onModalToggle, ...props
+    formData, setFormValue, onModalToggle, ...props
 }) {
     return (
         <>
@@ -26,10 +36,9 @@ export default function EULAForm({
     );
 }
 
+// Hack to make link with translations clickable in order to toggle modal.
 function getEULAChoices(onModalToggle) {
     function onClickHandler(e) {
-        // `target` is the element the click was on (the div we hooked or an element
-        // with in it), `currentTarget` is the div we hooked the event on
         const el = e.target.closest("a");
         if (el && e.currentTarget.contains(el)) {
             e.preventDefault();
@@ -46,7 +55,7 @@ function getEULAChoices(onModalToggle) {
                 onClick={onClickHandler}
                 dangerouslySetInnerHTML={{
                     __html:
-                    _("I do not accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
+                        _("I do not accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
                 }}
             />,
         },
@@ -58,7 +67,7 @@ function getEULAChoices(onModalToggle) {
                 onClick={onClickHandler}
                 dangerouslySetInnerHTML={{
                     __html:
-                    _("I accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
+                        _("I accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
                 }}
             />,
         },

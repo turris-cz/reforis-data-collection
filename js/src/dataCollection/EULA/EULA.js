@@ -8,12 +8,10 @@
 import React, { useState } from "react";
 import { ForisForm } from "foris";
 
-import API_URLs from "API";
 import "./EULA.css";
+import API_URLs from "API";
 import EULAModal from "./EULAModal";
 import EULAForm from "./EULAForm";
-
-EULA.propTypes = {};
 
 export default function EULA() {
     const [shown, setShown] = useState(false);

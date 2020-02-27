@@ -6,12 +6,22 @@
  */
 
 import React, { useEffect } from "react";
+import PropTypes from "prop-types";
 import {
     API_STATE, ErrorMessage, Modal, ModalBody, ModalHeader, Spinner, useAPIGet,
 } from "foris";
 
-import "./EULAModal.css";
 import API_URLs from "API";
+import "./EULAModal.css";
+
+EULAModal.propTypes = {
+    shown: PropTypes.bool.isRequired,
+    setShown: PropTypes.func.isRequired,
+    formData: PropTypes.shape({
+        eula: PropTypes.number.isRequired,
+        token: PropTypes.string,
+    }).isRequired,
+};
 
 export default function EULAModal({ shown, setShown, formData }) {
     const { eula } = formData;
