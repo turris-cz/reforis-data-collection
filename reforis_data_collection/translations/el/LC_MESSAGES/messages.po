@@ -1,0 +1,62 @@
+# Greek translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-03-02 10:31+0100\n"
+"PO-Revision-Date: 2020-03-02 10:31+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: el\n"
+"Language-Team: el <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: js/src/app.js:11 js/src/dataCollection/DataCollection.js:15
+msgid "Data Collection"
+msgstr ""
+
+#: js/src/dataCollection/DataCollection.js:16
+msgid "Participate in data collection and dynamic distributed firewall."
+msgstr ""
+
+#: js/src/dataCollection/EULA/EULA.js:25
+msgid "License Agreement"
+msgstr ""
+
+#: js/src/dataCollection/EULA/EULA.js:27
+msgid ""
+"It's required to confirm the Terms of Participation in Turris Project to "
+"participate in data collection."
+msgstr ""
+
+#: js/src/dataCollection/EULA/EULAForm.js:28
+msgid "Agreement"
+msgstr ""
+
+#: js/src/dataCollection/EULA/EULAForm.js:58
+msgid ""
+"I do not accept the <a href=\"#\">Terms of Participation in Turris "
+"Project (Data Collection)</a>."
+msgstr ""
+
+#: js/src/dataCollection/EULA/EULAForm.js:70
+msgid ""
+"I accept the <a href=\"#\">Terms of Participation in Turris Project (Data"
+" Collection)</a>."
+msgstr ""
+
+#: js/src/dataCollection/EULA/EULAModal.js:55
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
+
+#: reforis_data_collection/__init__.py:44
+msgid "Cannot update sentinel settings"
+msgstr ""
+
