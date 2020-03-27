@@ -20,7 +20,7 @@ EULAModal.propTypes = {
     formData: PropTypes.shape({
         eula: PropTypes.number.isRequired,
         token: PropTypes.string,
-    }).isRequired,
+    }),
 };
 
 export default function EULAModal({ shown, setShown, formData }) {

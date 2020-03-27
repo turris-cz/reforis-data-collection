@@ -13,13 +13,14 @@ import { RadioSet } from "foris";
 EULAForm.propTypes = {
     formData: PropTypes.shape({
         eula: PropTypes.number.isRequired,
-    }).isRequired,
-    setFormValue: PropTypes.func.isRequired,
-    onModalToggle: PropTypes.func.isRequired,
+    }),
+    setFormValue: PropTypes.func,
+    onModalToggle: PropTypes.func,
+    disabled: PropTypes.bool,
 };
 
 export default function EULAForm({
-    formData, setFormValue, onModalToggle, ...props
+    formData, setFormValue, onModalToggle, disabled,
 }) {
     return (
         <>
@@ -28,9 +29,9 @@ export default function EULAForm({
                 name={_("Agreement")}
                 value={formData.eula.toString()}
                 onChange={
-                    setFormValue((value) => ({ eula: { $set: value } }))
+                    setFormValue((value) => ({ eula: { $set: parseInt(value) } }))
                 }
-                {...props}
+                disabled={disabled}
             />
         </>
     );
