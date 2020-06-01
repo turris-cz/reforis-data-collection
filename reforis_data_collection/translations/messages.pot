@@ -56,6 +56,6 @@ msgid "Terms of Participation in Turris Project (Data Collection)"
 msgstr ""
 
 #: reforis_data_collection/__init__.py:44
-msgid "Cannot update sentinel settings"
+msgid "Cannot update Sentinel settings"
 msgstr ""
 
