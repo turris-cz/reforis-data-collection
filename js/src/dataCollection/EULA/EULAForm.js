@@ -49,18 +49,6 @@ function getEULAChoices(onModalToggle) {
 
     return [
         {
-            value: "0",
-            // eslint-disable-next-line max-len
-            // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions
-            label: <div
-                onClick={onClickHandler}
-                dangerouslySetInnerHTML={{
-                    __html:
-                        _("I do not accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
-                }}
-            />,
-        },
-        {
             value: "1",
             // eslint-disable-next-line max-len
             // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions
@@ -72,5 +60,18 @@ function getEULAChoices(onModalToggle) {
                 }}
             />,
         },
+        {
+            value: "0",
+            // eslint-disable-next-line max-len
+            // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions
+            label: <div
+                onClick={onClickHandler}
+                dangerouslySetInnerHTML={{
+                    __html:
+                        _("I do not accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
+                }}
+            />,
+        },
+
     ];
 }
