@@ -2,21 +2,21 @@
 
 exports[`<DataCollection /> Should render form. 1`] = `
 <div>
-  <h3>
-    License Agreement
-  </h3>
-  <p>
-    It's required to confirm the Terms of Participation in Turris Project to participate in data collection.
-  </p>
   <div
-    class="col-sm-12 offset-lg-1 col-lg-10 p-0 mb-3"
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-3"
   >
     <form>
+      <h2>
+        License Agreement
+      </h2>
+      <p>
+        It's required to confirm the Terms of Participation in Turris Project to participate in data collection.
+      </p>
       <div
         class="form-group"
       >
         <div
-          class="custom-control custom-radio custom-control-inline"
+          class="custom-control custom-radio"
         >
           <input
             class="custom-control-input"
@@ -41,7 +41,7 @@ exports[`<DataCollection /> Should render form. 1`] = `
           </label>
         </div>
         <div
-          class="custom-control custom-radio custom-control-inline"
+          class="custom-control custom-radio"
         >
           <input
             checked=""
@@ -71,11 +71,9 @@ exports[`<DataCollection /> Should render form. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-lg-3"
+          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
           type="submit"
         >
-           
-           
           Save
         </button>
       </div>
