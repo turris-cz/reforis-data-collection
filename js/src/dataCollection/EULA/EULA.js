@@ -21,24 +21,15 @@ export default function EULA() {
     }
 
     return (
-        <>
-            <h3>{_("License Agreement")}</h3>
-            <p>
-                {_("It's required to confirm the Terms of Participation in Turris Project to participate in data collection.")}
-            </p>
-            <ForisForm
-                forisConfig={{
-                    endpoint: API_URLs.settings,
-                }}
-                prepDataToSubmit={prepDataToSubmit}
-            >
-                <EULAForm onModalToggle={onModalToggle} />
-                <EULAModal
-                    shown={shown}
-                    setShown={setShown}
-                />
-            </ForisForm>
-        </>
+        <ForisForm
+            forisConfig={{
+                endpoint: API_URLs.settings,
+            }}
+            prepDataToSubmit={prepDataToSubmit}
+        >
+            <EULAForm onModalToggle={onModalToggle} />
+            <EULAModal shown={shown} setShown={setShown} />
+        </ForisForm>
     );
 }
 
