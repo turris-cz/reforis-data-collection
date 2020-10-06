@@ -20,17 +20,26 @@ EULAForm.propTypes = {
 };
 
 export default function EULAForm({
-    formData, setFormValue, onModalToggle, disabled,
+    formData,
+    setFormValue,
+    onModalToggle,
+    disabled,
 }) {
     return (
         <>
+            <h2>{_("License Agreement")}</h2>
+            <p>
+                {_(
+                    "It's required to confirm the Terms of Participation in Turris Project to participate in data collection."
+                )}
+            </p>
             <RadioSet
                 choices={getEULAChoices(onModalToggle)}
                 name={_("Agreement")}
                 value={formData.eula.toString()}
-                onChange={
-                    setFormValue((value) => ({ eula: { $set: parseInt(value) } }))
-                }
+                onChange={setFormValue((value) => ({
+                    eula: { $set: parseInt(value) },
+                }))}
                 disabled={disabled}
             />
         </>
@@ -50,28 +59,33 @@ function getEULAChoices(onModalToggle) {
     return [
         {
             value: "1",
-            // eslint-disable-next-line max-len
-            // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions
-            label: <div
-                onClick={onClickHandler}
-                dangerouslySetInnerHTML={{
-                    __html:
-                        _("I accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
-                }}
-            />,
+            label: (
+                // eslint-disable-next-line max-len
+                // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions
+                <div
+                    onClick={onClickHandler}
+                    dangerouslySetInnerHTML={{
+                        __html: _(
+                            'I accept the <a href="#">Terms of Participation in Turris Project (Data Collection)</a>.'
+                        ),
+                    }}
+                />
+            ),
         },
         {
             value: "0",
-            // eslint-disable-next-line max-len
-            // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions
-            label: <div
-                onClick={onClickHandler}
-                dangerouslySetInnerHTML={{
-                    __html:
-                        _("I do not accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>."),
-                }}
-            />,
+            label: (
+                // eslint-disable-next-line max-len
+                // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions
+                <div
+                    onClick={onClickHandler}
+                    dangerouslySetInnerHTML={{
+                        __html: _(
+                            'I do not accept the <a href="#">Terms of Participation in Turris Project (Data Collection)</a>.'
+                        ),
+                    }}
+                />
+            ),
         },
-
     ];
 }
