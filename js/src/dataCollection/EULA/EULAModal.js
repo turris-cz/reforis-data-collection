@@ -8,7 +8,13 @@
 import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import {
-    API_STATE, ErrorMessage, Modal, ModalBody, ModalHeader, Spinner, useAPIGet,
+    API_STATE,
+    ErrorMessage,
+    Modal,
+    ModalBody,
+    ModalHeader,
+    Spinner,
+    useAPIGet,
 } from "foris";
 
 import API_URLs from "API";
@@ -32,7 +38,10 @@ export default function EULAModal({ shown, setShown, formData }) {
     }, [eula, getEula]);
 
     let content;
-    if (getEulaState.state === API_STATE.INIT || getEulaState.state === API_STATE.SENDING) {
+    if (
+        getEulaState.state === API_STATE.INIT ||
+        getEulaState.state === API_STATE.SENDING
+    ) {
         content = <Spinner />;
     } else if (getEulaState.state === API_STATE.ERROR) {
         content = <ErrorMessage />;
@@ -46,18 +55,14 @@ export default function EULAModal({ shown, setShown, formData }) {
 
     return (
         <>
-            <Modal
-                scrollable
-                setShown={setShown}
-                shown={shown}
-            >
+            <Modal scrollable setShown={setShown} shown={shown}>
                 <ModalHeader
-                    title={_("Terms of Participation in Turris Project (Data Collection)")}
+                    title={_(
+                        "Terms of Participation in Turris Project (Data Collection)"
+                    )}
                     setShown={setShown}
                 />
-                <ModalBody>
-                    {content}
-                </ModalBody>
+                <ModalBody>{content}</ModalBody>
             </Modal>
         </>
     );

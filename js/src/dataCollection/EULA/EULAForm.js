@@ -30,7 +30,7 @@ export default function EULAForm({
             <h2>{_("License Agreement")}</h2>
             <p>
                 {_(
-                    "It's required to confirm the Terms of Participation in Turris Project to participate in data collection.",
+                    "It's required to confirm the Terms of Participation in Turris Project to participate in data collection."
                 )}
             </p>
             <RadioSet
@@ -66,7 +66,7 @@ function getEULAChoices(onModalToggle) {
                     onClick={onClickHandler}
                     dangerouslySetInnerHTML={{
                         __html: _(
-                            "I accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>.",
+                            'I accept the <a href="#">Terms of Participation in Turris Project (Data Collection)</a>.'
                         ),
                     }}
                 />
@@ -81,7 +81,7 @@ function getEULAChoices(onModalToggle) {
                     onClick={onClickHandler}
                     dangerouslySetInnerHTML={{
                         __html: _(
-                            "I do not accept the <a href=\"#\">Terms of Participation in Turris Project (Data Collection)</a>.",
+                            'I do not accept the <a href="#">Terms of Participation in Turris Project (Data Collection)</a>.'
                         ),
                     }}
                 />

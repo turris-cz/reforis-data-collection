@@ -13,7 +13,11 @@ export default function DataCollection() {
     return (
         <>
             <h1>{_("Data Collection")}</h1>
-            <p>{_("Participate in data collection and dynamic distributed firewall.")}</p>
+            <p>
+                {_(
+                    "Participate in data collection and dynamic distributed firewall."
+                )}
+            </p>
             <EULA />
         </>
     );
