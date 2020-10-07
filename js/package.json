@@ -2,7 +2,7 @@
     "name": "reforis_data_collection",
     "author": "CZ.NIC, z.s.p.o.",
     "license": "GPL-3.0",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "",
     "main": "./src/app.js",
     "dependencies": {
