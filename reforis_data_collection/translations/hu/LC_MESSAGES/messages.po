@@ -8,19 +8,21 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-02 10:31+0100\n"
-"PO-Revision-Date: 2020-03-02 10:31+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-11-05 11:26+0000\n"
+"Last-Translator: Nagy Juraj <csucsu299@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/hu/>\n"
 "Language: hu\n"
-"Language-Team: hu <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11 js/src/dataCollection/DataCollection.js:15
 msgid "Data Collection"
-msgstr ""
+msgstr "Adatgyűjtemény"
 
 #: js/src/dataCollection/DataCollection.js:16
 msgid "Participate in data collection and dynamic distributed firewall."
@@ -59,4 +61,3 @@ msgstr ""
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update sentinel settings"
 msgstr ""
-
