@@ -8,11 +8,18 @@
 import DataCollection from "./dataCollection/DataCollection";
 
 const DataCollectionPlugin = {
-    name: _("Data Collection"),
-    weight: 80,
-    path: "/data-collection",
-    component: DataCollection,
+    name: _("Sentinel"),
+    weight: 100,
+    path: "/sentinel",
+    submenuId: "sentinel",
     icon: "database",
+    pages: [
+        {
+            name: _("Data Collection"),
+            path: "/data-collection",
+            component: DataCollection,
+        },
+    ],
 };
 
 ForisPlugins.push(DataCollectionPlugin);
