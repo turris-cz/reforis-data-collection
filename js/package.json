@@ -1,6 +1,10 @@
 {
     "name": "reforis_data_collection",
     "author": "CZ.NIC, z.s.p.o.",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.nic.cz/turris/reforis/reforis-data-collection.git"
+    },
     "license": "GPL-3.0",
     "version": "0.2.3",
     "description": "",
