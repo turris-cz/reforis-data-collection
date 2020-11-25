@@ -32,7 +32,7 @@ class DataCollectionBuild(build_py):
 
 setuptools.setup(
     name=NAME,
-    version='0.2.3',
+    version='0.2.4',
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
 
