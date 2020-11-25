@@ -18,7 +18,6 @@ import {
 } from "foris";
 
 import API_URLs from "API";
-import "./EULAModal.css";
 
 EULAModal.propTypes = {
     shown: PropTypes.bool.isRequired,
@@ -55,7 +54,7 @@ export default function EULAModal({ shown, setShown, formData }) {
 
     return (
         <>
-            <Modal scrollable setShown={setShown} shown={shown}>
+            <Modal scrollable setShown={setShown} shown={shown} size="lg">
                 <ModalHeader
                     title={_(
                         "Terms of Participation in Turris Project (Data Collection)"
