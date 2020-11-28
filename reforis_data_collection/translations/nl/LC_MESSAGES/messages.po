@@ -8,55 +8,63 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-02 10:31+0100\n"
-"PO-Revision-Date: 2020-03-02 10:31+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-11-29 21:29+0000\n"
+"Last-Translator: Johan van de Wetering <mail@jvdwetering.nl>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/nl/>\n"
 "Language: nl\n"
-"Language-Team: nl <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11 js/src/dataCollection/DataCollection.js:15
 msgid "Data Collection"
-msgstr ""
+msgstr "Gegevensverzameling"
 
 #: js/src/dataCollection/DataCollection.js:16
 msgid "Participate in data collection and dynamic distributed firewall."
 msgstr ""
+"Bijdragen in gegevensverzameling en dynamische gedistribueerde firewall."
 
 #: js/src/dataCollection/EULA/EULA.js:25
 msgid "License Agreement"
-msgstr ""
+msgstr "Gebruikersovereenkomst"
 
 #: js/src/dataCollection/EULA/EULA.js:27
 msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in data collection."
 msgstr ""
+"U dient in te stemmen met de Voorwaarden voor Deelname in het Turris Project "
+"om deel te kunnen nemen aan de gegevensverzameling."
 
 #: js/src/dataCollection/EULA/EULAForm.js:28
 msgid "Agreement"
-msgstr ""
+msgstr "Overeenkomst"
 
 #: js/src/dataCollection/EULA/EULAForm.js:58
 msgid ""
 "I do not accept the <a href=\"#\">Terms of Participation in Turris "
 "Project (Data Collection)</a>."
 msgstr ""
+"Ik weiger de <a href=\"#\">Voorwaarden voor Deelname in het Turris Project "
+"(Gegevensverzameling)</a>."
 
 #: js/src/dataCollection/EULA/EULAForm.js:70
 msgid ""
 "I accept the <a href=\"#\">Terms of Participation in Turris Project (Data"
 " Collection)</a>."
 msgstr ""
+"Ik accepteer de <a href=\"#\">Voorwaarden voor Deelname in het Turris "
+"Project (Gegevensverzameling)</a>."
 
 #: js/src/dataCollection/EULA/EULAModal.js:55
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Voorwaarden voor Deelname (Gegevensverzameling)"
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update sentinel settings"
-msgstr ""
-
+msgstr "Kan de sentinel instellingen niet updaten"
