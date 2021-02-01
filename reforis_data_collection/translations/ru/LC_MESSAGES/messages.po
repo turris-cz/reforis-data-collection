@@ -8,56 +8,63 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-03-02 10:31+0100\n"
-"PO-Revision-Date: 2020-03-02 10:31+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-03-13 14:33+0000\n"
+"Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/ru/>\n"
 "Language: ru\n"
-"Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11 js/src/dataCollection/DataCollection.js:15
 msgid "Data Collection"
-msgstr ""
+msgstr "Сбор данных"
 
 #: js/src/dataCollection/DataCollection.js:16
 msgid "Participate in data collection and dynamic distributed firewall."
 msgstr ""
+"Участвуйте в сборе данных и динамическом распределенном межсетевом экране."
 
 #: js/src/dataCollection/EULA/EULA.js:25
 msgid "License Agreement"
-msgstr ""
+msgstr "Лицензионное соглашение"
 
 #: js/src/dataCollection/EULA/EULA.js:27
 msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in data collection."
 msgstr ""
+"Для участия в сборе данных необходимо подтвердить Условия участия в проекте "
+"Turris."
 
 #: js/src/dataCollection/EULA/EULAForm.js:28
 msgid "Agreement"
-msgstr ""
+msgstr "Cоглашение"
 
 #: js/src/dataCollection/EULA/EULAForm.js:58
 msgid ""
 "I do not accept the <a href=\"#\">Terms of Participation in Turris "
 "Project (Data Collection)</a>."
 msgstr ""
+"Я не принимаю <a href=\"#\">Условия участия в проекте Turris (сбор "
+"данных)</a>."
 
 #: js/src/dataCollection/EULA/EULAForm.js:70
 msgid ""
 "I accept the <a href=\"#\">Terms of Participation in Turris Project (Data"
 " Collection)</a>."
 msgstr ""
+"Я принимаю <a href=\"#\">Условия участия в проекте Turris (сбор данных)</a>."
 
 #: js/src/dataCollection/EULA/EULAModal.js:55
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Условия участия в проекте Turris (сбор данных)"
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update sentinel settings"
-msgstr ""
-
+msgstr "Невозможно обновить настройки стража"
