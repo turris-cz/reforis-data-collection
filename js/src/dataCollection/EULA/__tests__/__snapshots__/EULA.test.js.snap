@@ -3,7 +3,7 @@
 exports[`<DataCollection /> Should render form. 1`] = `
 <div>
   <div
-    class="card p-4 col-sm-12 col-lg-12 p-0 mb-3"
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <form>
       <h2>
@@ -83,11 +83,11 @@ exports[`<DataCollection /> Should render form. 1`] = `
     id="modal-container"
   >
     <div
-      class="modal fade "
+      class="modal fade"
       role="dialog"
     >
       <div
-        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        class="modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable"
         role="document"
       >
         <div
@@ -139,11 +139,11 @@ exports[`<DataCollection /> Should toggle modal. 1`] = `
       id=\\"modal-container\\"
     >
       <div
--       class=\\"modal fade \\"
+-       class=\\"modal fade\\"
 +       class=\\"modal fade show\\"
         role=\\"dialog\\"
       >
         <div
-          class=\\"modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
+          class=\\"modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
           role=\\"document\\""
 `;
