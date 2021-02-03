@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-02 10:31+0100\n"
+"POT-Creation-Date: 2021-02-03 16:12+0100\n"
 "PO-Revision-Date: 2020-03-02 10:31+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: hr\n"
@@ -19,45 +19,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: js/src/app.js:11 js/src/dataCollection/DataCollection.js:15
+#: js/src/app.js:11
+msgid "Sentinel"
+msgstr ""
+
+#: js/src/app.js:18 js/src/dataCollection/DataCollection.js:15
 msgid "Data Collection"
 msgstr ""
 
-#: js/src/dataCollection/DataCollection.js:16
+#: js/src/dataCollection/DataCollection.js:17
 msgid "Participate in data collection and dynamic distributed firewall."
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULA.js:25
+#: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "License Agreement"
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULA.js:27
+#: js/src/dataCollection/EULA/EULAForm.js:32
 msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in data collection."
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULAForm.js:28
+#: js/src/dataCollection/EULA/EULAForm.js:38
 msgid "Agreement"
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULAForm.js:58
-msgid ""
-"I do not accept the <a href=\"#\">Terms of Participation in Turris "
-"Project (Data Collection)</a>."
-msgstr ""
-
-#: js/src/dataCollection/EULA/EULAForm.js:70
+#: js/src/dataCollection/EULA/EULAForm.js:68
 msgid ""
 "I accept the <a href=\"#\">Terms of Participation in Turris Project (Data"
 " Collection)</a>."
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULAModal.js:55
+#: js/src/dataCollection/EULA/EULAForm.js:83
+msgid ""
+"I do not accept the <a href=\"#\">Terms of Participation in Turris "
+"Project (Data Collection)</a>."
+msgstr ""
+
+#: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
 msgstr ""
 
 #: reforis_data_collection/__init__.py:44
-msgid "Cannot update sentinel settings"
+msgid "Cannot update Sentinel settings"
 msgstr ""
+
+#~ msgid "Cannot update sentinel settings"
+#~ msgstr ""
 

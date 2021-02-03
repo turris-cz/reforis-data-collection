@@ -6,11 +6,11 @@
         "url": "https://gitlab.nic.cz/turris/reforis/reforis-data-collection.git"
     },
     "license": "GPL-3.0",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "",
     "main": "./src/app.js",
     "dependencies": {
-        "foris": "^5.1.5"
+        "foris": "^5.1.10"
     },
     "peerDependencies": {
         "prop-types": "15.7.2",
