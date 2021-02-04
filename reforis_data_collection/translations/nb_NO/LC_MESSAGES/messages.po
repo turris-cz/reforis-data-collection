@@ -8,21 +8,21 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-02-03 16:12+0100\n"
-"PO-Revision-Date: 2020-09-30 14:40+0000\n"
+"PO-Revision-Date: 2021-02-05 23:41+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language: nb\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/reforis-data-collection-"
-"plugin/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/nb_NO/>\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/app.js:18 js/src/dataCollection/DataCollection.js:15
 msgid "Data Collection"
@@ -73,8 +73,7 @@ msgstr "Vilkår for deltagelse i datainnsamling i Turris-prosjektet"
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update Sentinel settings"
-msgstr ""
+msgstr "Kan ikke oppdatere Sentinel-innstillinger"
 
 #~ msgid "Cannot update sentinel settings"
 #~ msgstr "Kan ikke oppdatere Sentinel-innstillinger"
-
