@@ -1,19 +1,23 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React, { useState } from "react";
-import { ForisForm } from "foris";
-
 import "./EULA.css";
-import API_URLs from "API";
+import PropTypes from "prop-types";
 import EULAModal from "./EULAModal";
 import EULAForm from "./EULAForm";
 
-export default function EULA() {
+EULA.propTypes = {
+    formData: PropTypes.object,
+    setFormValue: PropTypes.func,
+    disabled: PropTypes.bool,
+};
+
+export default function EULA({ formData, setFormValue, disabled }) {
     const [shown, setShown] = useState(false);
 
     function onModalToggle() {
@@ -21,20 +25,14 @@ export default function EULA() {
     }
 
     return (
-        <ForisForm
-            forisConfig={{
-                endpoint: API_URLs.settings,
-            }}
-            prepDataToSubmit={prepDataToSubmit}
-        >
-            <EULAForm onModalToggle={onModalToggle} />
-            <EULAModal shown={shown} setShown={setShown} />
-        </ForisForm>
+        <>
+            <EULAForm
+                formData={formData}
+                setFormValue={setFormValue}
+                disabled={disabled}
+                onModalToggle={onModalToggle}
+            />
+            <EULAModal formData={formData} shown={shown} setShown={setShown} />
+        </>
     );
-}
-
-function prepDataToSubmit(data) {
-    data.eula = parseInt(data.eula);
-    if (!data.token) delete data.token;
-    return data;
 }
