@@ -1,20 +1,76 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
-import { render, wait } from "foris/testUtils/customTestRender";
+import {
+    render,
+    wait,
+    waitForElement,
+    fireEvent,
+} from "foris/testUtils/customTestRender";
 
 import DataCollection from "../DataCollection";
 import mockAxios from "jest-mock-axios";
+import diffSnapshot from "snapshot-diff";
+import { EULAFixture } from "./__fixtures__/EULAFixture";
 
 describe("<DataCollection />", () => {
-    it("should render component", () => {
-        const { getByText } = render(<DataCollection />);
-        mockAxios.mockResponse({ data: { eula: 0, token: "random_token" } });
-        wait(() => getByText("Data Collection"));
+    let asFragment;
+    let firstRender;
+    let getByText;
+    let getByLabelText;
+    let queryAllByText;
+
+    beforeEach(async () => {
+        const renderRes = render(
+            <>
+                <DataCollection />
+                <div id="modal-container" />
+            </>
+        );
+        mockAxios.mockResponse({ data: EULAFixture });
+        getByText = renderRes.getByText;
+        getByLabelText = renderRes.getByLabelText;
+        queryAllByText = renderRes.queryAllByText;
+        asFragment = renderRes.asFragment;
+
+        await wait(() => getByText("License Agreement"));
+        firstRender = renderRes.asFragment();
+    });
+
+    it("Should render form.", async () => {
+        expect(mockAxios.get).toBeCalledWith(
+            "/reforis/data-collection/api/eula",
+            expect.anything()
+        );
+        mockAxios.mockResponse({ data: { version: 1, text: "eula text" } });
+        await wait(() => getByLabelText(/I accept/));
+        getByLabelText(/I do not accept/);
+        getByText("Save");
+
+        expect(firstRender).toMatchSnapshot();
+    });
+
+    it("Should toggle modal.", async () => {
+        expect(mockAxios.get).toBeCalledWith(
+            "/reforis/data-collection/api/eula",
+            expect.anything()
+        );
+
+        mockAxios.mockResponse({ data: { version: 1, text: "eula text" } });
+        await waitForElement(() => getByText("eula text"));
+        const beforeModalToggle = firstRender;
+
+        fireEvent.click(
+            queryAllByText(
+                "Terms of Participation in Turris Project (Data Collection)"
+            )[0]
+        );
+
+        expect(diffSnapshot(beforeModalToggle, asFragment())).toMatchSnapshot();
     });
 });
