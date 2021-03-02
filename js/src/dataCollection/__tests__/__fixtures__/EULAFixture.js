@@ -8,15 +8,24 @@
 export const EULAFixture = {
     eula: 0,
     modules: {
-        minipot: true,
-        nikola: true,
-        survey: true,
-    },
-    protocols: {
-        ftp: true,
-        http: true,
-        smtp: true,
-        telnet: true,
+        minipot: {
+            enabled: true,
+            installed: true,
+            protocols: {
+                ftp: true,
+                http: true,
+                smtp: true,
+                telnet: true,
+            },
+        },
+        nikola: {
+            enabled: true,
+            installed: true,
+        },
+        survey: {
+            enabled: true,
+            installed: false,
+        },
     },
     token: "random_token",
 };
