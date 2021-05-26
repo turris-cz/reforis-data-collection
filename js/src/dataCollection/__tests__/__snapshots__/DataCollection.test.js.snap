@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DataCollection /> Should render form. 1`] = `
+<DocumentFragment>
+  <h1>
+    Data Collection
+  </h1>
+  <p>
+    Participate in data collection and a dynamic distributed firewall.
+  </p>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <form>
+      <h2>
+        License Agreement
+      </h2>
+      <p>
+        It's required to confirm the Terms of Participation in Turris Project to participate in data collection.
+      </p>
+      <div
+        class="form-group"
+      >
+        <div
+          class="custom-control custom-radio"
+        >
+          <input
+            class="custom-control-input"
+            id="Agreement-0"
+            name="Agreement"
+            type="radio"
+            value="1"
+          />
+          <label
+            class="custom-control-label"
+            for="Agreement-0"
+          >
+            <div>
+              I accept the 
+              <a
+                href="#"
+              >
+                Terms of Participation in Turris Project (Data Collection)
+              </a>
+              .
+            </div>
+          </label>
+        </div>
+        <div
+          class="custom-control custom-radio"
+        >
+          <input
+            checked=""
+            class="custom-control-input"
+            id="Agreement-1"
+            name="Agreement"
+            type="radio"
+            value="0"
+          />
+          <label
+            class="custom-control-label"
+            for="Agreement-1"
+          >
+            <div>
+              I do not accept the 
+              <a
+                href="#"
+              >
+                Terms of Participation in Turris Project (Data Collection)
+              </a>
+              .
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="text-right"
+      >
+        <button
+          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          type="submit"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    id="modal-container"
+  >
+    <div
+      class="modal fade"
+      role="dialog"
+    >
+      <div
+        class="modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="modal-header"
+          >
+            <h5
+              class="modal-title"
+            >
+              Terms of Participation in Turris Project (Data Collection)
+            </h5>
+            <button
+              class="close"
+              type="button"
+            >
+              <span
+                aria-hidden="true"
+              >
+                ×
+              </span>
+            </button>
+          </div>
+          <div
+            class="modal-body"
+          >
+            <div
+              class="spinner-wrapper my-3 text-center"
+            >
+              <div
+                class="spinner-border"
+                role="status"
+              >
+                <span
+                  class="sr-only"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataCollection /> Should toggle modal. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -84,11 +84,11 @@
+    </div>
+    <div
+      id=\\"modal-container\\"
+    >
+      <div
+-       class=\\"modal fade\\"
++       class=\\"modal fade show\\"
+        role=\\"dialog\\"
+      >
+        <div
+          class=\\"modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
+          role=\\"document\\"
+@@ -115,22 +115,15 @@
+                </span>
+              </button>
+            </div>
+            <div
+              class=\\"modal-body\\"
+-           >
+-             <div
+-               class=\\"spinner-wrapper my-3 text-center\\"
+            >
+              <div
+-                 class=\\"spinner-border\\"
+-                 role=\\"status\\"
++               class=\\"display-linebreak text-monospace\\"
+              >
+-                 <span
+-                   class=\\"sr-only\\"
+-                 />
+-               </div>
++               eula text
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>"
+`;
+
+exports[`<DataCollection /> Snapshot of Sentinel options 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -68,10 +68,197 @@
+                .
+              </div>
+            </label>
+          </div>
+        </div>
++       <div>
++         <h2>
++           Sentinel Components
++         </h2>
++         <p>
++           You can select specific components that you want to enable or disable.
++         </p>
++         <div
++           class=\\"form-group\\"
++         >
++           <div
++             class=\\"custom-control custom-checkbox \\"
++           >
++             <input
++               checked=\\"\\"
++               class=\\"custom-control-input\\"
++               id=\\"3\\"
++               type=\\"checkbox\\"
++             />
++             <label
++               class=\\"custom-control-label\\"
++               for=\\"3\\"
++             >
++               Enable Firewall Logs
++               <small
++                 class=\\"form-text text-muted\\"
++               >
++                 Firewall Logs are logs gathered from iptables firewall. If enabled, Sentinel use them to monitor packets coming from outside network and trying to connect to potentially vulnerable local services. These techniques, also known as \\"port scans\\" usually try to detect whether specific ports are opened on local device. If enabled, Sentinel Firewall Logs gather information about origin of such malicious packets and about ports they try to scan on local device.
++               </small>
++             </label>
++           </div>
++         </div>
++         <div
++           class=\\"form-group\\"
++         >
++           <div
++             class=\\"custom-control custom-checkbox \\"
++           >
++             <input
++               checked=\\"\\"
++               class=\\"custom-control-input\\"
++               id=\\"4\\"
++               type=\\"checkbox\\"
++             />
++             <label
++               class=\\"custom-control-label\\"
++               for=\\"4\\"
++             >
++               Enable Minipots
++               <small
++                 class=\\"form-text text-muted\\"
++               >
++                 The main purpose of the Sentinel Minipot is to collect authentication information from the login attempts. It is possible to emulate some of the often attacked services - Telnet, HTTP, FTP, and SMTP. The goal is to catch the attacker red-handed when they think they attack a real service.
++               </small>
++             </label>
++           </div>
++         </div>
++         <div
++           class=\\"option\\"
++         >
++           <div
++             class=\\"form-group\\"
++           >
++             <div
++               class=\\"custom-control custom-checkbox \\"
++             >
++               <input
++                 checked=\\"\\"
++                 class=\\"custom-control-input\\"
++                 id=\\"5\\"
++                 type=\\"checkbox\\"
++               />
++               <label
++                 class=\\"custom-control-label\\"
++                 for=\\"5\\"
++               >
++                 HTTP
++                 <small
++                   class=\\"form-text text-muted\\"
++                 >
++                   Running on port 80.
++                 </small>
++               </label>
++             </div>
++           </div>
++           <div
++             class=\\"form-group\\"
++           >
++             <div
++               class=\\"custom-control custom-checkbox \\"
++             >
++               <input
++                 checked=\\"\\"
++                 class=\\"custom-control-input\\"
++                 id=\\"6\\"
++                 type=\\"checkbox\\"
++               />
++               <label
++                 class=\\"custom-control-label\\"
++                 for=\\"6\\"
++               >
++                 FTP
++                 <small
++                   class=\\"form-text text-muted\\"
++                 >
++                   Running on port 21.
++                 </small>
++               </label>
++             </div>
++           </div>
++           <div
++             class=\\"form-group\\"
++           >
++             <div
++               class=\\"custom-control custom-checkbox \\"
++             >
++               <input
++                 checked=\\"\\"
++                 class=\\"custom-control-input\\"
++                 id=\\"7\\"
++                 type=\\"checkbox\\"
++               />
++               <label
++                 class=\\"custom-control-label\\"
++                 for=\\"7\\"
++               >
++                 SMTP
++                 <small
++                   class=\\"form-text text-muted\\"
++                 >
++                   Running on ports 25 and 587.
++                 </small>
++               </label>
++             </div>
++           </div>
++           <div
++             class=\\"form-group\\"
++           >
++             <div
++               class=\\"custom-control custom-checkbox \\"
++             >
++               <input
++                 checked=\\"\\"
++                 class=\\"custom-control-input\\"
++                 id=\\"8\\"
++                 type=\\"checkbox\\"
++               />
++               <label
++                 class=\\"custom-control-label\\"
++                 for=\\"8\\"
++               >
++                 Telnet
++                 <small
++                   class=\\"form-text text-muted\\"
++                 >
++                   Running on port 23.
++                 </small>
++               </label>
++             </div>
++           </div>
++         </div>
++         <div
++           class=\\"form-group\\"
++         >
++           <div
++             class=\\"custom-control custom-checkbox \\"
++           >
++             <input
++               class=\\"custom-control-input\\"
++               disabled=\\"\\"
++               id=\\"9\\"
++               type=\\"checkbox\\"
++             />
++             <label
++               class=\\"custom-control-label\\"
++               for=\\"9\\"
++             >
++               Enable Survey
++               <small
++                 class=\\"form-text text-muted\\"
++               >
++                 Since our team has only limited manpower, we try to primarily focus on subjects that really matter. The Turris survey collects information about installed packages, used languages, and operating system versions. Based on this we are able to identify widely used packages, features and provide special support.
++               </small>
++             </label>
++           </div>
++         </div>
++       </div>
+        <div
+          class=\\"text-right\\"
+        >
+          <button
+            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\""
+`;
