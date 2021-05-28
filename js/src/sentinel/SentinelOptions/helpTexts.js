@@ -1,12 +1,13 @@
 /*
- * Copyright (C) 2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 const HELP_TEXTS = {
-    firewallLogs: _(`Firewall Logs are logs gathered from iptables firewall. If \
+    firewallLogs:
+        _(`Firewall Logs are logs gathered from iptables firewall. If \
 enabled, Sentinel use them to monitor packets coming from outside network and \
 trying to connect to potentially vulnerable local services. These techniques, \
 also known as "port scans" usually try to detect whether specific ports are \
