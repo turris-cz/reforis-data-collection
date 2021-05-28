@@ -7,9 +7,9 @@
 
 import React from "react";
 import { ForisForm } from "foris";
+
 import API_URLs from "../API";
 import EULA from "./EULA/EULA";
-import SentinelOptions from "./sentinel/SentinelOptions";
 
 export default function DataCollection() {
     return (
@@ -27,7 +27,6 @@ export default function DataCollection() {
                 prepDataToSubmit={prepDataToSubmit}
             >
                 <EULA />
-                <SentinelOptions />
             </ForisForm>
         </>
     );
