@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -29,9 +29,8 @@ export default function EULAForm({
         <>
             <h2>{_("License Agreement")}</h2>
             <p>
-                {_(
-                    "It's required to confirm the Terms of Participation in Turris Project to participate in data collection."
-                )}
+                {_(`It's required to confirm the Terms of Participation in \
+Turris Project to participate in data collection.`)}
             </p>
             <RadioSet
                 choices={getEULAChoices(onModalToggle)}
@@ -65,9 +64,8 @@ function getEULAChoices(onModalToggle) {
                 <div
                     onClick={onClickHandler}
                     dangerouslySetInnerHTML={{
-                        __html: _(
-                            'I accept the <a href="#">Terms of Participation in Turris Project (Data Collection)</a>.'
-                        ),
+                        __html: _(`I accept the <a href="#">Terms of \
+Participation in Turris Project (Data Collection)</a>.`),
                     }}
                 />
             ),
@@ -80,9 +78,8 @@ function getEULAChoices(onModalToggle) {
                 <div
                     onClick={onClickHandler}
                     dangerouslySetInnerHTML={{
-                        __html: _(
-                            'I do not accept the <a href="#">Terms of Participation in Turris Project (Data Collection)</a>.'
-                        ),
+                        __html: _(`I do not accept the <a href="#">Terms of \
+Participation in Turris Project (Data Collection)</a>.`),
                     }}
                 />
             ),
