@@ -33,7 +33,6 @@ SentinelOptions.propTypes = {
 };
 
 export default function SentinelOptions({ formData, setFormValue, disabled }) {
-    if (formData.eula !== 1) return null;
     return (
         <>
             <h2>{_(`Sentinel Components`)}</h2>
@@ -53,7 +52,7 @@ to enable or disable.`)}
                         nikola: { enabled: { $set: value } },
                     },
                 }))}
-                disabled={!formData.modules.nikola.installed}
+                disabled={disabled || !formData.modules.nikola.installed}
             />
             <CheckBox
                 label={_("Enable Minipots")}
@@ -67,7 +66,7 @@ to enable or disable.`)}
                         minipot: { enabled: { $set: value } },
                     },
                 }))}
-                disabled={!formData.modules.minipot.installed}
+                disabled={disabled || !formData.modules.minipot.installed}
             />
             {formData.modules.minipot.installed &&
                 formData.modules.minipot.enabled && (
@@ -146,7 +145,7 @@ to enable or disable.`)}
                         survey: { enabled: { $set: value } },
                     },
                 }))}
-                disabled={!formData.modules.survey.installed}
+                disabled={disabled || !formData.modules.survey.installed}
             />
         </>
     );

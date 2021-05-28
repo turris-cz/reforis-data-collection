@@ -12,6 +12,7 @@ import { ForisForm, useAPIGet } from "foris";
 import API_URLs from "../API";
 import SentinelState from "./SentinelState/SentinelState";
 import SentinelOptions from "./SentinelOptions/SentinelOptions";
+import DisabledIfNotAccepted from "../utils/DisabledIfNotAccepted";
 
 export default function Sentinel() {
     // We had to move API call up to pass it to the `postCallback` function
@@ -42,8 +43,11 @@ channel for data exchange.`)}
                 }}
                 postCallback={getSentinelComponentsState}
                 prepDataToSubmit={prepDataToSubmit}
+                validator={validator}
             >
-                <SentinelOptions />
+                <DisabledIfNotAccepted>
+                    <SentinelOptions />
+                </DisabledIfNotAccepted>
             </ForisForm>
         </>
     );
@@ -56,4 +60,10 @@ function prepDataToSubmit(data) {
     delete data.modules.nikola.installed;
     delete data.modules.minipot.installed;
     return data;
+}
+
+// Hack to disable submit button
+function validator(formData) {
+    if (formData.eula !== 1) return { eula: 2 };
+    return null;
 }
