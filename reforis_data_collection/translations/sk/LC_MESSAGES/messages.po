@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-02-03 16:12+0100\n"
-"PO-Revision-Date: 2021-06-15 19:34+0000\n"
+"PO-Revision-Date: 2021-06-15 22:23+0000\n"
 "Last-Translator: Atec <nil.maho@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/sk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: js/src/app.js:11
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/app.js:18 js/src/dataCollection/DataCollection.js:15
 msgid "Data Collection"
@@ -31,40 +31,45 @@ msgstr "Zber dát"
 #: js/src/dataCollection/DataCollection.js:17
 msgid "Participate in data collection and dynamic distributed firewall."
 msgstr ""
+"Pripojiť sa k zberu dát a používať dynamickú distribuovanú bránu firewall."
 
 #: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "License Agreement"
-msgstr ""
+msgstr "Licenčná zmluva"
 
 #: js/src/dataCollection/EULA/EULAForm.js:32
 msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in data collection."
 msgstr ""
+"Na pripojenie sa k zberu dát je potrebné potvrdiť súhlas s podmienkami "
+"účasti v projekte Turris."
 
 #: js/src/dataCollection/EULA/EULAForm.js:38
 msgid "Agreement"
-msgstr ""
+msgstr "Zmluva"
 
 #: js/src/dataCollection/EULA/EULAForm.js:68
 msgid ""
 "I accept the <a href=\"#\">Terms of Participation in Turris Project (Data"
 " Collection)</a>."
 msgstr ""
+"Prijímam <a href=\"#\">podmienky účasti v projekte Turris (zber dát)</a>."
 
 #: js/src/dataCollection/EULA/EULAForm.js:83
 msgid ""
 "I do not accept the <a href=\"#\">Terms of Participation in Turris "
 "Project (Data Collection)</a>."
 msgstr ""
+"Nerijímam <a href=\"#\">podmienky účasti v projekte Turris (zber dát)</a>."
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Podmienky účasti v projekte Turris (zber dát)"
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update Sentinel settings"
-msgstr ""
+msgstr "Nastavenia Sentinel sa nedajú aktualizovať"
 
 #~ msgid "Cannot update sentinel settings"
 #~ msgstr ""
