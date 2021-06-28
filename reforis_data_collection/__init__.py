@@ -1,4 +1,4 @@
-#  Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -9,7 +9,7 @@ from http import HTTPStatus
 from flask import Blueprint, current_app, jsonify, request
 from flask_babel import gettext as _
 
-from reforis.foris_controller_api.utils import log_error, validate_json, APIError
+from reforis.foris_controller_api.utils import validate_json, APIError
 
 # pylint: disable=invalid-name
 blueprint = Blueprint(
@@ -49,3 +49,9 @@ def post_settings():
 @blueprint.route('/eula', methods=['GET'])
 def get_eula():
     return jsonify(current_app.backend.perform('sentinel', 'get_eula'))
+
+
+@blueprint.route('/state', methods=['GET'])
+def get_state():
+    """ Get sentinel components state """
+    return jsonify(current_app.backend.perform('sentinel', 'get_state'))
