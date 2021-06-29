@@ -27,10 +27,11 @@ export default function EULAForm({
 }) {
     return (
         <>
-            <h2>{_("License Agreement")}</h2>
+            <h2>{_("Terms of Participation")}</h2>
             <p>
-                {_(`It's required to confirm the Terms of Participation in \
-Turris Project to participate in data collection.`)}
+                {_(`Your consent with the Terms of Participation allows us to \
+analyze the attacks detected on your router and therefore to build a dynamic \
+firewall.`)}
             </p>
             <RadioSet
                 choices={getEULAChoices(onModalToggle)}

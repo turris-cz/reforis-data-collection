@@ -28,10 +28,9 @@ export default function Sentinel() {
         <>
             <h1>{_("Sentinel")}</h1>
             <p>
-                {_(`Sentinel is our data collection system providing a \
-dynamic firewall. The router side of the system consists of a data collection \
-subsystem, subsystem for dynamic firewall, and mechanism providing a secure \
-channel for data exchange.`)}
+                {_(`Sentinel is a Turris attack detection and prevention \
+system which provides a dynamic firewall. Here you can set up several Sentinel \
+components which take part in the attack detection subsystem.`)}
             </p>
             <SentinelState
                 apiState={sentinelComponentsState}

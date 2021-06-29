@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -14,11 +14,10 @@ import EULA from "./EULA/EULA";
 export default function DataCollection() {
     return (
         <>
-            <h1>{_("Data Collection")}</h1>
+            <h1>{_("License Agreement")}</h1>
             <p>
-                {_(
-                    "Participate in data collection and a dynamic distributed firewall."
-                )}
+                {_(`It's required to confirm the Terms of Participation in \
+Turris Project to participate in attack detection.`)}
             </p>
             <ForisForm
                 forisConfig={{
