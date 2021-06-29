@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -72,40 +72,5 @@ describe("<DataCollection />", () => {
         );
 
         expect(diffSnapshot(beforeModalToggle, asFragment())).toMatchSnapshot();
-    });
-
-    it("Snapshot of Sentinel options", () => {
-        fireEvent.click(getByLabelText(/I accept/));
-        getByText("Sentinel Components");
-        expect(diffSnapshot(firstRender, asFragment())).toMatchSnapshot();
-    });
-
-    it("Success post request", () => {
-        fireEvent.click(getByLabelText(/I accept/));
-
-        fireEvent.click(getByText("Enable Firewall Logs"));
-
-        fireEvent.click(getByText("Save"));
-        expect(mockAxios.post).toHaveBeenCalledWith(
-            "/reforis/data-collection/api/settings",
-            {
-                eula: 1,
-                modules: {
-                    minipot: {
-                        enabled: true,
-                        protocols: {
-                            ftp: true,
-                            http: true,
-                            smtp: true,
-                            telnet: true,
-                        },
-                    },
-                    nikola: { enabled: false },
-                    survey: { enabled: true },
-                },
-                token: "random_token",
-            },
-            expect.anything()
-        );
     });
 });
