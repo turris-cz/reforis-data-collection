@@ -16,13 +16,13 @@ const DataCollectionPlugin = {
     icon: "database",
     pages: [
         {
-            name: _("Sentinel"),
-            path: "/sentinel",
+            name: _("Overview"),
+            path: "/overview",
             component: Sentinel,
         },
         {
-            name: _("Data Collection"),
-            path: "/data-collection",
+            name: _("License Agreement"),
+            path: "/agreement",
             component: DataCollection,
         },
     ],
