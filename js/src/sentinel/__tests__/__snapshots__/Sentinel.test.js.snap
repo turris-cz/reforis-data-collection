@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
+<DocumentFragment>
+  <h1>
+    Sentinel
+  </h1>
+  <p>
+    Sentinel is a Turris attack detection and prevention system which provides a dynamic firewall. Here you can set up several Sentinel components which take part in the attack detection subsystem.
+  </p>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <h2>
+      Sentinel State
+    </h2>
+    <div
+      class="row no-gutters justify-content-center"
+    >
+      <div
+        class="col-md-6 d-flex flex-column align-items-center justify-content-center mt-3 mt-md-0"
+      >
+        <span
+          class="text-success"
+        >
+          <i
+            class="fas fa-database fa-5x mb-1"
+            title="Status: Running"
+          />
+        </span>
+        <p
+          class="h4 mt-3"
+        >
+          Sentinel
+        </p>
+      </div>
+      <div
+        class="col-md-6"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="table-responsive"
+          >
+            <table
+              class="table table-borderless table-hover mb-0"
+            >
+              <tbody>
+                <tr>
+                  <th
+                    scope="row"
+                  >
+                    Sentinel Proxy
+                  </th>
+                  <td>
+                    <span
+                      class="text-success"
+                    >
+                      <i
+                        class="fas fa-check"
+                      />
+                    </span>
+                  </td>
+                  <td
+                    class="text-center"
+                  >
+                    <span
+                      class="badge badge-success"
+                      title="Status: Running"
+                    >
+                      Running
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                  >
+                    Firewall Logs
+                  </th>
+                  <td>
+                    <span
+                      class="text-warning"
+                    >
+                      <i
+                        class="fas fa-exclamation-triangle"
+                      />
+                    </span>
+                  </td>
+                  <td
+                    class="text-center"
+                  >
+                    <span
+                      class="badge badge-warning"
+                      title="Status: Disabled"
+                    >
+                      Disabled
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                  >
+                    Minipots
+                  </th>
+                  <td>
+                    <span
+                      class="text-warning"
+                    >
+                      <i
+                        class="fas fa-exclamation-triangle"
+                      />
+                    </span>
+                  </td>
+                  <td
+                    class="text-center"
+                  >
+                    <span
+                      class="badge badge-warning"
+                      title="Status: Disabled"
+                    >
+                      Disabled
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                  >
+                    Survey
+                  </th>
+                  <td>
+                    <span
+                      class="text-warning"
+                    >
+                      <i
+                        class="fas fa-exclamation-triangle"
+                      />
+                    </span>
+                  </td>
+                  <td
+                    class="text-center"
+                  >
+                    <span
+                      class="badge badge-warning"
+                      title="Status: Disabled"
+                    >
+                      Disabled
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <form>
+      <h2>
+        Sentinel Components
+      </h2>
+      <p>
+        You can select specific components that you want to enable or disable.
+      </p>
+      <div
+        class="form-group"
+      >
+        <div
+          class="custom-control custom-switch"
+        >
+          <input
+            class="custom-control-input"
+            id="1"
+            type="checkbox"
+          />
+          <label
+            class="custom-control-label"
+            for="1"
+          >
+            Enable Firewall Logs
+          </label>
+          <small
+            class="form-text text-muted mt-0 mb-3"
+          >
+            Firewall Logs are logs gathered from iptables firewall. If enabled, Sentinel use them to monitor packets coming from outside network and trying to connect to potentially vulnerable local services. These techniques, also known as "port scans" usually try to detect whether specific ports are opened on local device. If enabled, Sentinel Firewall Logs gather information about origin of such malicious packets and about ports they try to scan on local device.
+          </small>
+        </div>
+      </div>
+      <div
+        class="form-group"
+      >
+        <div
+          class="custom-control custom-switch"
+        >
+          <input
+            class="custom-control-input"
+            id="2"
+            type="checkbox"
+          />
+          <label
+            class="custom-control-label"
+            for="2"
+          >
+            Enable Minipots
+          </label>
+          <small
+            class="form-text text-muted mt-0 mb-3"
+          >
+            The main purpose of the Sentinel Minipot is to collect authentication information from the login attempts. It is possible to emulate some of the often attacked services - Telnet, HTTP, FTP, and SMTP. The goal is to catch the attacker red-handed when they think they attack a real service.
+          </small>
+        </div>
+      </div>
+      <div
+        class="form-group"
+      >
+        <div
+          class="custom-control custom-switch"
+        >
+          <input
+            class="custom-control-input"
+            id="3"
+            type="checkbox"
+          />
+          <label
+            class="custom-control-label"
+            for="3"
+          >
+            Enable Survey
+          </label>
+          <small
+            class="form-text text-muted mt-0 mb-3"
+          >
+            Since our team has only limited manpower, we try to primarily focus on subjects that really matter. The Turris survey collects information about installed packages, used languages, and operating system versions. Based on this we are able to identify widely used packages, features and provide special support.
+          </small>
+        </div>
+      </div>
+      <div
+        class="text-right"
+      >
+        <button
+          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          type="submit"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
