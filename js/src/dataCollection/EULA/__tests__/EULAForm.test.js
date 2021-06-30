@@ -44,9 +44,9 @@ describe("<DataCollection />", () => {
             container,
             /Terms of Participation in Turris Project/
         );
-        fireEvent.click(radios[1]);
+        fireEvent.click(radios[0]);
         expect(onModalToggle).toHaveBeenCalledTimes(1);
-        fireEvent.click(radios[2]);
+        fireEvent.click(radios[1]);
         expect(onModalToggle).toHaveBeenCalledTimes(2);
     });
 
