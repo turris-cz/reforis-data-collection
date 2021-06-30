@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-03 16:12+0100\n"
+"POT-Creation-Date: 2021-06-30 15:46+0200\n"
 "PO-Revision-Date: 2020-03-02 10:31+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -16,48 +16,127 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: js/src/app.js:11
+#: js/src/app.js:12 js/src/sentinel/Sentinel.js:29
 msgid "Sentinel"
 msgstr ""
 
-#: js/src/app.js:18 js/src/dataCollection/DataCollection.js:15
-msgid "Data Collection"
+#: js/src/app.js:19
+msgid "Overview"
 msgstr ""
 
-#: js/src/dataCollection/DataCollection.js:17
-msgid "Participate in data collection and dynamic distributed firewall."
-msgstr ""
-
-#: js/src/dataCollection/EULA/EULAForm.js:30
+#: js/src/app.js:24 js/src/dataCollection/DataCollection.js:17
 msgid "License Agreement"
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULAForm.js:32
-msgid ""
-"It's required to confirm the Terms of Participation in Turris Project to "
-"participate in data collection."
-msgstr ""
-
-#: js/src/dataCollection/EULA/EULAForm.js:38
-msgid "Agreement"
-msgstr ""
-
-#: js/src/dataCollection/EULA/EULAForm.js:68
-msgid ""
-"I accept the <a href=\"#\">Terms of Participation in Turris Project (Data"
-" Collection)</a>."
+#: js/src/dataCollection/EULA/EULAForm.js:30
+msgid "Terms of Participation"
 msgstr ""
 
 #: js/src/dataCollection/EULA/EULAForm.js:83
-msgid ""
-"I do not accept the <a href=\"#\">Terms of Participation in Turris "
-"Project (Data Collection)</a>."
+msgid "#"
 msgstr ""
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
+msgid "Sentinel Components"
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:46
+msgid "Enable Firewall Logs"
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:60
+msgid "Enable Minipots"
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:88
+msgid "Running on port 80."
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:103
+msgid "Running on port 21."
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:118
+msgid "Running on port 25 and 587."
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:133
+msgid "Running on port 23."
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:139
+msgid "Enable Survey"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:18
+msgid "Status: "
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:23
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:21
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:23
+msgid "Running"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:27
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:26
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:28
+msgid "Sending"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:31
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:31
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:33
+msgid "Failed"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:35
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:36
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:38
+msgid "Disabled"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:39
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:41
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:43
+msgid "Uninstalled"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:43
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:46
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:48
+msgid "Unknown"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelState.js:24
+msgid "Sentinel State"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:26
+msgid "Sentinel Proxy"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:30
+msgid "Firewall Logs"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:34
+msgid "Minipots"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:38
+msgid "Survey"
+msgstr ""
+
+#: js/src/utils/DisabledAlert.js:12
+msgid "${ForisURLs.sentinelAgreement}"
 msgstr ""
 
 #: reforis_data_collection/__init__.py:44
@@ -65,5 +144,32 @@ msgid "Cannot update Sentinel settings"
 msgstr ""
 
 #~ msgid "Cannot update sentinel settings"
+#~ msgstr ""
+
+#~ msgid "Data Collection"
+#~ msgstr ""
+
+#~ msgid "Participate in data collection and dynamic distributed firewall."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It's required to confirm the Terms "
+#~ "of Participation in Turris Project to"
+#~ " participate in data collection."
+#~ msgstr ""
+
+#~ msgid "Agreement"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "I accept the <a href=\"#\">Terms of "
+#~ "Participation in Turris Project (Data "
+#~ "Collection)</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "I do not accept the <a "
+#~ "href=\"#\">Terms of Participation in Turris"
+#~ " Project (Data Collection)</a>."
 #~ msgstr ""
 
