@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-06-30 15:46+0200\n"
-"PO-Revision-Date: 2021-07-03 06:33+0000\n"
+"PO-Revision-Date: 2021-07-08 07:32+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/ru/>\n"
@@ -139,8 +139,9 @@ msgid "Survey"
 msgstr "Опрос"
 
 #: js/src/utils/DisabledAlert.js:12
+#, fuzzy
 msgid "${ForisURLs.sentinelAgreement}"
-msgstr ""
+msgstr "${ForisURLs.sentinelAgreement}"
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update Sentinel settings"
