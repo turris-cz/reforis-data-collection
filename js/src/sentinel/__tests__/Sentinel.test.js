@@ -6,15 +6,14 @@
  */
 
 import React from "react";
-import {
-    render,
-    wait,
-    fireEvent,
-} from "foris/testUtils/customTestRender";
+import { render, wait, fireEvent } from "foris/testUtils/customTestRender";
 
 import Sentinel from "../Sentinel";
 import mockAxios from "jest-mock-axios";
-import { sentinelStateFixture, sentinelSettingsFixture } from "./__fixtures__/sentinelFixture";
+import {
+    sentinelStateFixture,
+    sentinelSettingsFixture,
+} from "./__fixtures__/sentinelFixture";
 
 describe("<Sentinel />", () => {
     let asFragment;
@@ -39,10 +38,10 @@ describe("<Sentinel />", () => {
         getByText("Sentinel Components");
         expect(firstRender).toMatchSnapshot();
     });
-    
+
     it("Success post request", () => {
         fireEvent.click(getByText("Enable Firewall Logs"));
-    
+
         fireEvent.click(getByText("Save"));
         expect(mockAxios.post).toHaveBeenCalledWith(
             "/reforis/data-collection/api/settings",
@@ -58,7 +57,7 @@ describe("<Sentinel />", () => {
                             telnet: true,
                         },
                     },
-                    nikola: { enabled: true },
+                    fwlogs: { enabled: true },
                     survey: { enabled: false },
                 },
                 token: "random_token",
