@@ -16,7 +16,7 @@ SentinelOptions.propTypes = {
     formData: PropTypes.shape({
         eula: PropTypes.number.isRequired,
         modules: PropTypes.shape({
-            nikola: PropTypes.object,
+            fwlogs: PropTypes.object,
             survey: PropTypes.object,
             minipot: PropTypes.shape({
                 enabled: PropTypes.bool,
@@ -45,16 +45,16 @@ to enable or disable.`)}
             <Switch
                 label={_("Enable Firewall Logs")}
                 checked={
-                    formData.modules.nikola.installed &&
-                    formData.modules.nikola.enabled
+                    formData.modules.fwlogs.installed &&
+                    formData.modules.fwlogs.enabled
                 }
                 helpText={HELP_TEXTS.fwlogs}
                 onChange={setFormValue((value) => ({
                     modules: {
-                        nikola: { enabled: { $set: value } },
+                        fwlogs: { enabled: { $set: value } },
                     },
                 }))}
-                disabled={disabled || !formData.modules.nikola.installed}
+                disabled={disabled || !formData.modules.fwlogs.installed}
             />
             <Switch
                 label={_("Enable Minipots")}

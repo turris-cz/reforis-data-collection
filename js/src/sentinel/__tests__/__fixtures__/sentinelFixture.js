@@ -15,17 +15,17 @@ export const sentinelSettingsFixture = {
                 ftp: true,
                 http: true,
                 smtp: true,
-                telnet: true
-            }
+                telnet: true,
+            },
         },
-        nikola: {
+        fwlogs: {
             enabled: false,
-            installed: true
+            installed: true,
         },
         survey: {
             enabled: false,
-            installed: true
-        }
+            installed: true,
+        },
     },
     token: "random_token",
 };
@@ -34,5 +34,5 @@ export const sentinelStateFixture = {
     fwlogs: "disabled",
     minipot: "disabled",
     proxy: "running",
-    survey: "disabled"
+    survey: "disabled",
 };

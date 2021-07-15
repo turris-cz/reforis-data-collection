@@ -35,7 +35,7 @@ function prepDataToSubmit(data) {
     data.eula = parseInt(data.eula);
     if (!data.token) delete data.token;
     delete data.modules.survey.installed;
-    delete data.modules.nikola.installed;
+    delete data.modules.fwlogs.installed;
     delete data.modules.minipot.installed;
     return data;
 }
