@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-30 15:46+0200\n"
+"POT-Creation-Date: 2021-09-09 15:38+0200\n"
 "PO-Revision-Date: 2021-05-30 16:34+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
 "Language: hu\n"
@@ -31,17 +31,52 @@ msgstr ""
 msgid "License Agreement"
 msgstr "Licencszerződés"
 
+#: js/src/dataCollection/DataCollection.js:19
+msgid ""
+"It's required to confirm the Terms of Participation in Turris Project to "
+"participate in the threat detection program."
+msgstr ""
+
 #: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "Terms of Participation"
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULAForm.js:83
-msgid "#"
+#: js/src/dataCollection/EULA/EULAForm.js:32
+msgid ""
+"Your consent with the Terms of Participation allows us to analyze "
+"potential threats detected on your router and therefore to build a "
+"dynamic firewall."
 msgstr ""
+
+#: js/src/dataCollection/EULA/EULAForm.js:38
+#, fuzzy
+msgid "Agreement"
+msgstr "Licencszerződés"
+
+#: js/src/dataCollection/EULA/EULAForm.js:68
+#, fuzzy
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr "A Turris Projektben való részvétel feltételei (adatgyűjtés)"
+
+#: js/src/dataCollection/EULA/EULAForm.js:83
+#, fuzzy
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr "A Turris Projektben való részvétel feltételei (adatgyűjtés)"
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
 msgstr "A Turris Projektben való részvétel feltételei (adatgyűjtés)"
+
+#: js/src/sentinel/Sentinel.js:31
+msgid ""
+"Sentinel is a Turris threat detection and attack prevention system which "
+"provides dynamic firewall and statistics. Here you can set up several "
+"Sentinel components which take part in the threat detection subsystem."
+msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
 msgid "Sentinel Components"
@@ -184,4 +219,7 @@ msgstr "Az Őrszem beállításai nem frissíthetők"
 #~ "Nem fogadom el a <a href=\"#\"> "
 #~ "Turris Projectben való részvétel feltételeit"
 #~ " (adatgyűjtés) </a>."
+
+#~ msgid "#"
+#~ msgstr ""
 

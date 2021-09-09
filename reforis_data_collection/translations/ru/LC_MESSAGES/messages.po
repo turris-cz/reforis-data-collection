@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-30 15:46+0200\n"
-"PO-Revision-Date: 2021-02-08 17:50+0000\n"
-"Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
+"POT-Creation-Date: 2021-09-09 15:38+0200\n"
+"PO-Revision-Date: 2021-07-19 22:35+0000\n"
+"Last-Translator: Artem <Localizer_in_Russian@protonmail.com>\n"
 "Language: ru\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris"
 "/reforis-data-collection-plugin/ru/>\n"
@@ -26,122 +26,155 @@ msgstr "Sentinel"
 
 #: js/src/app.js:19
 msgid "Overview"
-msgstr ""
+msgstr "Обзор"
 
 #: js/src/app.js:24 js/src/dataCollection/DataCollection.js:17
 msgid "License Agreement"
 msgstr "Лицензионное соглашение"
 
-#: js/src/dataCollection/EULA/EULAForm.js:30
-msgid "Terms of Participation"
+#: js/src/dataCollection/DataCollection.js:19
+msgid ""
+"It's required to confirm the Terms of Participation in Turris Project to "
+"participate in the threat detection program."
 msgstr ""
 
-#: js/src/dataCollection/EULA/EULAForm.js:83
-msgid "#"
+#: js/src/dataCollection/EULA/EULAForm.js:30
+msgid "Terms of Participation"
+msgstr "Условия участия"
+
+#: js/src/dataCollection/EULA/EULAForm.js:32
+msgid ""
+"Your consent with the Terms of Participation allows us to analyze "
+"potential threats detected on your router and therefore to build a "
+"dynamic firewall."
 msgstr ""
+
+#: js/src/dataCollection/EULA/EULAForm.js:38
+#, fuzzy
+msgid "Agreement"
+msgstr "Лицензионное соглашение"
+
+#: js/src/dataCollection/EULA/EULAForm.js:68
+#, fuzzy
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr "Условия участия в проекте Turris (сбор данных)"
+
+#: js/src/dataCollection/EULA/EULAForm.js:83
+#, fuzzy
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr "Условия участия в проекте Turris (сбор данных)"
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
 msgstr "Условия участия в проекте Turris (сбор данных)"
 
+#: js/src/sentinel/Sentinel.js:31
+msgid ""
+"Sentinel is a Turris threat detection and attack prevention system which "
+"provides dynamic firewall and statistics. Here you can set up several "
+"Sentinel components which take part in the threat detection subsystem."
+msgstr ""
+
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
 msgid "Sentinel Components"
-msgstr ""
+msgstr "Компоненты Sentinel"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:46
 msgid "Enable Firewall Logs"
-msgstr ""
+msgstr "Включить журналы брандмауэра"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:60
 msgid "Enable Minipots"
-msgstr ""
+msgstr "Включить Minipots"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:88
 msgid "Running on port 80."
-msgstr ""
+msgstr "Работает на 80-м порту."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:103
 msgid "Running on port 21."
-msgstr ""
+msgstr "Работает на 21-м порту."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:118
 msgid "Running on port 25 and 587."
-msgstr ""
+msgstr "Работает на портах 25 и 587."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:133
 msgid "Running on port 23."
-msgstr ""
+msgstr "Работает на 23-м порту."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:139
 msgid "Enable Survey"
-msgstr ""
+msgstr "Включить опрос"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:18
 msgid "Status: "
-msgstr ""
+msgstr "Статус: "
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:23
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:21
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:23
 msgid "Running"
-msgstr ""
+msgstr "Запущено"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:26
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:28
 msgid "Sending"
-msgstr ""
+msgstr "Отправка"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:31
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:31
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:33
 msgid "Failed"
-msgstr ""
+msgstr "Неудачно"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:35
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:36
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:38
 msgid "Disabled"
-msgstr ""
+msgstr "Отключён"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:39
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:41
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:43
 msgid "Uninstalled"
-msgstr ""
+msgstr "Не установлен"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:43
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:46
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:48
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:24
-#, fuzzy
 msgid "Sentinel State"
-msgstr "Sentinel"
+msgstr "Состояние Sentinel"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:26
-#, fuzzy
 msgid "Sentinel Proxy"
-msgstr "Sentinel"
+msgstr "Прокси Sentinel"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:30
 msgid "Firewall Logs"
-msgstr ""
+msgstr "Журналы брандмауэра"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:34
 msgid "Minipots"
-msgstr ""
+msgstr "Minipots"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:38
 msgid "Survey"
-msgstr ""
+msgstr "Опрос"
 
 #: js/src/utils/DisabledAlert.js:12
 msgid "${ForisURLs.sentinelAgreement}"
-msgstr ""
+msgstr "${ForisURLs.sentinelAgreement}"
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update Sentinel settings"
@@ -186,4 +219,7 @@ msgstr "Не удается обновить настройки Sentinel"
 #~ "Я не принимаю <a href=\"#\">Условия "
 #~ "участия в проекте Turris (сбор "
 #~ "данных)</a>."
+
+#~ msgid "#"
+#~ msgstr "#"
 
