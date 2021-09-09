@@ -29,9 +29,9 @@ export default function EULAForm({
         <>
             <h2>{_("Terms of Participation")}</h2>
             <p>
-                {_(`Your consent with the Terms of Participation allows us to \
-analyze the attacks detected on your router and therefore to build a dynamic \
-firewall.`)}
+                {_(
+                    "Your consent with the Terms of Participation allows us to analyze potential threats detected on your router and therefore to build a dynamic firewall."
+                )}
             </p>
             <RadioSet
                 choices={getEULAChoices(onModalToggle)}
@@ -65,8 +65,9 @@ function getEULAChoices(onModalToggle) {
                 <div
                     onClick={onClickHandler}
                     dangerouslySetInnerHTML={{
-                        __html: _(`I accept the <a href="#">Terms of \
-Participation in Turris Project (Data Collection)</a>.`),
+                        __html: _(
+                            "I accept the <a href='#'>Terms of Participation in Turris Project (Data Collection)</a>."
+                        ),
                     }}
                 />
             ),
@@ -79,8 +80,9 @@ Participation in Turris Project (Data Collection)</a>.`),
                 <div
                     onClick={onClickHandler}
                     dangerouslySetInnerHTML={{
-                        __html: _(`I do not accept the <a href="#">Terms of \
-Participation in Turris Project (Data Collection)</a>.`),
+                        __html: _(
+                            "I do not accept the <a href='#'>Terms of Participation in Turris Project (Data Collection)</a>."
+                        ),
                     }}
                 />
             ),

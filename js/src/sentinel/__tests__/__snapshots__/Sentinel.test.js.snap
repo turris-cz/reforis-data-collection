@@ -6,7 +6,7 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
     Sentinel
   </h1>
   <p>
-    Sentinel is a Turris attack detection and prevention system which provides a dynamic firewall. Here you can set up several Sentinel components which take part in the attack detection subsystem.
+    Sentinel is a Turris threat detection and attack prevention system which provides dynamic firewall and statistics. Here you can set up several Sentinel components which take part in the threat detection subsystem.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
