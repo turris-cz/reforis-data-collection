@@ -16,8 +16,9 @@ export default function DataCollection() {
         <>
             <h1>{_("License Agreement")}</h1>
             <p>
-                {_(`It's required to confirm the Terms of Participation in \
-Turris Project to participate in attack detection.`)}
+                {_(
+                    "It's required to confirm the Terms of Participation in Turris Project to participate in the threat detection program."
+                )}
             </p>
             <ForisForm
                 forisConfig={{
