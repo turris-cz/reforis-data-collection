@@ -6,7 +6,7 @@ exports[`<DataCollection /> Should render form. 1`] = `
     License Agreement
   </h1>
   <p>
-    It's required to confirm the Terms of Participation in Turris Project to participate in threat detection program.
+    It's required to confirm the Terms of Participation in Turris Project to participate in the threat detection program.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
