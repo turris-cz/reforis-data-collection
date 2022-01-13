@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-09-09 15:38+0200\n"
-"PO-Revision-Date: 2021-12-15 00:51+0000\n"
+"PO-Revision-Date: 2022-01-13 05:13+0000\n"
 "Last-Translator: Marc <marco@tru-and-co.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/fr/>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:29
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/app.js:19
 msgid "Overview"
@@ -37,6 +37,8 @@ msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in the threat detection program."
 msgstr ""
+"Afin de participer au programme de détection de menaces, il est requis d'en "
+"accepted les termes."
 
 #: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "Terms of Participation"
@@ -101,11 +103,11 @@ msgstr "Activer les mini pots"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:88
 msgid "Running on port 80."
-msgstr ""
+msgstr "En cours d'exécution sur port 80."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:103
 msgid "Running on port 21."
-msgstr ""
+msgstr "En cours d'exécution sur port 21."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:118
 msgid "Running on port 25 and 587."
