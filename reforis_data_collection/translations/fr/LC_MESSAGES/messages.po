@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-09-09 15:38+0200\n"
 "PO-Revision-Date: 2022-01-13 05:19+0000\n"
-"Last-Translator: Gabriel GRONDIN <gglinnk@protonmail.com>\n"
+"Last-Translator: Marc <marco@tru-and-co.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/fr/>\n"
 "Language: fr\n"
@@ -166,7 +166,7 @@ msgstr "Inconnu"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:24
 msgid "Sentinel State"
-msgstr ""
+msgstr "Etat de Sentinel"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:26
 msgid "Sentinel Proxy"
