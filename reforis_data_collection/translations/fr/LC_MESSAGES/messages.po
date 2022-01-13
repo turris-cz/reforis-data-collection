@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-09-09 15:38+0200\n"
-"PO-Revision-Date: 2022-01-13 05:13+0000\n"
-"Last-Translator: Marc <marco@tru-and-co.net>\n"
+"PO-Revision-Date: 2022-01-13 05:14+0000\n"
+"Last-Translator: Gabriel GRONDIN <gglinnk@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/fr/>\n"
 "Language: fr\n"
@@ -103,11 +103,11 @@ msgstr "Activer les mini pots"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:88
 msgid "Running on port 80."
-msgstr "En cours d'exécution sur port 80."
+msgstr "S'exécute sur port 80."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:103
 msgid "Running on port 21."
-msgstr "En cours d'exécution sur port 21."
+msgstr "S'exécute sur port 21."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:118
 msgid "Running on port 25 and 587."
