@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-09-09 15:38+0200\n"
 "PO-Revision-Date: 2022-01-13 05:14+0000\n"
-"Last-Translator: Marc <marco@tru-and-co.net>\n"
+"Last-Translator: Gabriel GRONDIN <gglinnk@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/fr/>\n"
 "Language: fr\n"
@@ -111,7 +111,7 @@ msgstr "S'exécute sur port 21."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:118
 msgid "Running on port 25 and 587."
-msgstr "En cours d'exécution sur ports 25 et 587."
+msgstr "S'exécute sur les ports 25 et 587."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:133
 msgid "Running on port 23."
