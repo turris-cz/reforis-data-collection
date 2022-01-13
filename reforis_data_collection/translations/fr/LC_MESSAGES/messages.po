@@ -115,7 +115,7 @@ msgstr "En cours d'exécution sur ports 25 et 587."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:133
 msgid "Running on port 23."
-msgstr ""
+msgstr "En cours d'exécution sur prot 23."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:139
 msgid "Enable Survey"
