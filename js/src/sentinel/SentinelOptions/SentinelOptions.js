@@ -39,8 +39,9 @@ export default function SentinelOptions({ formData, setFormValue, disabled }) {
         <>
             <h2>{_(`Sentinel Components`)}</h2>
             <p>
-                {_(`You can select specific components that you want \
-to enable or disable.`)}
+                {_(
+                    "You can select specific components that you want to enable or disable."
+                )}
             </p>
             <Switch
                 label={_("Enable Firewall Logs")}
