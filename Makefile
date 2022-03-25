@@ -45,9 +45,9 @@ $(VENV_NAME)/bin/activate: setup.py
 	touch $(VENV_NAME)/bin/activate
 
 prepare-env:
-	which npm || curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-	which npm || sudo apt install -y nodejs
-	which $(PYTHON) || sudo apt install -y $(PYTHON) $(PYTHON)-pip
+	which npm || curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+	which npm || sudo apt-get install -y nodejs
+	which $(PYTHON) || sudo apt-get install -y $(PYTHON) $(PYTHON)-pip
 	which virtualenv || sudo $(PYTHON) -m pip install virtualenv
 prepare-dev:
 	cd $(JS_DIR); npm install
