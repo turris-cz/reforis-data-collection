@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -29,13 +29,10 @@ export default function Sentinel() {
             <h1>{_("Sentinel")}</h1>
             <p>
                 {_(
-                    "Sentinel is a Turris threat detection and attack prevention system which provides dynamic firewall and statistics. Here you can set up several Sentinel components which take part in the threat detection subsystem."
+                    "Sentinel is a Turris threat detection and attack prevention system, which provides dynamic firewall and statistics. Here you can set up several Sentinel components which take part in the threat detection subsystem."
                 )}
             </p>
-            <SentinelState
-                apiState={sentinelComponentsState}
-                states={sentinelComponentsState}
-            />
+            <div id="sentinel-state" />
             <ForisForm
                 forisConfig={{
                     endpoint: API_URLs.settings,
@@ -44,6 +41,10 @@ export default function Sentinel() {
                 prepDataToSubmit={prepDataToSubmit}
                 validator={validator}
             >
+                <SentinelState
+                    apiState={sentinelComponentsState}
+                    states={sentinelComponentsState}
+                />
                 <DisabledIfNotAccepted>
                     <SentinelOptions />
                 </DisabledIfNotAccepted>

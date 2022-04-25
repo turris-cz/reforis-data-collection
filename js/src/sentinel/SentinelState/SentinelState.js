@@ -19,14 +19,16 @@ SentinelState.propTypes = {
 };
 
 export default function SentinelState({ apiState, states }) {
-    return (
+    const container = document.getElementById("sentinel-state");
+    return ReactDOM.createPortal(
         <div className={formFieldsSize}>
             <h2>{_("Sentinel State")}</h2>
             <StateWithErrorAndSpinner
                 apiState={apiState.state}
                 states={states.data}
             />
-        </div>
+        </div>,
+        container
     );
 }
 
