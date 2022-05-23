@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-09 15:38+0200\n"
+"POT-Creation-Date: 2022-05-23 14:42+0200\n"
 "PO-Revision-Date: 2020-05-25 12:41+0000\n"
 "Last-Translator: Eduardo Cuthbert <elguber@gmail.com>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: js/src/app.js:12 js/src/sentinel/Sentinel.js:29
+#: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
 msgstr ""
 
@@ -71,10 +71,10 @@ msgstr "Tèrminos de paticipaciòn en el proyecto Turris(colecciòn de datos)"
 msgid "Terms of Participation in Turris Project (Data Collection)"
 msgstr "Tèrminos de paticipaciòn en el proyecto Turris(colecciòn de datos)"
 
-#: js/src/sentinel/Sentinel.js:31
+#: js/src/sentinel/Sentinel.js:25
 msgid ""
-"Sentinel is a Turris threat detection and attack prevention system which "
-"provides dynamic firewall and statistics. Here you can set up several "
+"Sentinel is a Turris threat detection and attack prevention system, which"
+" provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
 
@@ -82,32 +82,63 @@ msgstr ""
 msgid "Sentinel Components"
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:46
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
+msgid "You can select specific components that you want to enable or disable."
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
 msgid "Enable Firewall Logs"
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:60
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:61
 msgid "Enable Minipots"
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:88
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:89
 msgid "Running on port 80."
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:103
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:104
 msgid "Running on port 21."
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:118
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:119
 msgid "Running on port 25 and 587."
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:133
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:134
 msgid "Running on port 23."
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:139
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:140
 msgid "Enable Survey"
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:9
+msgid ""
+"Firewall Logs are logs gathered from iptables firewall. If enabled, "
+"Sentinel uses them to monitor packets coming from outside network and "
+"trying to connect to potentially vulnerable local services. These "
+"techniques, also known as \"port scans\" usually try to detect whether "
+"specific ports are opened on local device. If enabled, Sentinel Firewall "
+"Logs gather information about origin of such malicious packets and about "
+"ports they try to scan on local device."
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:12
+msgid ""
+"The main purpose of the Sentinel Minipot is to collect authentication "
+"information from the login attempts. It is possible to emulate some of "
+"the often attacked services - Telnet, HTTP, FTP, and SMTP. The goal is to"
+" catch the attacker red-handed when they think they are attacking a real "
+"service."
+msgstr ""
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:15
+msgid ""
+"The Turris survey collects information about installed packages, used "
+"languages, and operating system versions. Based on this, we can focus on "
+"widely used packages and features and provide support."
 msgstr ""
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
@@ -151,8 +182,24 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: js/src/sentinel/SentinelState/SentinelState.js:24
+#: js/src/sentinel/SentinelState/SentinelState.js:32
 msgid "Sentinel State"
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelState.js:36
+msgid ""
+"To view Sentinel data, please visit <a "
+"href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
+" noreferer\">Sentinel View<sup><i class=\"fas fa-external-link-alt fa-xs "
+"ml-1\"></i></sup></a>. There you can also see and filter <a "
+"href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+" target=\"_blank\" rel=\"noopener noreferer\">data specific for your "
+"device<sup><i class=\"fas fa-external-link-alt fa-xs "
+"ml-1\"></i></sup></a>."
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelState.js:81
+msgid "Device token"
 msgstr ""
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:26
@@ -172,7 +219,9 @@ msgid "Survey"
 msgstr ""
 
 #: js/src/utils/DisabledAlert.js:12
-msgid "${ForisURLs.sentinelAgreement}"
+msgid ""
+"Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
+"Agreement</a> to manage Sentinel."
 msgstr ""
 
 #: reforis_data_collection/__init__.py:44
@@ -220,5 +269,17 @@ msgstr ""
 #~ "Turris(colecciòn de datos)</a>."
 
 #~ msgid "#"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sentinel is a Turris threat detection"
+#~ " and attack prevention system which "
+#~ "provides dynamic firewall and statistics. "
+#~ "Here you can set up several "
+#~ "Sentinel components which take part in"
+#~ " the threat detection subsystem."
+#~ msgstr ""
+
+#~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr ""
 
