@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-23 14:42+0200\n"
-"PO-Revision-Date: 2022-04-01 19:12+0000\n"
+"PO-Revision-Date: 2022-05-25 13:15+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/nb_NO/>\n"
 "Language: nb_NO\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/reforis-data-collection-"
-"plugin/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -95,8 +95,9 @@ msgid "Sentinel Components"
 msgstr "Sentinel-komponenter"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
+#, fuzzy
 msgid "You can select specific components that you want to enable or disable."
-msgstr ""
+msgstr "Du kan velge spesifikke komponenter du vil skru av eller på."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
 msgid "Enable Firewall Logs"
@@ -129,6 +130,7 @@ msgid "Enable Survey"
 msgstr "Skru på undersøkelse"
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:9
+#, fuzzy
 msgid ""
 "Firewall Logs are logs gathered from iptables firewall. If enabled, "
 "Sentinel uses them to monitor packets coming from outside network and "
@@ -138,8 +140,16 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
+"Brannmurslogger er logger som hentes fra iptables-brannmuren. Hvis det skrus "
+"på bruker Sentinel dem til å overvåke pakker som prøver å koble til mulig "
+"sårbare lokale tjenester fra andre nettverk. Disse teknikkene kalles gjerne "
+"ofte «portskanning», og brukes vanligvis til å oppdage om gitte porter er "
+"åpne på en lokal enhet. Hvis påskrudd vil Sentinel-brannmursloggene hente "
+"info om opphavet til slike ondsinnede pakker og hvilke porter de prøver å "
+"skanne på den lokale enheten."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
+#, fuzzy
 msgid ""
 "The main purpose of the Sentinel Minipot is to collect authentication "
 "information from the login attempts. It is possible to emulate some of "
@@ -147,13 +157,21 @@ msgid ""
 " catch the attacker red-handed when they think they are attacking a real "
 "service."
 msgstr ""
+"Hovedformålet til Sentinel-minihonningkrukken e rå samle "
+"identitetbekreftelsesinfo om innloggingsforsøk. Det er mulig å emulere noen "
+"av de tjeenstene som angripes often, altså Telnet, HTTP, FTP, og SMTP. Målet "
+"er å fange angriperen i akten mens de tror de angriper en ekte tjeneste."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
+#, fuzzy
 msgid ""
 "The Turris survey collects information about installed packages, used "
 "languages, and operating system versions. Based on this, we can focus on "
 "widely used packages and features and provide support."
 msgstr ""
+"Turris-undersøkelsen samler inn info om installerte pakker, brukte språk, og "
+"operativsystemsversjoner. Basert på dette kan Turris fokusere på pakker som "
+"brukes mye, og tilby funksjoner og støtte deretter."
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:18
@@ -213,10 +231,17 @@ msgid ""
 "device<sup><i class=\"fas fa-external-link-alt fa-xs "
 "ml-1\"></i></sup></a>."
 msgstr ""
+"For å vise Sentinel-data kan du besøke <a href=\"https://view.sentinel.turris"
+".cz\" target=\"_blank\" rel=\"noopener noreferer\">Sentinel-visningen<sup><i "
+"class=\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a>. Derfra kan du "
+"også vise og filtrere <a href=\"https://view.sentinel.turris.cz/api/device/"
+"add?token=${deviceToken}\" target=\"_blank\" rel=\"noopener noreferer\">data "
+"spesifikt for din enhet<sup><i class=\"fas fa-external-link-alt fa-xs ml-1\""
+"></i></sup></a>."
 
 #: js/src/sentinel/SentinelState/SentinelState.js:81
 msgid "Device token"
-msgstr ""
+msgstr "Enhetssymbol"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:26
 msgid "Sentinel Proxy"
@@ -240,6 +265,8 @@ msgid ""
 "Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
 "Agreement</a> to manage Sentinel."
 msgstr ""
+"Godta <a href=\"${ForisURLs.sentinelAgreement}\">Lisensavtalen</a> for å "
+"håndtere Sentinel."
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update Sentinel settings"
@@ -289,4 +316,3 @@ msgstr "Kan ikke oppdatere Sentinel-innstillinger"
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr "${ForisURLs.sentinelAgreement}"
-
