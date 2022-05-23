@@ -10,8 +10,7 @@ import React from "react";
 
 export default function DisabledAlert() {
     const message = _(
-        `Please accept the <a href="${ForisURLs.sentinelAgreement}">License \
-Agreement</a> to manage Sentinel.`
+        `Please accept the <a href="${ForisURLs.sentinelAgreement}">License Agreement</a> to manage Sentinel.`
     );
     // <Alert /> is used instead of context because warning isn't result of any action on this page
     return (

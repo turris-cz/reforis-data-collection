@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -16,34 +16,30 @@ import DisabledIfNotAccepted from "../utils/DisabledIfNotAccepted";
 
 export default function Sentinel() {
     // We had to move API call up to pass it to the `postCallback` function
-    const [sentinelComponentsState, getSentinelComponentsState] = useAPIGet(
-        API_URLs.state
-    );
+    const [sentinelState, getSentinelState] = useAPIGet(API_URLs.state);
 
     useEffect(() => {
-        getSentinelComponentsState();
-    }, [getSentinelComponentsState]);
+        getSentinelState();
+    }, [getSentinelState]);
+
+    const sentinelIntro = _(
+        "Sentinel is a Turris threat detection and attack prevention system, which provides dynamic firewall and statistics. Here you can set up several Sentinel components which take part in the threat detection subsystem."
+    );
 
     return (
         <>
             <h1>{_("Sentinel")}</h1>
-            <p>
-                {_(
-                    "Sentinel is a Turris threat detection and attack prevention system which provides dynamic firewall and statistics. Here you can set up several Sentinel components which take part in the threat detection subsystem."
-                )}
-            </p>
-            <SentinelState
-                apiState={sentinelComponentsState}
-                states={sentinelComponentsState}
-            />
+            <p>{sentinelIntro}</p>
+            <div id="sentinel-state" />
             <ForisForm
                 forisConfig={{
                     endpoint: API_URLs.settings,
                 }}
-                postCallback={getSentinelComponentsState}
+                postCallback={getSentinelState}
                 prepDataToSubmit={prepDataToSubmit}
                 validator={validator}
             >
+                <SentinelState sentinelState={sentinelState} />
                 <DisabledIfNotAccepted>
                     <SentinelOptions />
                 </DisabledIfNotAccepted>
