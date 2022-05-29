@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-23 14:42+0200\n"
-"PO-Revision-Date: 2021-12-13 14:51+0000\n"
+"PO-Revision-Date: 2022-05-30 06:19+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/sk/>\n"
 "Language: sk\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris"
-"/reforis-data-collection-plugin/sk/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -77,16 +78,15 @@ msgid "Terms of Participation in Turris Project (Data Collection)"
 msgstr "Podmienky účasti v projekte Turris (zber dát)"
 
 #: js/src/sentinel/Sentinel.js:25
-#, fuzzy
 msgid ""
 "Sentinel is a Turris threat detection and attack prevention system, which"
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
-"Sentinel je systém detekcie a prevencie bezpečnostných hrozieb, ktorý je "
-"súčasťou projektu Turris a poskytuje dynamický firewall a štatistiky. Tu "
-"môžete nastaviť rôzne súčasti systému Sentinel, ktoré sa využívajú v "
-"podsystéme detekcie hrozieb."
+"Sentinel je systém detekcie a prevencie bezpečnostných hrozieb a útokov "
+"systému Turris, ktorý poskytuje dynamický firewall a štatistiky. Tu môžete "
+"nastaviť rôzne súčasti systému Sentinel, ktoré sa využívajú v podsystéme "
+"detekcie hrozieb."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
 msgid "Sentinel Components"
@@ -94,7 +94,7 @@ msgstr "Súčasti Sentinelu"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
 msgid "You can select specific components that you want to enable or disable."
-msgstr ""
+msgstr "Môžete vybrať konkrétne komponenty, ktoré chcete povoliť alebo zakázať."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
 msgid "Enable Firewall Logs"
@@ -134,6 +134,14 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
+"Záznamy brány firewall sú protokoly zhromaždené firewallu iptables. Ak sú "
+"povolené, Sentinel ich používa na monitorovanie paketov prichádzajúcich z "
+"vonkajšej siete a pokúšajúcich sa pripojiť k potenciálne zraniteľným "
+"miestnym službám. Tieto techniky, známe aj ako „skenovanie portov“, sa "
+"zvyčajne snažia zistiť, či sú na miestnom zariadení otvorené konkrétne "
+"porty. Ak sú povolené, záznamy brány Sentinel Firewall zhromažďujú "
+"informácie o pôvode týchto škodlivých paketov a o portoch, ktoré sa pokúšajú "
+"na miestnom zariadení skenovať."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -143,6 +151,10 @@ msgid ""
 " catch the attacker red-handed when they think they are attacking a real "
 "service."
 msgstr ""
+"Hlavným účelom minipotov Sentinelu je zhromažďovanie autentifikačných "
+"informácií z pokusov o prihlásenie. Je možné emulovať niektoré často "
+"napádané služby – Telnet, HTTP, FTP a SMTP. Cieľom je chytiť útočníka pri "
+"čine, keď si myslí, že útočí na skutočnú službu."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -150,6 +162,9 @@ msgid ""
 "languages, and operating system versions. Based on this, we can focus on "
 "widely used packages and features and provide support."
 msgstr ""
+"V prieskume Turris sa zhromažďujú informácie o nainštalovaných balíčkoch, "
+"používaných jazykoch a verziách operačného systému. Na základe toho sa "
+"môžeme zamerať na široko používané balíčky a funkcie a poskytovať podporu."
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:18
@@ -207,10 +222,17 @@ msgid ""
 "device<sup><i class=\"fas fa-external-link-alt fa-xs "
 "ml-1\"></i></sup></a>."
 msgstr ""
+"Na zobrazenie dát Sentinelu navštívte, prosím, <a href=\"https://view."
+"sentinel.turris.cz\" target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
+"View<sup><i class=\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a>. "
+"Môžete si tiež prezrieť a filtrovať <a href=\"https://view.sentinel.turris."
+"cz/api/device/add?token=${deviceToken}\" target=\"_blank\" rel=\"noopener "
+"noreferer\">dáta špecifické pre vaše zariadenie<sup><i class=\"fas fa-"
+"external-link-alt fa-xs ml-1\"></i></sup></a>."
 
 #: js/src/sentinel/SentinelState/SentinelState.js:81
 msgid "Device token"
-msgstr ""
+msgstr "Token zariadenia"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:26
 msgid "Sentinel Proxy"
@@ -233,6 +255,8 @@ msgid ""
 "Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
 "Agreement</a> to manage Sentinel."
 msgstr ""
+"Na spravovanie Sentinelu prijmite, prosím, <a href=\"${ForisURLs."
+"sentinelAgreement}\">Licenčnú zmluvu</a>."
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update Sentinel settings"
@@ -282,4 +306,3 @@ msgstr "Nastavenia Sentinelu sa nedajú aktualizovať"
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr "${ForisURLs.sentinelAgreement}"
-
