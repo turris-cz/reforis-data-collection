@@ -8,24 +8,25 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-23 14:42+0200\n"
-"PO-Revision-Date: 2020-05-25 12:41+0000\n"
-"Last-Translator: Eduardo Cuthbert <elguber@gmail.com>\n"
+"PO-Revision-Date: 2022-09-11 16:15+0000\n"
+"Last-Translator: Dan Cybersec <dan.cybersec@protonmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/turris"
-"/reforis-data-collection-plugin/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/app.js:19
 msgid "Overview"
-msgstr ""
+msgstr "Vista general"
 
 #: js/src/app.js:24 js/src/dataCollection/DataCollection.js:17
 msgid "License Agreement"
@@ -36,10 +37,12 @@ msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in the threat detection program."
 msgstr ""
+"Es necesario aceptar los términos de participación en el proyecto Turris "
+"para hacer uso del programa de detección de amenazas."
 
 #: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "Terms of Participation"
-msgstr ""
+msgstr "Términos de participación"
 
 #: js/src/dataCollection/EULA/EULAForm.js:32
 msgid ""
@@ -47,6 +50,9 @@ msgid ""
 "potential threats detected on your router and therefore to build a "
 "dynamic firewall."
 msgstr ""
+"Tu consentimiento con los términos de participación nos permite analizar "
+"amenazas potenciales detectadas en tu router y construir un cortafuegos "
+"dinámico."
 
 #: js/src/dataCollection/EULA/EULAForm.js:38
 #, fuzzy
@@ -54,18 +60,20 @@ msgid "Agreement"
 msgstr "Acuerdo de licencia"
 
 #: js/src/dataCollection/EULA/EULAForm.js:68
-#, fuzzy
 msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
-msgstr "Tèrminos de paticipaciòn en el proyecto Turris(colecciòn de datos)"
+msgstr ""
+"Acepto los <a href='#'>términos de participación en el proyecto Turris ("
+"recopilación de datos)</a>."
 
 #: js/src/dataCollection/EULA/EULAForm.js:83
-#, fuzzy
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
-msgstr "Tèrminos de paticipaciòn en el proyecto Turris(colecciòn de datos)"
+msgstr ""
+"No acepto los <a href='#'>términos de participación en el proyecto Turris ("
+"recopilación de datos)</a>."
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
@@ -77,6 +85,10 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
+"Sentinel es un sistema de detección de amenazas y prevención de ataques de "
+"Turris, que proporciona un cortafuegos dinámico y estadísticas. Aquí puedes "
+"configurar varios componentes de Sentinel que intervienen el subsistema de "
+"detección de amenazas."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
 msgid "Sentinel Components"
@@ -150,7 +162,7 @@ msgstr ""
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:21
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:23
 msgid "Running"
-msgstr ""
+msgstr "En ejecución"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:26
@@ -168,7 +180,7 @@ msgstr ""
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:36
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:38
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivado"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:39
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:41
@@ -208,11 +220,11 @@ msgstr ""
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:30
 msgid "Firewall Logs"
-msgstr ""
+msgstr "Registros del cortafuegos"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:34
 msgid "Minipots"
-msgstr ""
+msgstr "Minipots"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:38
 msgid "Survey"
@@ -282,4 +294,3 @@ msgstr ""
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr ""
-
