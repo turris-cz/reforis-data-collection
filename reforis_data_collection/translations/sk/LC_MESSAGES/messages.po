@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-23 14:42+0200\n"
-"PO-Revision-Date: 2022-05-30 06:19+0000\n"
+"PO-Revision-Date: 2022-11-18 08:48+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/sk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -175,7 +175,7 @@ msgstr "Stav: "
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:21
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:23
 msgid "Running"
-msgstr "Beží"
+msgstr "Prebieha"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:26
