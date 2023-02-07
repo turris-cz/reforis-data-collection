@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-23 14:42+0200\n"
-"PO-Revision-Date: 2022-06-03 01:17+0000\n"
+"PO-Revision-Date: 2023-02-08 19:36+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/sv/>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/app.js:19
 msgid "Overview"
@@ -30,7 +30,7 @@ msgstr "Översikt"
 
 #: js/src/app.js:24 js/src/dataCollection/DataCollection.js:17
 msgid "License Agreement"
-msgstr ""
+msgstr "Licensavtal"
 
 #: js/src/dataCollection/DataCollection.js:19
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "Terms of Participation"
-msgstr ""
+msgstr "Deltagandevillkor"
 
 #: js/src/dataCollection/EULA/EULAForm.js:32
 msgid ""
@@ -51,23 +51,27 @@ msgstr ""
 
 #: js/src/dataCollection/EULA/EULAForm.js:38
 msgid "Agreement"
-msgstr ""
+msgstr "Avtal"
 
 #: js/src/dataCollection/EULA/EULAForm.js:68
 msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Jag godtar <a href='#'>Villkoren för deltagande i Turris-projektet ("
+"Insamling av data)</a>."
 
 #: js/src/dataCollection/EULA/EULAForm.js:83
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Jag godtar inte <a href='#'>Villkoren för deltagande i Turris-projektet ("
+"Insamling av data)</a>."
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Villkor för deltagande i Turris-projektet (Insamling av data)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""
