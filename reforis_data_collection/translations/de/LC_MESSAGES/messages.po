@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-23 14:42+0200\n"
-"PO-Revision-Date: 2023-08-15 13:46+0000\n"
-"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
+"PO-Revision-Date: 2023-08-21 00:56+0000\n"
+"Last-Translator: René <rene.repmann@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/de/>\n"
 "Language: de\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "Terms of Participation"
-msgstr ""
+msgstr "Teilnahmebedingungen"
 
 #: js/src/dataCollection/EULA/EULAForm.js:32
 msgid ""
@@ -68,7 +68,7 @@ msgstr ""
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Teilnahmebedingungen im Turris Projekt (Datensammlung)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""
@@ -79,11 +79,13 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
 msgid "Sentinel Components"
-msgstr ""
+msgstr "Sentinel Komponenten"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
 msgid "You can select specific components that you want to enable or disable."
 msgstr ""
+"Sie können spezifische Komponenten auswählen, um sie zu aktivieren oder "
+"deaktivieren."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
 msgid "Enable Firewall Logs"
