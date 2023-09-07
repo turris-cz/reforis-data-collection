@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-23 14:42+0200\n"
-"PO-Revision-Date: 2023-08-21 00:56+0000\n"
-"Last-Translator: René <rene.repmann@googlemail.com>\n"
+"PO-Revision-Date: 2023-09-08 13:52+0000\n"
+"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -37,6 +37,9 @@ msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in the threat detection program."
 msgstr ""
+"Zur Teilnahme im Bedrohungs-Aufspürprogramm ist die Bestätigung der "
+"Teilnahmebedingungen im Turris-Projekt (Terms of Participation in Turris "
+"Project) erforderlich."
 
 #: js/src/dataCollection/EULA/EULAForm.js:30
 msgid "Terms of Participation"
@@ -48,27 +51,33 @@ msgid ""
 "potential threats detected on your router and therefore to build a "
 "dynamic firewall."
 msgstr ""
+"Ihr Einverständnis mit den Teilnahmebedingungen erlaubt es uns, mögliche "
+"Bedrohungen, die auf Ihrem Router entdeckt wurden, zu untersuchen und auf "
+"diese Weise eine dynamische Firewall aufzubauen."
 
 #: js/src/dataCollection/EULA/EULAForm.js:38
-#, fuzzy
 msgid "Agreement"
-msgstr "Lizenzvereinbarung"
+msgstr "Vereinbarung"
 
 #: js/src/dataCollection/EULA/EULAForm.js:68
 msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Ich akzeptiere die <a href='#'>Teilnahmebedingungen des Turris-Projekts "
+"(Datensammlung)</a>."
 
 #: js/src/dataCollection/EULA/EULAForm.js:83
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Ich akzeptiere die <a href='#'>Teilnahmebedingungen des Turris-Projekts "
+"(Datensammlung)</a> nicht."
 
 #: js/src/dataCollection/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr "Teilnahmebedingungen im Turris Projekt (Datensammlung)"
+msgstr "Teilnahmebedingungen im Turris-Projekt (Datensammlung)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""
@@ -76,10 +85,14 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
+"Sentinel ist ein Turris-Bedrohungserkennungs- und Angriffspräventionssystem, "
+"welches über eine dynamische Firewall und Statistiken verfügt. Hier können "
+"Sie mehrere Sentinel-Komponenten einrichten, die in dem Bedrohungs-"
+"Erkennungs-Subsystem mitwirken."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
 msgid "Sentinel Components"
-msgstr "Sentinel Komponenten"
+msgstr "Sentinel-Komponenten"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
 msgid "You can select specific components that you want to enable or disable."
@@ -89,31 +102,31 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
 msgid "Enable Firewall Logs"
-msgstr ""
+msgstr "Firewall-Logs aktivieren"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:61
 msgid "Enable Minipots"
-msgstr ""
+msgstr "Minipots aktivieren"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:89
 msgid "Running on port 80."
-msgstr ""
+msgstr "Läuft auf Port 80."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:104
 msgid "Running on port 21."
-msgstr ""
+msgstr "Läuft auf Port 21."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:119
 msgid "Running on port 25 and 587."
-msgstr ""
+msgstr "Läuft auf Ports 25 und 587."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:134
 msgid "Running on port 23."
-msgstr ""
+msgstr "Läuft auf Port 23."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:140
 msgid "Enable Survey"
-msgstr ""
+msgstr "Erhebung aktivieren"
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:9
 msgid ""
@@ -125,6 +138,14 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
+"Firewall-Logs sind Logs, die von der iptables-Firewall ausgelesen werden. "
+"Falls aktiviert, verwendet Sentinel sie zum Beobachten von Paketen, die aus "
+"dem Extranet kommen und Verbindungsversuche zu potenziell anfälligen lokalen "
+"Diensten enthalten. Diese Techniken, die auch als „Portscans“ bekannt sind, "
+"versuchen üblicherweise herauszufinden, welche Ports auf dem betreffenden "
+"Gerät offen sind. Falls aktiviert, sammelt Sentinel Firewall-Logs "
+"Informationen über den Ursprung dieser Pakete und über die Ports, die sie "
+"auf dem lokalen Gerät abzuscannen versuchen."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -134,6 +155,11 @@ msgid ""
 " catch the attacker red-handed when they think they are attacking a real "
 "service."
 msgstr ""
+"Der Hauptzweck des Sentinel-Minipots besteht darin, "
+"Authentifizierungsinformationen der Login-Versuche zu sammeln. Er besitzt "
+"die Möglichkeit, einige der oft angegriffenen Dienste wie Telnet, HTTP, FTP "
+"und SMTP zu simulieren. Das Ziel ist dabei, den Angreifer auf frischer Tat "
+"zu ertappen, während er glaubt, einen echten Dienst anzugreifen."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -141,11 +167,15 @@ msgid ""
 "languages, and operating system versions. Based on this, we can focus on "
 "widely used packages and features and provide support."
 msgstr ""
+"Die Turris-Erhebung sammelt Informationen über installierte Pakete, "
+"verwendete Sprachen und Betriebssystemversionen. Diese Grundlage ermöglicht "
+"es uns, uns auf die gängigen Pakete und Funktionalitäten zu konzentrieren "
+"und dafür Unterstützung zu leisten."
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:18
 msgid "Status: "
-msgstr ""
+msgstr "Status: "
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:23
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:21
@@ -157,13 +187,13 @@ msgstr "Läuft"
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:26
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:28
 msgid "Sending"
-msgstr ""
+msgstr "Sendet"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:31
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:31
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:33
 msgid "Failed"
-msgstr ""
+msgstr "Fehlgeschlagen"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:35
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:36
@@ -175,7 +205,7 @@ msgstr "Deaktiviert"
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:41
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:43
 msgid "Uninstalled"
-msgstr ""
+msgstr "Deinstalliert"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:43
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:46
@@ -185,7 +215,7 @@ msgstr "Unbekannt"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:32
 msgid "Sentinel State"
-msgstr ""
+msgstr "Sentinel-Zustand"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:36
 msgid ""
@@ -198,14 +228,21 @@ msgid ""
 "device<sup><i class=\"fas fa-external-link-alt fa-xs "
 "ml-1\"></i></sup></a>."
 msgstr ""
+"Die Sentinel-Daten finden Sie in der <a href=\"https://view.sentinel.turris."
+"cz\" target=\"_blank\" rel=\"noopener noreferer\">Sentinel View<sup><i class="
+"\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a>. Hier können Sie auch "
+"<a href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}"
+"\" target=\"_blank\" rel=\"noopener noreferer\">die Daten Ihres "
+"Gerätes<sup><i class=\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a> "
+"sehen und filtern."
 
 #: js/src/sentinel/SentinelState/SentinelState.js:81
 msgid "Device token"
-msgstr ""
+msgstr "Geräte-Token"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:26
 msgid "Sentinel Proxy"
-msgstr ""
+msgstr "Sentinel-Proxy"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:30
 msgid "Firewall Logs"
@@ -217,17 +254,19 @@ msgstr "Minipots"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:38
 msgid "Survey"
-msgstr ""
+msgstr "Erhebung"
 
 #: js/src/utils/DisabledAlert.js:12
 msgid ""
 "Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
 "Agreement</a> to manage Sentinel."
 msgstr ""
+"Bitte akzeptieren Sie die <a href=\"${ForisURLs.sentinelAgreement}\""
+">Lizenzvereinbarung,</a> damit Sie Sentinel verwalten können."
 
 #: reforis_data_collection/__init__.py:44
 msgid "Cannot update Sentinel settings"
-msgstr ""
+msgstr "Sentinel-Einstellungen können nicht aktualisiert werden"
 
 #~ msgid "Cannot update sentinel settings"
 #~ msgstr ""
