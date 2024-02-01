@@ -7,7 +7,7 @@
     },
     "license": "GPL-3.0",
     "version": "0.4.0",
-    "description": "",
+    "description": "reForis Data Collection plugin is a key source of data which are used to build the dynamic firewall and other analyses.",
     "main": "./src/app.js",
     "dependencies": {
         "foris": "^5.4.0"
