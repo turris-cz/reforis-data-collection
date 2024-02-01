@@ -1,4 +1,4 @@
-#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+#  Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -38,9 +38,8 @@ setuptools.setup(
 
     description='reForis Data Collection plugin is a key source of data which are used to build the dynamic firewall and other analyses.',
     url='https://gitlab.nic.cz/turris/reforis/reforis-data-collection',
-    author='CZ.NIC, z.s.p.o.',
-    author_email='bogdan.bodnar@nic.cz',
-
+    author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
+    author_email='software@turris.com',
     install_requires=[
         'flask',
         'Babel',
@@ -52,6 +51,7 @@ setuptools.setup(
             'pylint',
             'pycodestyle',
             'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
+            'werkzeug == 2.0.3',  # TODO remove when werkzeug is fixed see https://gitlab.nic.cz/turris/reforis/reforis/-/merge_requests/316#note_249166
         ],
     },
     setup_requires=[
@@ -65,13 +65,13 @@ setuptools.setup(
     },
     classifiers=[
         'Framework :: Flask',
-        'Intended Audience :: Developers',
-        'Development Status :: 3 - Alpha',
-        'License :: Other/Proprietary License',
+        'Intended Audience :: End Users/Desktop',
+        'Development Status :: 5 - Production/Stable',
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
         'Natural Language :: English',
-        'Operating System :: OS Independent',
+        'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3',
-        'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
+        'Topic :: System :: Networking',
     ],
     cmdclass={
         'build_py': DataCollectionBuild,
