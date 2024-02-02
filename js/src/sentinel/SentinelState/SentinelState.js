@@ -1,19 +1,20 @@
 /*
- * Copyright (C) 2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2021-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
-import ReactDOM from "react-dom";
-import PropTypes from "prop-types";
+
 import {
     formFieldsSize,
     withSpinnerOnSending,
     withErrorMessage,
     CopyInput,
 } from "foris";
+import PropTypes from "prop-types";
+import ReactDOM from "react-dom";
 
 import SentinelProxyStateIcon from "./SentinelProxyStateIcon";
 import SentinelStateTable from "./SentinelStateTable";
