@@ -1,12 +1,12 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React, { useEffect } from "react";
-import PropTypes from "prop-types";
+
 import {
     API_STATE,
     ErrorMessage,
@@ -16,6 +16,7 @@ import {
     Spinner,
     useAPIGet,
 } from "foris";
+import PropTypes from "prop-types";
 
 import API_URLs from "API";
 
@@ -53,16 +54,14 @@ export default function EULAModal({ shown, setShown, formData }) {
     }
 
     return (
-        <>
-            <Modal scrollable setShown={setShown} shown={shown} size="lg">
-                <ModalHeader
-                    title={_(
-                        "Terms of Participation in Turris Project (Data Collection)"
-                    )}
-                    setShown={setShown}
-                />
-                <ModalBody>{content}</ModalBody>
-            </Modal>
-        </>
+        <Modal scrollable setShown={setShown} shown={shown} size="lg">
+            <ModalHeader
+                title={_(
+                    "Terms of Participation in Turris Project (Data Collection)"
+                )}
+                setShown={setShown}
+            />
+            <ModalBody>{content}</ModalBody>
+        </Modal>
     );
 }

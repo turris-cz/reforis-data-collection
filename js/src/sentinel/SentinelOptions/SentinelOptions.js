@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2021-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,8 +7,8 @@
 
 import React from "react";
 
-import PropTypes from "prop-types";
 import { Switch } from "foris";
+import PropTypes from "prop-types";
 
 import HELP_TEXTS from "./helpTexts";
 

@@ -77,10 +77,12 @@ exports[`<DataCollection /> Should render form. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -146,7 +148,7 @@ exports[`<DataCollection /> Should toggle modal. 1`] = `
 - First value
 + Second value
 
-@@ -84,11 +84,11 @@
+@@ -86,11 +86,11 @@
     </div>
     <div
       id=\\"modal-container\\"
@@ -159,7 +161,7 @@ exports[`<DataCollection /> Should toggle modal. 1`] = `
         <div
           class=\\"modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
           role=\\"document\\"
-@@ -115,22 +115,15 @@
+@@ -117,22 +117,15 @@
                 </span>
               </button>
             </div>
