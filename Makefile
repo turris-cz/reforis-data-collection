@@ -110,8 +110,7 @@ lint-js-fix:
 
 .PHONY: lint-web
 lint-web: venv
-	$(VENV_BIN)/$(PYTHON) -m pylint --rcfile=pylintrc reforis_data_collection
-	$(VENV_BIN)/$(PYTHON) -m pycodestyle --config=pycodestyle reforis_data_collection
+	$(VENV_BIN)/$(PYTHON) -m ruff check reforis_data_collection
 
 
 # Testing
