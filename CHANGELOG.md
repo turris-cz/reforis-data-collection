@@ -8,6 +8,27 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.0] - 2024-03-07
+
+### Added
+
+-   Added & updated Weblate translations
+
+### Changed
+
+-   Updated dependencies in package.json
+-   Updated Node.js to v21.x in Makefile
+-   Updated ESLint and Prettier configurations
+-   Updated .gitignore to exclude minified JS files and license files
+-   Updated webpack.config.js with process/browser alias
+-   Updated CI to use shared scripts, build and publish python package
+-   Replaced Pylint & Pycodestyle for Ruff
+-   NPM audit fix
+
+### Removed
+
+-   Removed MANIFEST.in
+
 ## [0.4.0] - 2022-03-23
 
 -   Add & update translations
@@ -90,7 +111,8 @@ and this project adheres to
 
 -   Basic EULA agreement
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v0.4.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v1.0.0...master
+[1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v0.4.0...v1.0.0
 [0.4.0]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v0.3.2...v0.4.0
 [0.3.2]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v0.3.1...v0.3.2
 [0.3.1]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v0.3.0...v0.3.1
