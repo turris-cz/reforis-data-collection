@@ -1,25 +1,25 @@
-# Russian translations for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Russian translations for reForis Data Collection.
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis Data
+# Collection project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-23 14:42+0200\n"
+"POT-Creation-Date: 2024-03-07 11:43+0100\n"
 "PO-Revision-Date: 2022-05-28 09:15+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
-"reforis-data-collection-plugin/ru/>\n"
 "Language: ru\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris"
+"/reforis-data-collection-plugin/ru/>\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -29,11 +29,11 @@ msgstr "Sentinel"
 msgid "Overview"
 msgstr "Обзор"
 
-#: js/src/app.js:24 js/src/dataCollection/DataCollection.js:17
+#: js/src/app.js:24 js/src/dataCollection/DataCollection.js:18
 msgid "License Agreement"
 msgstr "Лицензионное соглашение"
 
-#: js/src/dataCollection/DataCollection.js:19
+#: js/src/dataCollection/DataCollection.js:20
 msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in the threat detection program."
@@ -97,8 +97,8 @@ msgstr "Компоненты Sentinel"
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
 msgid "You can select specific components that you want to enable or disable."
 msgstr ""
-"Вы можете выбрать определенные компоненты, которые вы хотите включить или "
-"отключить."
+"Вы можете выбрать определенные компоненты, которые вы хотите включить или"
+" отключить."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
 msgid "Enable Firewall Logs"
@@ -138,14 +138,14 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
-"Журналы брандмауэра — это журналы, собранные из брандмауэра iptables. Если "
-"они включены, Sentinel использует их для мониторинга пакетов, поступающих из "
-"внешней сети и пытающихся подключиться к потенциально уязвимым локальным "
-"службам. Эти методы, также известные как «сканирование портов», обычно "
-"пытаются определить, открыты ли определенные порты на локальном устройстве. "
-"Если этот параметр включен, журналы Sentinel Firewall собирают информацию о "
-"происхождении таких вредоносных пакетов и о портах, которые они пытаются "
-"сканировать на локальном устройстве."
+"Журналы брандмауэра — это журналы, собранные из брандмауэра iptables. "
+"Если они включены, Sentinel использует их для мониторинга пакетов, "
+"поступающих из внешней сети и пытающихся подключиться к потенциально "
+"уязвимым локальным службам. Эти методы, также известные как «сканирование"
+" портов», обычно пытаются определить, открыты ли определенные порты на "
+"локальном устройстве. Если этот параметр включен, журналы Sentinel "
+"Firewall собирают информацию о происхождении таких вредоносных пакетов и "
+"о портах, которые они пытаются сканировать на локальном устройстве."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -155,10 +155,11 @@ msgid ""
 " catch the attacker red-handed when they think they are attacking a real "
 "service."
 msgstr ""
-"Основной целью Sentinel Minipot является сбор информации для аутентификации "
-"при попытках входа в систему. Можно эмулировать некоторые часто атакуемые "
-"службы — Telnet, HTTP, FTP и SMTP. Цель состоит в том, чтобы поймать "
-"злоумышленника с поличным, когда он думает, что атакует реальную службу."
+"Основной целью Sentinel Minipot является сбор информации для "
+"аутентификации при попытках входа в систему. Можно эмулировать некоторые "
+"часто атакуемые службы — Telnet, HTTP, FTP и SMTP. Цель состоит в том, "
+"чтобы поймать злоумышленника с поличным, когда он думает, что атакует "
+"реальную службу."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -171,52 +172,52 @@ msgstr ""
 "сосредоточиться на широко используемых пакетах, функциях и обеспечить "
 "поддержку."
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:18
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:20
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
 msgid "Status: "
 msgstr "Статус: "
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:23
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:21
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:23
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:24
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
 msgid "Running"
 msgstr "Запущено"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:27
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:26
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:28
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:28
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
 msgid "Sending"
 msgstr "Отправка"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:31
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:31
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:33
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:32
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
 msgid "Failed"
 msgstr "Неудачно"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:35
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:36
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:38
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:36
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
 msgstr "Отключён"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:39
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:41
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:43
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:40
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
 msgid "Uninstalled"
 msgstr "Не установлен"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:43
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:46
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:48
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:44
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:32
+#: js/src/sentinel/SentinelState/SentinelState.js:33
 msgid "Sentinel State"
 msgstr "Состояние Sentinel"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:36
+#: js/src/sentinel/SentinelState/SentinelState.js:37
 msgid ""
 "To view Sentinel data, please visit <a "
 "href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
@@ -227,43 +228,44 @@ msgid ""
 "device<sup><i class=\"fas fa-external-link-alt fa-xs "
 "ml-1\"></i></sup></a>."
 msgstr ""
-"Чтобы просмотреть данные Sentinel, посетите <a href=\"https://view.sentinel."
-"turris.cz\" target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
-"View<sup><i class=\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a>. "
-"Там же можно посмотреть и отфильтровать <a href=\"https://view.sentinel."
-"turris.cz/api/device/add?token=${deviceToken}\" target=\"_blank\" rel="
-"\"noopener noreferer\">данные, специфичные для вашего устройства<sup><i "
-"class=\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a>."
+"Чтобы просмотреть данные Sentinel, посетите <a "
+"href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
+" noreferer\">Sentinel View<sup><i class=\"fas fa-external-link-alt fa-xs "
+"ml-1\"></i></sup></a>. Там же можно посмотреть и отфильтровать <a "
+"href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+" target=\"_blank\" rel=\"noopener noreferer\">данные, специфичные для "
+"вашего устройства<sup><i class=\"fas fa-external-link-alt fa-xs "
+"ml-1\"></i></sup></a>."
 
-#: js/src/sentinel/SentinelState/SentinelState.js:81
+#: js/src/sentinel/SentinelState/SentinelState.js:82
 msgid "Device token"
 msgstr "Токен устройства"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:26
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:27
 msgid "Sentinel Proxy"
 msgstr "Прокси Sentinel"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:30
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:31
 msgid "Firewall Logs"
 msgstr "Журналы брандмауэра"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:34
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:35
 msgid "Minipots"
 msgstr "Minipots"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:38
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:39
 msgid "Survey"
 msgstr "Опрос"
 
-#: js/src/utils/DisabledAlert.js:12
+#: js/src/utils/DisabledAlert.js:13
 msgid ""
 "Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
 "Agreement</a> to manage Sentinel."
 msgstr ""
-"Примите <a href=\"${ForisURLs.sentinelAgreement}\">Лицензионное соглашение</"
-"a> для управления Sentinel."
+"Примите <a href=\"${ForisURLs.sentinelAgreement}\">Лицензионное "
+"соглашение</a> для управления Sentinel."
 
-#: reforis_data_collection/__init__.py:44
+#: reforis_data_collection/__init__.py:46
 msgid "Cannot update Sentinel settings"
 msgstr "Не удается обновить настройки Sentinel"
 
@@ -312,3 +314,4 @@ msgstr "Не удается обновить настройки Sentinel"
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr "${ForisURLs.sentinelAgreement}"
+

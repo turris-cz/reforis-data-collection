@@ -1,24 +1,24 @@
-# German translations for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# German translations for reForis Data Collection.
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis Data
+# Collection project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-23 14:42+0200\n"
+"POT-Creation-Date: 2024-03-07 11:43+0100\n"
 "PO-Revision-Date: 2023-09-08 13:52+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/turris/"
-"reforis-data-collection-plugin/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris"
+"/reforis-data-collection-plugin/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -28,11 +28,11 @@ msgstr "Sentinel"
 msgid "Overview"
 msgstr "Übersicht"
 
-#: js/src/app.js:24 js/src/dataCollection/DataCollection.js:17
+#: js/src/app.js:24 js/src/dataCollection/DataCollection.js:18
 msgid "License Agreement"
 msgstr "Lizenzvereinbarung"
 
-#: js/src/dataCollection/DataCollection.js:19
+#: js/src/dataCollection/DataCollection.js:20
 msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in the threat detection program."
@@ -52,8 +52,8 @@ msgid ""
 "dynamic firewall."
 msgstr ""
 "Ihr Einverständnis mit den Teilnahmebedingungen erlaubt es uns, mögliche "
-"Bedrohungen, die auf Ihrem Router entdeckt wurden, zu untersuchen und auf "
-"diese Weise eine dynamische Firewall aufzubauen."
+"Bedrohungen, die auf Ihrem Router entdeckt wurden, zu untersuchen und auf"
+" diese Weise eine dynamische Firewall aufzubauen."
 
 #: js/src/dataCollection/EULA/EULAForm.js:38
 msgid "Agreement"
@@ -85,10 +85,10 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
-"Sentinel ist ein Turris-Bedrohungserkennungs- und Angriffspräventionssystem, "
-"welches über eine dynamische Firewall und Statistiken verfügt. Hier können "
-"Sie mehrere Sentinel-Komponenten einrichten, die in dem Bedrohungs-"
-"Erkennungs-Subsystem mitwirken."
+"Sentinel ist ein Turris-Bedrohungserkennungs- und "
+"Angriffspräventionssystem, welches über eine dynamische Firewall und "
+"Statistiken verfügt. Hier können Sie mehrere Sentinel-Komponenten "
+"einrichten, die in dem Bedrohungs-Erkennungs-Subsystem mitwirken."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
 msgid "Sentinel Components"
@@ -138,14 +138,14 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
-"Firewall-Logs sind Logs, die von der iptables-Firewall ausgelesen werden. "
-"Falls aktiviert, verwendet Sentinel sie zum Beobachten von Paketen, die aus "
-"dem Extranet kommen und Verbindungsversuche zu potenziell anfälligen lokalen "
-"Diensten enthalten. Diese Techniken, die auch als „Portscans“ bekannt sind, "
-"versuchen üblicherweise herauszufinden, welche Ports auf dem betreffenden "
-"Gerät offen sind. Falls aktiviert, sammelt Sentinel Firewall-Logs "
-"Informationen über den Ursprung dieser Pakete und über die Ports, die sie "
-"auf dem lokalen Gerät abzuscannen versuchen."
+"Firewall-Logs sind Logs, die von der iptables-Firewall ausgelesen werden."
+" Falls aktiviert, verwendet Sentinel sie zum Beobachten von Paketen, die "
+"aus dem Extranet kommen und Verbindungsversuche zu potenziell anfälligen "
+"lokalen Diensten enthalten. Diese Techniken, die auch als „Portscans“ "
+"bekannt sind, versuchen üblicherweise herauszufinden, welche Ports auf "
+"dem betreffenden Gerät offen sind. Falls aktiviert, sammelt Sentinel "
+"Firewall-Logs Informationen über den Ursprung dieser Pakete und über die "
+"Ports, die sie auf dem lokalen Gerät abzuscannen versuchen."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -156,10 +156,11 @@ msgid ""
 "service."
 msgstr ""
 "Der Hauptzweck des Sentinel-Minipots besteht darin, "
-"Authentifizierungsinformationen der Login-Versuche zu sammeln. Er besitzt "
-"die Möglichkeit, einige der oft angegriffenen Dienste wie Telnet, HTTP, FTP "
-"und SMTP zu simulieren. Das Ziel ist dabei, den Angreifer auf frischer Tat "
-"zu ertappen, während er glaubt, einen echten Dienst anzugreifen."
+"Authentifizierungsinformationen der Login-Versuche zu sammeln. Er besitzt"
+" die Möglichkeit, einige der oft angegriffenen Dienste wie Telnet, HTTP, "
+"FTP und SMTP zu simulieren. Das Ziel ist dabei, den Angreifer auf "
+"frischer Tat zu ertappen, während er glaubt, einen echten Dienst "
+"anzugreifen."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -168,56 +169,56 @@ msgid ""
 "widely used packages and features and provide support."
 msgstr ""
 "Die Turris-Erhebung sammelt Informationen über installierte Pakete, "
-"verwendete Sprachen und Betriebssystemversionen. Diese Grundlage ermöglicht "
-"es uns, uns auf die gängigen Pakete und Funktionalitäten zu konzentrieren "
-"und dafür Unterstützung zu leisten."
+"verwendete Sprachen und Betriebssystemversionen. Diese Grundlage "
+"ermöglicht es uns, uns auf die gängigen Pakete und Funktionalitäten zu "
+"konzentrieren und dafür Unterstützung zu leisten."
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:19
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:18
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:20
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
 msgid "Status: "
 msgstr "Status: "
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:23
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:21
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:23
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:24
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
 msgid "Running"
 msgstr "Läuft"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:27
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:26
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:28
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:28
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
 msgid "Sending"
 msgstr "Sendet"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:31
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:31
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:33
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:32
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
 msgid "Failed"
 msgstr "Fehlgeschlagen"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:35
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:36
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:38
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:36
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
 msgstr "Deaktiviert"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:39
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:41
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:43
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:40
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
 msgid "Uninstalled"
 msgstr "Deinstalliert"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:43
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:46
-#: js/src/sentinel/SentinelState/SentinelStateBadge.js:48
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:44
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:32
+#: js/src/sentinel/SentinelState/SentinelState.js:33
 msgid "Sentinel State"
 msgstr "Sentinel-Zustand"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:36
+#: js/src/sentinel/SentinelState/SentinelState.js:37
 msgid ""
 "To view Sentinel data, please visit <a "
 "href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
@@ -228,43 +229,45 @@ msgid ""
 "device<sup><i class=\"fas fa-external-link-alt fa-xs "
 "ml-1\"></i></sup></a>."
 msgstr ""
-"Die Sentinel-Daten finden Sie in der <a href=\"https://view.sentinel.turris."
-"cz\" target=\"_blank\" rel=\"noopener noreferer\">Sentinel View<sup><i class="
-"\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a>. Hier können Sie auch "
-"<a href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}"
-"\" target=\"_blank\" rel=\"noopener noreferer\">die Daten Ihres "
-"Gerätes<sup><i class=\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a> "
-"sehen und filtern."
+"Die Sentinel-Daten finden Sie in der <a "
+"href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
+" noreferer\">Sentinel View<sup><i class=\"fas fa-external-link-alt fa-xs "
+"ml-1\"></i></sup></a>. Hier können Sie auch <a "
+"href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+" target=\"_blank\" rel=\"noopener noreferer\">die Daten Ihres "
+"Gerätes<sup><i class=\"fas fa-external-link-alt fa-xs "
+"ml-1\"></i></sup></a> sehen und filtern."
 
-#: js/src/sentinel/SentinelState/SentinelState.js:81
+#: js/src/sentinel/SentinelState/SentinelState.js:82
 msgid "Device token"
 msgstr "Geräte-Token"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:26
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:27
 msgid "Sentinel Proxy"
 msgstr "Sentinel-Proxy"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:30
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:31
 msgid "Firewall Logs"
 msgstr "Firewall-Logs"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:34
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:35
 msgid "Minipots"
 msgstr "Minipots"
 
-#: js/src/sentinel/SentinelState/SentinelStateTable.js:38
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:39
 msgid "Survey"
 msgstr "Erhebung"
 
-#: js/src/utils/DisabledAlert.js:12
+#: js/src/utils/DisabledAlert.js:13
 msgid ""
 "Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
 "Agreement</a> to manage Sentinel."
 msgstr ""
-"Bitte akzeptieren Sie die <a href=\"${ForisURLs.sentinelAgreement}\""
-">Lizenzvereinbarung,</a> damit Sie Sentinel verwalten können."
+"Bitte akzeptieren Sie die <a "
+"href=\"${ForisURLs.sentinelAgreement}\">Lizenzvereinbarung,</a> damit Sie"
+" Sentinel verwalten können."
 
-#: reforis_data_collection/__init__.py:44
+#: reforis_data_collection/__init__.py:46
 msgid "Cannot update Sentinel settings"
 msgstr "Sentinel-Einstellungen können nicht aktualisiert werden"
 
@@ -312,3 +315,4 @@ msgstr "Sentinel-Einstellungen können nicht aktualisiert werden"
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr ""
+
