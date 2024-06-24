@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "reforis-data-collection"
-version = "1.0.0"
+version = "1.1.0"
 description = "reForis Data Collection plugin is a key source of data which are used to build the dynamic firewall and other analyses."
 readme = "README.md"
 license = "GPL-3.0-or-later"
