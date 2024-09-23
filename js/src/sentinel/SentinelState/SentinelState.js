@@ -92,7 +92,7 @@ function SentinelStateCard({ states, deviceToken }) {
                         state={states.proxy}
                         disabled={isDisabled}
                     />
-                    <p className="h4 mt-3">Sentinel</p>
+                    <p className="h4">Sentinel</p>
                 </div>
                 <div className="col-md-6">
                     <div className="card-body">

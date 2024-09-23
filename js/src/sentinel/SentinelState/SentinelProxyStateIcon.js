@@ -48,7 +48,7 @@ export default function SentinelProxyStateIcon({ state, disabled }) {
     return (
         <FontAwesomeIcon
             icon={faDatabase}
-            className={`fa-5x mb-1 text-${iconColor}`}
+            className={`fa-5x mb-2 text-${iconColor}`}
             title={iconTitle}
         />
     );
