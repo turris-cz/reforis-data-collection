@@ -7,6 +7,14 @@
 
 import React from "react";
 
+import {
+    faAngleDoubleRight,
+    faExclamationTriangle,
+    faMinus,
+    faTimes,
+    faCheck,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 SentinelStateIcon.propTypes = {
@@ -16,34 +24,29 @@ SentinelStateIcon.propTypes = {
 export default function SentinelStateIcon({ state }) {
     let icon;
     let iconColor;
+
     switch (state) {
         case "running":
-            icon = "check";
+            icon = faCheck;
             iconColor = "success";
             break;
         case "sending":
-            icon = "angle-double-right";
+            icon = faAngleDoubleRight;
             iconColor = "info";
             break;
         case "failed":
-            icon = "times";
+            icon = faTimes;
             iconColor = "danger";
             break;
         case "disabled":
-            icon = "exclamation-triangle";
+            icon = faExclamationTriangle;
             iconColor = "warning";
             break;
         case "uninstalled":
-            icon = "exclamation-triangle";
-            iconColor = "secondary";
-            break;
         default:
-            icon = "minus";
+            icon = faMinus;
             iconColor = "secondary";
     }
-    return (
-        <span className={`text-${iconColor}`}>
-            <i className={`fas fa-${icon}`} />
-        </span>
-    );
+
+    return <FontAwesomeIcon icon={icon} className={`text-${iconColor}`} />;
 }

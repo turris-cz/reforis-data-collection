@@ -7,6 +7,8 @@
 
 import React from "react";
 
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     formFieldsSize,
     withSpinnerOnSending,
@@ -14,7 +16,7 @@ import {
     CopyInput,
 } from "foris";
 import PropTypes from "prop-types";
-import ReactDOM from "react-dom";
+import { createPortal } from "react-dom";
 
 import SentinelProxyStateIcon from "./SentinelProxyStateIcon";
 import SentinelStateTable from "./SentinelStateTable";
@@ -28,17 +30,41 @@ export default function SentinelState({ formData, sentinelState }) {
 
     const deviceToken = formData.token;
 
-    return ReactDOM.createPortal(
+    return createPortal(
         <div className={formFieldsSize}>
             <h2>{_("Sentinel State")}</h2>
             {deviceToken && (
-                <p
-                    dangerouslySetInnerHTML={{
-                        __html: _(
-                            `To view Sentinel data, please visit <a href="https://view.sentinel.turris.cz" target="_blank" rel="noopener noreferer">Sentinel View<sup><i class="fas fa-external-link-alt fa-xs ml-1"></i></sup></a>. There you can also see and filter <a href="https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}" target="_blank" rel="noopener noreferer">data specific for your device<sup><i class="fas fa-external-link-alt fa-xs ml-1"></i></sup></a>.`
-                        ),
-                    }}
-                />
+                <p>
+                    {_("To view Sentinel data, please visit ")}
+                    <a
+                        href="https://view.sentinel.turris.cz"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Sentinel View
+                        <sup>
+                            <FontAwesomeIcon
+                                icon={faExternalLinkAlt}
+                                className="fa-xs ms-1"
+                            />
+                        </sup>
+                    </a>
+                    . {_("There you can also see and filter ")}
+                    <a
+                        href={`https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        data specific for your device
+                        <sup>
+                            <FontAwesomeIcon
+                                icon={faExternalLinkAlt}
+                                className="fa-xs ms-1"
+                            />
+                        </sup>
+                    </a>
+                    .
+                </p>
             )}
             <StateWithErrorAndSpinner
                 apiState={sentinelState.state}
