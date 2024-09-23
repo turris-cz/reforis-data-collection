@@ -49,7 +49,7 @@ export default function SentinelStateBadge({ state }) {
             badgeTitle += _("Unknown");
     }
     return (
-        <span className={`badge badge-${badgeColor}`} title={badgeTitle}>
+        <span className={`badge text-bg-${badgeColor}`} title={badgeTitle}>
             {badgeName}
         </span>
     );
