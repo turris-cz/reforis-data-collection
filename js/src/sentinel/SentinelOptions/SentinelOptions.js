@@ -37,8 +37,10 @@ SentinelOptions.propTypes = {
 export default function SentinelOptions({ formData, setFormValue, disabled }) {
     return (
         <>
-            <h2>{_(`Sentinel Components`)}</h2>
-            <p>
+            <h2 className={disabled ? "text-muted" : ""}>
+                {_("Sentinel Components")}
+            </h2>
+            <p className={disabled ? "text-muted" : ""}>
                 {_(
                     "You can select specific components that you want to enable or disable."
                 )}

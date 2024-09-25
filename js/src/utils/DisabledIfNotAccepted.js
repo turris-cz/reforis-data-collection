@@ -34,7 +34,7 @@ export default function DisabledIfNotAccepted({
     return (
         <>
             <DisabledAlert />
-            <span className="text-muted">{childrenWithFormProps}</span>
+            {childrenWithFormProps}
         </>
     );
 }

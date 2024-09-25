@@ -21,26 +21,26 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
         To view Sentinel data, please visit 
         <a
           href="https://view.sentinel.turris.cz"
-          rel="noopener noreferer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           Sentinel View
           <sup>
             <i
-              class="fas fa-external-link-alt fa-xs ml-1"
+              class="fa"
             />
           </sup>
         </a>
         . There you can also see and filter 
         <a
           href="https://view.sentinel.turris.cz/api/device/add?token=random_token"
-          rel="noopener noreferer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           data specific for your device
           <sup>
             <i
-              class="fas fa-external-link-alt fa-xs ml-1"
+              class="fa"
             />
           </sup>
         </a>
@@ -52,16 +52,11 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
         <div
           class="col-md-6 d-flex flex-column align-items-center justify-content-center mt-3 mt-md-0"
         >
-          <span
-            class="text-success"
-          >
-            <i
-              class="fas fa-database fa-5x mb-1"
-              title="Status: Running"
-            />
-          </span>
+          <i
+            class="fa"
+          />
           <p
-            class="h4 mt-3"
+            class="h4"
           >
             Sentinel
           </p>
@@ -86,19 +81,15 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
                       Sentinel Proxy
                     </th>
                     <td>
-                      <span
-                        class="text-success"
-                      >
-                        <i
-                          class="fas fa-check"
-                        />
-                      </span>
+                      <i
+                        class="fa"
+                      />
                     </td>
                     <td
                       class="text-center"
                     >
                       <span
-                        class="badge badge-success"
+                        class="badge text-bg-success"
                         title="Status: Running"
                       >
                         Running
@@ -112,19 +103,15 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
                       Firewall Logs
                     </th>
                     <td>
-                      <span
-                        class="text-warning"
-                      >
-                        <i
-                          class="fas fa-exclamation-triangle"
-                        />
-                      </span>
+                      <i
+                        class="fa"
+                      />
                     </td>
                     <td
                       class="text-center"
                     >
                       <span
-                        class="badge badge-warning"
+                        class="badge text-bg-warning"
                         title="Status: Disabled"
                       >
                         Disabled
@@ -138,19 +125,15 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
                       Minipots
                     </th>
                     <td>
-                      <span
-                        class="text-warning"
-                      >
-                        <i
-                          class="fas fa-exclamation-triangle"
-                        />
-                      </span>
+                      <i
+                        class="fa"
+                      />
                     </td>
                     <td
                       class="text-center"
                     >
                       <span
-                        class="badge badge-warning"
+                        class="badge text-bg-warning"
                         title="Status: Disabled"
                       >
                         Disabled
@@ -164,19 +147,15 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
                       Survey
                     </th>
                     <td>
-                      <span
-                        class="text-warning"
-                      >
-                        <i
-                          class="fas fa-exclamation-triangle"
-                        />
-                      </span>
+                      <i
+                        class="fa"
+                      />
                     </td>
                     <td
                       class="text-center"
                     >
                       <span
-                        class="badge badge-warning"
+                        class="badge text-bg-warning"
                         title="Status: Disabled"
                       >
                         Disabled
@@ -208,18 +187,14 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
             type="text"
             value="random_token"
           />
-          <div
-            class="input-group-append"
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <span>
-                Copy
-              </span>
-            </button>
-          </div>
+            <span>
+              Copy
+            </span>
+          </button>
         </div>
         <div
           class="form-text"
@@ -235,14 +210,18 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <form>
-      <h2>
+      <h2
+        class=""
+      >
         Sentinel Components
       </h2>
-      <p>
+      <p
+        class=""
+      >
         You can select specific components that you want to enable or disable.
       </p>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -265,7 +244,7 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -288,7 +267,7 @@ exports[`<Sentinel /> Snapshot of Sentinel 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"

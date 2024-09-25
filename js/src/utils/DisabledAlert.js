@@ -8,15 +8,16 @@
 import React from "react";
 
 import { Alert, ForisURLs } from "foris";
+import { Link } from "react-router-dom";
 
 export default function DisabledAlert() {
-    const message = _(
-        `Please accept the <a href="${ForisURLs.sentinelAgreement}">License Agreement</a> to manage Sentinel.`
-    );
-    // <Alert /> is used instead of context because warning isn't result of any action on this page
     return (
         <Alert type="warning">
-            <span dangerouslySetInnerHTML={{ __html: message }} />
+            {_("Please accept the ")}
+            <Link to={ForisURLs.sentinelLicenseAgreement}>
+                {_("License Agreement")}
+            </Link>
+            {_(" to manage Sentinel.")}
         </Alert>
     );
 }

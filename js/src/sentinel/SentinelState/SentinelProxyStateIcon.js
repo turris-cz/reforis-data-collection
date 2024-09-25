@@ -7,6 +7,8 @@
 
 import React from "react";
 
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 SentinelProxyStateIcon.propTypes = {
@@ -44,8 +46,10 @@ export default function SentinelProxyStateIcon({ state, disabled }) {
             iconTitle += _("Unknown");
     }
     return (
-        <span className={`text-${iconColor}`}>
-            <i className="fas fa-database fa-5x mb-1" title={iconTitle} />
-        </span>
+        <FontAwesomeIcon
+            icon={faDatabase}
+            className={`fa-5x mb-2 text-${iconColor}`}
+            title={iconTitle}
+        />
     );
 }

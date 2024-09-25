@@ -22,7 +22,7 @@ exports[`<DataCollection /> Should render form. 1`] = `
         class="mb-3"
       >
         <div
-          class="mb-2"
+          class="mb-3"
         >
           <input
             class="form-check-input me-2"
@@ -47,7 +47,7 @@ exports[`<DataCollection /> Should render form. 1`] = `
           </label>
         </div>
         <div
-          class="mb-2"
+          class="mb-3"
         >
           <input
             checked=""
@@ -91,6 +91,8 @@ exports[`<DataCollection /> Should render form. 1`] = `
     id="modal-container"
   >
     <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
       class="modal fade"
       role="dialog"
     >
@@ -104,11 +106,11 @@ exports[`<DataCollection /> Should render form. 1`] = `
           <div
             class="modal-header"
           >
-            <h5
-              class="modal-title"
+            <h1
+              class="modal-title fs-5"
             >
               Terms of Participation in Turris Project (Data Collection)
-            </h5>
+            </h1>
             <button
               aria-label="Close"
               class="btn-close"
@@ -143,12 +145,12 @@ exports[`<DataCollection /> Should toggle modal. 1`] = `
 - First value
 + Second value
 
-@@ -86,11 +86,11 @@
-    </div>
-    <div
+@@ -88,11 +88,11 @@
       id=\\"modal-container\\"
     >
       <div
+        aria-labelledby=\\"modal-title\\"
+        aria-modal=\\"true\\"
 -       class=\\"modal fade\\"
 +       class=\\"modal fade show\\"
         role=\\"dialog\\"
@@ -156,7 +158,7 @@ exports[`<DataCollection /> Should toggle modal. 1`] = `
         <div
           class=\\"modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
           role=\\"document\\"
-@@ -112,22 +112,15 @@
+@@ -114,22 +114,15 @@
                 type=\\"button\\"
               />
             </div>
