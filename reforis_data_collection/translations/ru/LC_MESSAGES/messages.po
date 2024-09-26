@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-07 11:43+0100\n"
+"POT-Creation-Date: 2024-09-26 13:20+0200\n"
 "PO-Revision-Date: 2022-05-28 09:15+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language: ru\n"
@@ -19,7 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -30,6 +30,7 @@ msgid "Overview"
 msgstr "Обзор"
 
 #: js/src/app.js:24 js/src/dataCollection/DataCollection.js:18
+#: js/src/utils/DisabledAlert.js:18
 msgid "License Agreement"
 msgstr "Лицензионное соглашение"
 
@@ -90,41 +91,41 @@ msgstr ""
 "можете настроить несколько компонентов Sentinel, которые участвуют в "
 "подсистеме обнаружения угроз."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
 msgstr "Компоненты Sentinel"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
 msgstr ""
 "Вы можете выбрать определенные компоненты, которые вы хотите включить или"
 " отключить."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
 msgstr "Включить журналы брандмауэра"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:61
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
 msgid "Enable Minipots"
 msgstr "Включить Minipots"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:89
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
 msgid "Running on port 80."
 msgstr "Работает на 80-м порту."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:104
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:106
 msgid "Running on port 21."
 msgstr "Работает на 21-м порту."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:119
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:121
 msgid "Running on port 25 and 587."
 msgstr "Работает на портах 25 и 587."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:134
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:136
 msgid "Running on port 23."
 msgstr "Работает на 23-м порту."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:140
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
 msgid "Enable Survey"
 msgstr "Включить опрос"
 
@@ -172,72 +173,60 @@ msgstr ""
 "сосредоточиться на широко используемых пакетах, функциях и обеспечить "
 "поддержку."
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:20
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
 msgid "Status: "
 msgstr "Статус: "
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:24
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:26
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
 msgid "Running"
 msgstr "Запущено"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:28
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:30
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
 msgid "Sending"
 msgstr "Отправка"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:32
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:34
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
 msgid "Failed"
 msgstr "Неудачно"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:36
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:38
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
 msgstr "Отключён"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:40
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
 msgid "Uninstalled"
 msgstr "Не установлен"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:44
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:46
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:33
+#: js/src/sentinel/SentinelState/SentinelState.js:35
 msgid "Sentinel State"
 msgstr "Состояние Sentinel"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:37
-msgid ""
-"To view Sentinel data, please visit <a "
-"href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
-" noreferer\">Sentinel View<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>. There you can also see and filter <a "
-"href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
-" target=\"_blank\" rel=\"noopener noreferer\">data specific for your "
-"device<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>."
+#: js/src/sentinel/SentinelState/SentinelState.js:38
+msgid "To view Sentinel data, please visit "
 msgstr ""
-"Чтобы просмотреть данные Sentinel, посетите <a "
-"href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
-" noreferer\">Sentinel View<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>. Там же можно посмотреть и отфильтровать <a "
-"href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
-" target=\"_blank\" rel=\"noopener noreferer\">данные, специфичные для "
-"вашего устройства<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>."
 
-#: js/src/sentinel/SentinelState/SentinelState.js:82
+#: js/src/sentinel/SentinelState/SentinelState.js:52
+msgid "There you can also see and filter "
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelState.js:108
 msgid "Device token"
 msgstr "Токен устройства"
 
@@ -257,13 +246,13 @@ msgstr "Minipots"
 msgid "Survey"
 msgstr "Опрос"
 
-#: js/src/utils/DisabledAlert.js:13
-msgid ""
-"Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
-"Agreement</a> to manage Sentinel."
+#: js/src/utils/DisabledAlert.js:16
+msgid "Please accept the "
 msgstr ""
-"Примите <a href=\"${ForisURLs.sentinelAgreement}\">Лицензионное "
-"соглашение</a> для управления Sentinel."
+
+#: js/src/utils/DisabledAlert.js:20
+msgid " to manage Sentinel."
+msgstr ""
 
 #: reforis_data_collection/__init__.py:46
 msgid "Cannot update Sentinel settings"
@@ -314,4 +303,38 @@ msgstr "Не удается обновить настройки Sentinel"
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr "${ForisURLs.sentinelAgreement}"
+
+#~ msgid ""
+#~ "To view Sentinel data, please visit "
+#~ "<a href=\"https://view.sentinel.turris.cz\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
+#~ "View<sup><i class=\"fas fa-external-link-"
+#~ "alt fa-xs ml-1\"></i></sup></a>. There "
+#~ "you can also see and filter <a "
+#~ "href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+#~ " target=\"_blank\" rel=\"noopener noreferer\">data "
+#~ "specific for your device<sup><i class=\"fas"
+#~ " fa-external-link-alt fa-xs "
+#~ "ml-1\"></i></sup></a>."
+#~ msgstr ""
+#~ "Чтобы просмотреть данные Sentinel, посетите"
+#~ " <a href=\"https://view.sentinel.turris.cz\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
+#~ "View<sup><i class=\"fas fa-external-link-"
+#~ "alt fa-xs ml-1\"></i></sup></a>. Там же"
+#~ " можно посмотреть и отфильтровать <a "
+#~ "href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+#~ " target=\"_blank\" rel=\"noopener noreferer\">данные,"
+#~ " специфичные для вашего устройства<sup><i "
+#~ "class=\"fas fa-external-link-alt fa-"
+#~ "xs ml-1\"></i></sup></a>."
+
+#~ msgid ""
+#~ "Please accept the <a "
+#~ "href=\"${ForisURLs.sentinelAgreement}\">License Agreement</a>"
+#~ " to manage Sentinel."
+#~ msgstr ""
+#~ "Примите <a "
+#~ "href=\"${ForisURLs.sentinelAgreement}\">Лицензионное "
+#~ "соглашение</a> для управления Sentinel."
 

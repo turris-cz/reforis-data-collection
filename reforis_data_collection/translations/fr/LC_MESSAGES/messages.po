@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-07 11:43+0100\n"
+"POT-Creation-Date: 2024-09-26 13:20+0200\n"
 "PO-Revision-Date: 2022-12-23 12:47+0000\n"
 "Last-Translator: Florian <flo.site@zaclys.net>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -29,6 +29,7 @@ msgid "Overview"
 msgstr "Vue d’ensemble"
 
 #: js/src/app.js:24 js/src/dataCollection/DataCollection.js:18
+#: js/src/utils/DisabledAlert.js:18
 msgid "License Agreement"
 msgstr "Accord de licence"
 
@@ -90,39 +91,39 @@ msgstr ""
 "plusieurs composants de Sentinel qui contribuent aux fonctions de "
 "détection."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
 msgstr "Composants de Sentinel"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
 msgstr ""
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
 msgstr "Activer les journaux du pare-feu"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:61
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
 msgid "Enable Minipots"
 msgstr "Activer les mini pots"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:89
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
 msgid "Running on port 80."
 msgstr "En cours d'exécution sur le port 80."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:104
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:106
 msgid "Running on port 21."
 msgstr "En cours d'exécution sur le port 21."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:119
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:121
 msgid "Running on port 25 and 587."
 msgstr "En cours d'exécution sur les ports 25 et 587."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:134
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:136
 msgid "Running on port 23."
 msgstr "En cours d'exécution sur le port 23."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:140
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
 msgid "Enable Survey"
 msgstr "Activer les statistiques"
 
@@ -153,64 +154,60 @@ msgid ""
 "widely used packages and features and provide support."
 msgstr ""
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:20
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
 msgid "Status: "
 msgstr "Statut : "
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:24
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:26
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
 msgid "Running"
 msgstr "En cours d'exécution"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:28
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:30
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
 msgid "Sending"
 msgstr "Envoi en cours"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:32
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:34
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
 msgid "Failed"
 msgstr "Échec"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:36
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:38
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:40
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
 msgid "Uninstalled"
 msgstr "Désinstallé"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:44
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:46
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:33
+#: js/src/sentinel/SentinelState/SentinelState.js:35
 msgid "Sentinel State"
 msgstr "État de Sentinel"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:37
-msgid ""
-"To view Sentinel data, please visit <a "
-"href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
-" noreferer\">Sentinel View<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>. There you can also see and filter <a "
-"href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
-" target=\"_blank\" rel=\"noopener noreferer\">data specific for your "
-"device<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>."
+#: js/src/sentinel/SentinelState/SentinelState.js:38
+msgid "To view Sentinel data, please visit "
 msgstr ""
 
-#: js/src/sentinel/SentinelState/SentinelState.js:82
+#: js/src/sentinel/SentinelState/SentinelState.js:52
+msgid "There you can also see and filter "
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelState.js:108
 msgid "Device token"
 msgstr ""
 
@@ -230,10 +227,12 @@ msgstr "Minipots"
 msgid "Survey"
 msgstr "Sondage"
 
-#: js/src/utils/DisabledAlert.js:13
-msgid ""
-"Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
-"Agreement</a> to manage Sentinel."
+#: js/src/utils/DisabledAlert.js:16
+msgid "Please accept the "
+msgstr ""
+
+#: js/src/utils/DisabledAlert.js:20
+msgid " to manage Sentinel."
 msgstr ""
 
 #: reforis_data_collection/__init__.py:46
@@ -285,4 +284,24 @@ msgstr "Impossible de mettre à jour les paramètres de Sentinel"
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr "${ForisURLs.sentinelAgreement}"
+
+#~ msgid ""
+#~ "To view Sentinel data, please visit "
+#~ "<a href=\"https://view.sentinel.turris.cz\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
+#~ "View<sup><i class=\"fas fa-external-link-"
+#~ "alt fa-xs ml-1\"></i></sup></a>. There "
+#~ "you can also see and filter <a "
+#~ "href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+#~ " target=\"_blank\" rel=\"noopener noreferer\">data "
+#~ "specific for your device<sup><i class=\"fas"
+#~ " fa-external-link-alt fa-xs "
+#~ "ml-1\"></i></sup></a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please accept the <a "
+#~ "href=\"${ForisURLs.sentinelAgreement}\">License Agreement</a>"
+#~ " to manage Sentinel."
+#~ msgstr ""
 

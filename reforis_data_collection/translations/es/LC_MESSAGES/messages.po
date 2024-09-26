@@ -8,18 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-07 11:43+0100\n"
+"POT-Creation-Date: 2024-09-26 13:20+0200\n"
 "PO-Revision-Date: 2024-09-22 12:40+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
-"reforis-data-collection-plugin/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris"
+"/reforis-data-collection-plugin/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -30,6 +29,7 @@ msgid "Overview"
 msgstr "Vista general"
 
 #: js/src/app.js:24 js/src/dataCollection/DataCollection.js:18
+#: js/src/utils/DisabledAlert.js:18
 msgid "License Agreement"
 msgstr "Acuerdo de licencia"
 
@@ -90,40 +90,41 @@ msgstr ""
 "puedes configurar varios componentes de Sentinel que intervienen el "
 "subsistema de detección de amenazas."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:40
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
 msgstr "Componentes de Sentinel"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:42
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
 msgstr ""
-"Puedes seleccionar componentes específicos que desees activar o desactivar."
+"Puedes seleccionar componentes específicos que desees activar o "
+"desactivar."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:47
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
 msgstr "Activar los registros del cortafuegos"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:61
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
 msgid "Enable Minipots"
 msgstr "Activar Minipots"
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:89
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
 msgid "Running on port 80."
 msgstr "Ejecutándose en el puerto 80."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:104
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:106
 msgid "Running on port 21."
 msgstr "Ejecutándose en el puerto 21."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:119
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:121
 msgid "Running on port 25 and 587."
 msgstr "Ejecutándose en el puerto 25 y 587."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:134
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:136
 msgid "Running on port 23."
 msgstr "Ejecutándose en el puerto 23."
 
-#: js/src/sentinel/SentinelOptions/SentinelOptions.js:140
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
 msgid "Enable Survey"
 msgstr "Habilitar estadísticas"
 
@@ -137,14 +138,15 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
-"Los registros del cortafuegos son registros recopilados por el cortafuegos "
-"iptables. Si están activados, Sentinel los utiliza para supervisar los "
-"paquetes procedentes de la red exterior que intentan conectarse a servicios "
-"locales potencialmente vulnerables. Estas técnicas, también conocidas como "
-"\"análisis de puertos\", suelen intentar detectar si hay puertos específicos "
-"abiertos en el dispositivo local. Si están activados, los registros del "
-"cortafuegos Sentinel recopilan información sobre el origen de estos paquetes "
-"maliciosos y sobre los puertos que intentan explorar en el dispositivo local."
+"Los registros del cortafuegos son registros recopilados por el "
+"cortafuegos iptables. Si están activados, Sentinel los utiliza para "
+"supervisar los paquetes procedentes de la red exterior que intentan "
+"conectarse a servicios locales potencialmente vulnerables. Estas "
+"técnicas, también conocidas como \"análisis de puertos\", suelen intentar"
+" detectar si hay puertos específicos abiertos en el dispositivo local. Si"
+" están activados, los registros del cortafuegos Sentinel recopilan "
+"información sobre el origen de estos paquetes maliciosos y sobre los "
+"puertos que intentan explorar en el dispositivo local."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -155,10 +157,10 @@ msgid ""
 "service."
 msgstr ""
 "El objetivo principal de Sentinel Minipot es recopilar información de "
-"autenticación de los intentos de inicio de sesión. Es posible emular algunos "
-"de los servicios atacados con frecuencia: Telnet, HTTP, FTP y SMTP. El "
-"objetivo es pillar al atacante con las manos en la masa cuando piense que "
-"está atacando un servicio real."
+"autenticación de los intentos de inicio de sesión. Es posible emular "
+"algunos de los servicios atacados con frecuencia: Telnet, HTTP, FTP y "
+"SMTP. El objetivo es pillar al atacante con las manos en la masa cuando "
+"piense que está atacando un servicio real."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -167,75 +169,64 @@ msgid ""
 "widely used packages and features and provide support."
 msgstr ""
 "La encuesta Turris recoge información sobre los paquetes instalados, los "
-"idiomas utilizados y las versiones del sistema operativo. A partir de ahí, "
-"podemos centrarnos en los paquetes y funciones más utilizados y ofrecerles "
-"asistencia."
+"idiomas utilizados y las versiones del sistema operativo. A partir de "
+"ahí, podemos centrarnos en los paquetes y funciones más utilizados y "
+"ofrecerles asistencia."
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:20
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
 msgid "Status: "
 msgstr "Estado: "
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:24
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:26
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
 msgid "Running"
 msgstr "En ejecución"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:28
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:30
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
 msgid "Sending"
 msgstr "Enviando"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:32
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:34
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
 msgid "Failed"
 msgstr "Fallida"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:36
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:38
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:40
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
 msgid "Uninstalled"
 msgstr "Desinstalado"
 
-#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:44
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:46
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:33
+#: js/src/sentinel/SentinelState/SentinelState.js:35
 msgid "Sentinel State"
 msgstr "Estado de Sentinel"
 
-#: js/src/sentinel/SentinelState/SentinelState.js:37
-msgid ""
-"To view Sentinel data, please visit <a "
-"href=\"https://view.sentinel.turris.cz\" target=\"_blank\" rel=\"noopener"
-" noreferer\">Sentinel View<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>. There you can also see and filter <a "
-"href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
-" target=\"_blank\" rel=\"noopener noreferer\">data specific for your "
-"device<sup><i class=\"fas fa-external-link-alt fa-xs "
-"ml-1\"></i></sup></a>."
+#: js/src/sentinel/SentinelState/SentinelState.js:38
+msgid "To view Sentinel data, please visit "
 msgstr ""
-"Para ver los datos de Sentinel, visite <a href=\"https://view.sentinel.turris"
-".cz\" target=\"_blank\" rel=\"noopener noreferer\">Sentinel View<sup><i "
-"class=\"fas fa-external-link-alt fa-xs ml-1\"></i></sup></a>. Allí también "
-"puedes ver y filtrar los <a href=\"https://view.sentinel.turris.cz/api/"
-"device/add?token=${deviceToken}\" target=\"_blank\" rel=\"noopener "
-"noreferer\">datos específicos de tu dispositivo<sup><i class=\"fas fa-"
-"external-link-alt fa-xs ml-1\"></i></sup></a>."
 
-#: js/src/sentinel/SentinelState/SentinelState.js:82
+#: js/src/sentinel/SentinelState/SentinelState.js:52
+msgid "There you can also see and filter "
+msgstr ""
+
+#: js/src/sentinel/SentinelState/SentinelState.js:108
 msgid "Device token"
 msgstr "Token del dispositivo"
 
@@ -255,13 +246,13 @@ msgstr "Minipots"
 msgid "Survey"
 msgstr "Encuesta"
 
-#: js/src/utils/DisabledAlert.js:13
-msgid ""
-"Please accept the <a href=\"${ForisURLs.sentinelAgreement}\">License "
-"Agreement</a> to manage Sentinel."
+#: js/src/utils/DisabledAlert.js:16
+msgid "Please accept the "
 msgstr ""
-"Por favor, aceptael <a href=\"${ForisURLs.sentinelAgreement}\">Contrato de "
-"licencia</a> para gestionar Sentinel."
+
+#: js/src/utils/DisabledAlert.js:20
+msgid " to manage Sentinel."
+msgstr ""
 
 #: reforis_data_collection/__init__.py:46
 msgid "Cannot update Sentinel settings"
@@ -321,3 +312,39 @@ msgstr "No se puede actualizar la configuración de Sentinel"
 
 #~ msgid "${ForisURLs.sentinelAgreement}"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "To view Sentinel data, please visit "
+#~ "<a href=\"https://view.sentinel.turris.cz\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
+#~ "View<sup><i class=\"fas fa-external-link-"
+#~ "alt fa-xs ml-1\"></i></sup></a>. There "
+#~ "you can also see and filter <a "
+#~ "href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+#~ " target=\"_blank\" rel=\"noopener noreferer\">data "
+#~ "specific for your device<sup><i class=\"fas"
+#~ " fa-external-link-alt fa-xs "
+#~ "ml-1\"></i></sup></a>."
+#~ msgstr ""
+#~ "Para ver los datos de Sentinel, "
+#~ "visite <a href=\"https://view.sentinel.turris.cz\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
+#~ "View<sup><i class=\"fas fa-external-link-"
+#~ "alt fa-xs ml-1\"></i></sup></a>. Allí "
+#~ "también puedes ver y filtrar los "
+#~ "<a "
+#~ "href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+#~ " target=\"_blank\" rel=\"noopener noreferer\">datos "
+#~ "específicos de tu dispositivo<sup><i "
+#~ "class=\"fas fa-external-link-alt fa-"
+#~ "xs ml-1\"></i></sup></a>."
+
+#~ msgid ""
+#~ "Please accept the <a "
+#~ "href=\"${ForisURLs.sentinelAgreement}\">License Agreement</a>"
+#~ " to manage Sentinel."
+#~ msgstr ""
+#~ "Por favor, aceptael <a "
+#~ "href=\"${ForisURLs.sentinelAgreement}\">Contrato de "
+#~ "licencia</a> para gestionar Sentinel."
+

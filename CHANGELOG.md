@@ -8,6 +8,20 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.2.0] - 2024-09-26
+
+### Added
+
+-   Added & updated Weblate translations
+
+### Changed
+
+-   Migrated to FontAwesome v6
+-   Updated Foris JS library to v6.2.1
+-   Updated SentinelProxyStateIcon and SentinelState components
+-   Fixed SentinelStateBadge component to use latest Bootstrap classes
+-   Refactored disabled components state when EULA is not accepted
+
 ## [1.1.0] - 2024-06-24
 
 ### Changed
@@ -124,7 +138,8 @@ and this project adheres to
 
 -   Basic EULA agreement
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v1.1.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v1.2.0...master
+[1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v1.1.0...v1.2.0
 [1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v0.4.0...v1.0.0
 [0.4.0]: https://gitlab.nic.cz/turris/reforis/reforis-data-collection/-/compare/v0.3.2...v0.4.0
