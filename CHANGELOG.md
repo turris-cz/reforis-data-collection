@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.2.1] - 2024-09-26
+
+### Changed
+
+-   Fixed new version number in pyproject.toml
+
 ## [1.2.0] - 2024-09-26
 
 ### Added
