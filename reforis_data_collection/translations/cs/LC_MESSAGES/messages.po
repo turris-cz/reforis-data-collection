@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-26 13:20+0200\n"
-"PO-Revision-Date: 2024-10-10 13:15+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"PO-Revision-Date: 2024-11-15 14:00+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
 "reforis-data-collection-plugin/cs/>\n"
 "Language: cs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -97,7 +97,7 @@ msgstr "Můžete vybrat konkrétní komponenty, které chcete povolit nebo zaká
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
-msgstr "Zapnout záznamy firewallu"
+msgstr "Zapnout zaznamenávání událostí na bráně firewall"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
 msgid "Enable Minipots"
@@ -105,23 +105,23 @@ msgstr "Zapnout Minipoty"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
 msgid "Running on port 80."
-msgstr "Běží na portu 80."
+msgstr "Spuštěné na portu 80."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:106
 msgid "Running on port 21."
-msgstr "Běží na portu 21."
+msgstr "Spuštěné na portu 21."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:121
 msgid "Running on port 25 and 587."
-msgstr "Běží na portech 25 a 587."
+msgstr "Spuštěné na portech 25 a 587."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:136
 msgid "Running on port 23."
-msgstr "Běží na portu 23."
+msgstr "Spuštěné na portu 23."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
 msgid "Enable Survey"
-msgstr "Zapnout průzkum"
+msgstr "Účastnit se průzkumu"
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:9
 msgid ""
@@ -175,7 +175,7 @@ msgstr "Stav: "
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
 msgid "Running"
-msgstr "Běží"
+msgstr "Spuštěné"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:30
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
@@ -229,7 +229,7 @@ msgstr "Sentinel Proxy"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:31
 msgid "Firewall Logs"
-msgstr "Záznamy z firewallu"
+msgstr "Záznamy událostí na bráně firewall"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:35
 msgid "Minipots"
@@ -249,7 +249,7 @@ msgstr " , abyste mohli ovládat Sentinel."
 
 #: reforis_data_collection/__init__.py:46
 msgid "Cannot update Sentinel settings"
-msgstr "Nelze aktualizovat nastavení systému Sentinel"
+msgstr "Nelze aktualizovat nastavení pro Sentinel"
 
 #~ msgid "Cannot update sentinel settings"
 #~ msgstr "Nelze aktualizovat nastavení Sentinelu"
