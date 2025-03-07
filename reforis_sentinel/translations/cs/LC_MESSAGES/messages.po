@@ -1,0 +1,333 @@
+# Czech translations for reForis Sentinel.
+# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis Sentinel
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-03-07 15:06+0100\n"
+"PO-Revision-Date: 2024-11-15 14:00+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language: cs\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis-"
+"data-collection-plugin/cs/>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
+msgid "Sentinel"
+msgstr "Sentinel"
+
+#: js/src/app.js:19
+msgid "Overview"
+msgstr "Přehled"
+
+#: js/src/app.js:24 js/src/licenseAgreement/LicenseAgreement.js:18
+#: js/src/utils/DisabledAlert.js:18
+msgid "License Agreement"
+msgstr "Licenční smlouva"
+
+#: js/src/licenseAgreement/LicenseAgreement.js:20
+msgid ""
+"It's required to confirm the Terms of Participation in Turris Project to "
+"participate in the threat detection program."
+msgstr ""
+"K účasti v programu detekce bezpečnostních hrozeb je potřeba potvrdit "
+"souhlas s Podmínkami účasti v projektu Turris."
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:30
+msgid "Terms of Participation"
+msgstr "Podmínky účasti"
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:32
+msgid ""
+"Your consent with the Terms of Participation allows us to analyze "
+"potential threats detected on your router and therefore to build a "
+"dynamic firewall."
+msgstr ""
+"Váš souhlas s Podmínkami účasti nám umožňuje analyzovat potenciální "
+"bezpečnostní hrozby detekované na vašem routeru a tedy aktualizovat "
+"dynamický firewall."
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:38
+msgid "Agreement"
+msgstr "Smlouva"
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:68
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr "Přijímám <a href='#'>Podmínky účasti v projektu Turris (sběr dat)</a>."
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:83
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr "Nepřijímám <a href='#'>Podmínky účasti v projektu Turris (sběr dat)</a>."
+
+#: js/src/licenseAgreement/EULA/EULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr "Podmínky účasti v projektu Turris (sběr dat)"
+
+#: js/src/sentinel/Sentinel.js:25
+msgid ""
+"Sentinel is a Turris threat detection and attack prevention system, which"
+" provides dynamic firewall and statistics. Here you can set up several "
+"Sentinel components which take part in the threat detection subsystem."
+msgstr ""
+"Sentinel je systém detekce a prevence bezpečnostních hrozeb, který je "
+"součástí projektu Turris a poskytuje dynamický firewall a statistiky. Zde"
+" můžete nastavit různé komponenty systému Sentinel, které se využívají v "
+"subsystému detekce hrozeb."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
+msgid "Sentinel Components"
+msgstr "Komponenty systému Sentinel"
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
+msgid "You can select specific components that you want to enable or disable."
+msgstr "Můžete vybrat konkrétní komponenty, které chcete povolit nebo zakázat."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
+msgid "Enable Firewall Logs"
+msgstr "Zapnout zaznamenávání událostí na bráně firewall"
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
+msgid "Enable Minipots"
+msgstr "Zapnout Minipoty"
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
+msgid "Running on port 80."
+msgstr "Spuštěné na portu 80."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:106
+msgid "Running on port 21."
+msgstr "Spuštěné na portu 21."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:121
+msgid "Running on port 25 and 587."
+msgstr "Spuštěné na portech 25 a 587."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:136
+msgid "Running on port 23."
+msgstr "Spuštěné na portu 23."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
+msgid "Enable Survey"
+msgstr "Účastnit se průzkumu"
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:9
+msgid ""
+"Firewall Logs are logs gathered from iptables firewall. If enabled, "
+"Sentinel uses them to monitor packets coming from outside network and "
+"trying to connect to potentially vulnerable local services. These "
+"techniques, also known as \"port scans\" usually try to detect whether "
+"specific ports are opened on local device. If enabled, Sentinel Firewall "
+"Logs gather information about origin of such malicious packets and about "
+"ports they try to scan on local device."
+msgstr ""
+"Protokoly brány firewall jsou protokoly shromážděné z brány firewall "
+"iptables. Pokud jsou povoleny, Sentinel je používá ke sledování paketů "
+"přicházejících z vnější sítě a snažících se připojit k potenciálně "
+"zranitelným místním službám. Tyto techniky, známé také jako „skenování "
+"portů“, se obvykle snaží zjistit, zda jsou na místním zařízení otevřeny "
+"konkrétní porty. Pokud je tato funkce povolena, funkce Sentinel pro "
+"protokoly brány firewall shromažďuje informace o původu takových "
+"škodlivých paketů a o portech, které se snaží skenovat na místním "
+"zařízení."
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:12
+msgid ""
+"The main purpose of the Sentinel Minipot is to collect authentication "
+"information from the login attempts. It is possible to emulate some of "
+"the often attacked services - Telnet, HTTP, FTP, and SMTP. The goal is to"
+" catch the attacker red-handed when they think they are attacking a real "
+"service."
+msgstr ""
+"Hlavním účelem minipotů Sentinel je shromažďování autentizačních "
+"informací z pokusů o přihlášení. Lze emulovat některé často napadané "
+"služby – Telnet, HTTP, FTP a SMTP. Cílem je chytit útočníku při činu, "
+"když si myslí, že útočí na skutečnou službu."
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:15
+msgid ""
+"The Turris survey collects information about installed packages, used "
+"languages, and operating system versions. Based on this, we can focus on "
+"widely used packages and features and provide support."
+msgstr ""
+"Průzkum Turris shromažďuje informace o nainstalovaných balíčcích, "
+"používaných jazycích a verzích operačního systému. Na základě toho se "
+"můžeme zaměřit na široce používané balíčky a funkce a poskytovat podporu."
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
+msgid "Status: "
+msgstr "Stav: "
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:26
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
+msgid "Running"
+msgstr "Spuštěné"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:30
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
+msgid "Sending"
+msgstr "Odesílání"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:34
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
+msgid "Failed"
+msgstr "Neúspěch"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:38
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
+msgid "Uninstalled"
+msgstr "Odinstalováno"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:46
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: js/src/sentinel/SentinelState/SentinelState.js:35
+msgid "Sentinel State"
+msgstr "Stav Sentinelu"
+
+#: js/src/sentinel/SentinelState/SentinelState.js:38
+msgid "To view Sentinel data, please visit "
+msgstr "Chcete-li zobrazit data Sentinel, navštivte prosím "
+
+#: js/src/sentinel/SentinelState/SentinelState.js:52
+msgid "There you can also see and filter "
+msgstr "Můžete také vidět a filtrovat "
+
+#: js/src/sentinel/SentinelState/SentinelState.js:108
+msgid "Device token"
+msgstr "Token zařízení"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:27
+msgid "Sentinel Proxy"
+msgstr "Sentinel Proxy"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:31
+msgid "Firewall Logs"
+msgstr "Záznamy událostí na bráně firewall"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:35
+msgid "Minipots"
+msgstr "Minipoty"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:39
+msgid "Survey"
+msgstr "Průzkum"
+
+#: js/src/utils/DisabledAlert.js:16
+msgid "Please accept the "
+msgstr "Přijměte prosím "
+
+#: js/src/utils/DisabledAlert.js:20
+msgid " to manage Sentinel."
+msgstr " , abyste mohli ovládat Sentinel."
+
+#: reforis_sentinel/__init__.py:46
+msgid "Cannot update Sentinel settings"
+msgstr "Nelze aktualizovat nastavení pro Sentinel"
+
+#~ msgid "Cannot update sentinel settings"
+#~ msgstr "Nelze aktualizovat nastavení Sentinelu"
+
+#~ msgid "Sentinel"
+#~ msgstr "Sběr dat"
+
+#~ msgid "Participate in data collection and dynamic distributed firewall."
+#~ msgstr ""
+#~ "Zúčastnit se sběru dat a používat "
+#~ "dynamicky distribuovanou bránu firewall."
+
+#~ msgid ""
+#~ "It's required to confirm the Terms "
+#~ "of Participation in Turris Project to"
+#~ " participate in data collection."
+#~ msgstr ""
+#~ "K účasti ve sběru dat je potřeba"
+#~ " odsouhlasit podmínky účasti v projektu "
+#~ "Turris."
+
+#~ msgid "Agreement"
+#~ msgstr "Smlouva"
+
+#~ msgid ""
+#~ "I accept the <a href=\"#\">Terms of "
+#~ "Participation in Turris Project (Data "
+#~ "Collection)</a>."
+#~ msgstr ""
+#~ "Přijímám <a href=\"#\">podmínky účasti v "
+#~ "projektu Turris (sběr dat)</a>."
+
+#~ msgid ""
+#~ "I do not accept the <a "
+#~ "href=\"#\">Terms of Participation in Turris"
+#~ " Project (Data Collection)</a>."
+#~ msgstr ""
+#~ "Nepřijímám <a href=\"#\">podmínky účasti v "
+#~ "projektu Turris (sběr dat)</a>."
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "${ForisURLs.sentinelAgreement}"
+#~ msgstr "${ForisURLs.sentinelAgreement}"
+
+#~ msgid ""
+#~ "To view Sentinel data, please visit "
+#~ "<a href=\"https://view.sentinel.turris.cz\" "
+#~ "target=\"_blank\" rel=\"noopener noreferer\">Sentinel "
+#~ "View<sup><i class=\"fas fa-external-link-"
+#~ "alt fa-xs ml-1\"></i></sup></a>. There "
+#~ "you can also see and filter <a "
+#~ "href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+#~ " target=\"_blank\" rel=\"noopener noreferer\">data "
+#~ "specific for your device<sup><i class=\"fas"
+#~ " fa-external-link-alt fa-xs "
+#~ "ml-1\"></i></sup></a>."
+#~ msgstr ""
+#~ "Chcete-li zobrazit data systému "
+#~ "Sentinel, navštivte prosím <a "
+#~ "href=\"https://view.sentinel.turris.cz\" target=\"_blank\" "
+#~ "rel=\"noopener noreferer\">Sentinel View<sup><i "
+#~ "class=\"fas fa-external-link-alt fa-"
+#~ "xs ml-1\"></i></sup> </a> . Tam si "
+#~ "můžete také zobrazit a filtrovat data"
+#~ " <a "
+#~ "href=\"https://view.sentinel.turris.cz/api/device/add?token=${deviceToken}\""
+#~ " target=\"_blank\" rel=\"noopener "
+#~ "noreferer\">specifická pro vaše zařízení<sup><i "
+#~ "class=\"fas fa-external-link-alt fa-"
+#~ "xs ml-1\"></i></sup> </a> ."
+
+#~ msgid ""
+#~ "Please accept the <a "
+#~ "href=\"${ForisURLs.sentinelAgreement}\">License Agreement</a>"
+#~ " to manage Sentinel."
+#~ msgstr ""
+#~ "Pro správu systému Sentinel prosím "
+#~ "přijměte <a "
+#~ "href=\"${ForisURLs.sentinelAgreement}\">licenční smlouvu</a>."
+

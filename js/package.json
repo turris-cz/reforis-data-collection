@@ -1,13 +1,13 @@
 {
-    "name": "reforis_data_collection",
+    "name": "reforis_sentinel",
     "author": "CZ.NIC, z.s.p.o.",
     "repository": {
         "type": "git",
-        "url": "https://gitlab.nic.cz/turris/reforis/reforis-data-collection.git"
+        "url": "https://gitlab.nic.cz/turris/reforis/reforis-sentinel.git"
     },
     "license": "GPL-3.0",
     "version": "1.2.1",
-    "description": "reForis Data Collection plugin is a key source of data which are used to build the dynamic firewall and other analyses.",
+    "description": "reForis Sentinel plugin is a key source of data which are used to build the dynamic firewall and other analyses.",
     "main": "./src/app.js",
     "eslintConfig": {
         "extends": "eslint-config-reforis"

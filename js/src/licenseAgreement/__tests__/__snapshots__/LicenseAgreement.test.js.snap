@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LicenseAgreement /> Should render form. 1`] = `
+<DocumentFragment>
+  <h1>
+    License Agreement
+  </h1>
+  <p>
+    It's required to confirm the Terms of Participation in Turris Project to participate in the threat detection program.
+  </p>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <form>
+      <h2>
+        Terms of Participation
+      </h2>
+      <p>
+        Your consent with the Terms of Participation allows us to analyze potential threats detected on your router and therefore to build a dynamic firewall.
+      </p>
+      <div
+        class="mb-3"
+      >
+        <div
+          class="mb-3"
+        >
+          <input
+            class="form-check-input me-2"
+            id="Agreement-0"
+            name="Agreement"
+            type="radio"
+            value="1"
+          />
+          <label
+            class="form-check-label"
+            for="Agreement-0"
+          >
+            <div>
+              I accept the 
+              <a
+                href="#"
+              >
+                Terms of Participation in Turris Project (Data Collection)
+              </a>
+              .
+            </div>
+          </label>
+        </div>
+        <div
+          class="mb-3"
+        >
+          <input
+            checked=""
+            class="form-check-input me-2"
+            id="Agreement-1"
+            name="Agreement"
+            type="radio"
+            value="0"
+          />
+          <label
+            class="form-check-label"
+            for="Agreement-1"
+          >
+            <div>
+              I do not accept the 
+              <a
+                href="#"
+              >
+                Terms of Participation in Turris Project (Data Collection)
+              </a>
+              .
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="text-end"
+      >
+        <button
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          type="submit"
+        >
+          <span>
+            Save
+          </span>
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    id="modal-container"
+  >
+    <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
+      class="modal fade"
+      role="dialog"
+    >
+      <div
+        class="modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="modal-header"
+          >
+            <h1
+              class="modal-title fs-5"
+            >
+              Terms of Participation in Turris Project (Data Collection)
+            </h1>
+            <button
+              aria-label="Close"
+              class="btn-close"
+              type="button"
+            />
+          </div>
+          <div
+            class="modal-body"
+          >
+            <div
+              class="spinner-wrapper my-3 text-center"
+            >
+              <div
+                class="spinner-border"
+                role="status"
+              >
+                <span
+                  class="sr-only"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<LicenseAgreement /> Should toggle modal. 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -88,11 +88,11 @@
+      id=\\"modal-container\\"
+    >
+      <div
+        aria-labelledby=\\"modal-title\\"
+        aria-modal=\\"true\\"
+-       class=\\"modal fade\\"
++       class=\\"modal fade show\\"
+        role=\\"dialog\\"
+      >
+        <div
+          class=\\"modal-lg modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
+          role=\\"document\\"
+@@ -114,22 +114,15 @@
+                type=\\"button\\"
+              />
+            </div>
+            <div
+              class=\\"modal-body\\"
+-           >
+-             <div
+-               class=\\"spinner-wrapper my-3 text-center\\"
+            >
+              <div
+-                 class=\\"spinner-border\\"
+-                 role=\\"status\\"
++               class=\\"display-linebreak text-monospace\\"
+              >
+-                 <span
+-                   class=\\"sr-only\\"
+-                 />
+-               </div>
++               eula text
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>"
+`;

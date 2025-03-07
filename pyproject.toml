@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "reforis-data-collection"
+name = "reforis-sentinel"
 version = "1.2.1"
-description = "reForis Data Collection plugin is a key source of data which are used to build the dynamic firewall and other analyses."
+description = "reForis Sentinel plugin is a key source of data which are used to build the dynamic firewall and other analyses."
 readme = "README.md"
 license = "GPL-3.0-or-later"
 authors = [
@@ -27,17 +27,17 @@ dependencies = ["Babel", "flask", "Flask-Babel", "reforis"]
 devel = ["pytest", "ruff", "werkzeug"]
 
 [project.entry-points."foris.plugins"]
-reforis_data_collection = "reforis_data_collection:data_collection"
+reforis_sentinel = "reforis_sentinel:sentinel"
 
 [tool.hatch.build.targets.sdist]
-include = ["/js", "/reforis_data_collection", "/reforis_static"]
+include = ["/js", "/reforis_sentinel", "/reforis_static"]
 
 [tool.hatch.build.targets.wheel.hooks.reforis]
 dependencies = ["hatch-reforis"]
-reforis_module = "reforis_data_collection"
+reforis_module = "reforis_sentinel"
 
 [tool.hatch.build.targets.wheel]
-include = ["/reforis_data_collection", "/reforis_static"]
+include = ["/reforis_sentinel", "/reforis_static"]
 exclude = ["**/*.po", "**/*.pot"]
 
 [tool.ruff]

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -17,7 +17,7 @@ module.exports = () => ({
         filename: "app.min.js",
         path: path.join(
             __dirname,
-            "../reforis_static/reforis_data_collection/js/"
+            "../reforis_static/reforis_sentinel/js/"
         ),
     },
     resolve: {

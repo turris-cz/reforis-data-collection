@@ -1,14 +1,14 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import DataCollection from "./dataCollection/DataCollection";
+import LicenseAgreement from "./licenseAgreement/LicenseAgreement";
 import Sentinel from "./sentinel/Sentinel";
 
-const DataCollectionPlugin = {
+const SentinelPlugin = {
     name: _("Sentinel"),
     weight: 100,
     path: "/sentinel",
@@ -23,9 +23,9 @@ const DataCollectionPlugin = {
         {
             name: _("License Agreement"),
             path: "/agreement",
-            component: DataCollection,
+            component: LicenseAgreement,
         },
     ],
 };
 
-ForisPlugins.push(DataCollectionPlugin);
+ForisPlugins.push(SentinelPlugin);
