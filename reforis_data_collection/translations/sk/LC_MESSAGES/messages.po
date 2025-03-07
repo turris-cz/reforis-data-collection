@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-26 13:20+0200\n"
-"PO-Revision-Date: 2024-08-03 21:09+0000\n"
+"PO-Revision-Date: 2024-10-30 19:08+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
+"reforis-data-collection-plugin/sk/>\n"
 "Language: sk\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris"
-"/reforis-data-collection-plugin/sk/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -215,11 +216,11 @@ msgstr "Stav Sentinelu"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:38
 msgid "To view Sentinel data, please visit "
-msgstr ""
+msgstr "Na zobrazenie údajov Sentinelu prejdite na "
 
 #: js/src/sentinel/SentinelState/SentinelState.js:52
 msgid "There you can also see and filter "
-msgstr ""
+msgstr "Môžete tam tiež zobraziť a filtrovať "
 
 #: js/src/sentinel/SentinelState/SentinelState.js:108
 msgid "Device token"
@@ -243,11 +244,11 @@ msgstr "Prieskum"
 
 #: js/src/utils/DisabledAlert.js:16
 msgid "Please accept the "
-msgstr ""
+msgstr "Prosím, prijmite "
 
 #: js/src/utils/DisabledAlert.js:20
 msgid " to manage Sentinel."
-msgstr ""
+msgstr " , aby ste mohli spravovať Sentinel."
 
 #: reforis_data_collection/__init__.py:46
 msgid "Cannot update Sentinel settings"
@@ -331,4 +332,3 @@ msgstr "Nastavenia Sentinelu sa nedajú aktualizovať"
 #~ "Na spravovanie Sentinelu prijmite, prosím, "
 #~ "<a href=\"${ForisURLs.sentinelAgreement}\">Licenčnú "
 #~ "zmluvu</a>."
-
