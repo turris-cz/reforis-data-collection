@@ -109,9 +109,9 @@ venv.bak/
 ## mypy
 .mypy_cache/
 
-reforis_static/reforis_data_collection/js/*.min.js
-reforis_static/reforis_data_collection/js/*.LICENSE
-reforis_static/reforis_data_collection/js/*.txt
+reforis_static/reforis_sentinel/js/*.min.js
+reforis_static/reforis_sentinel/js/*.LICENSE
+reforis_static/reforis_sentinel/js/*.txt
 
 # Ruff 
 .ruff_cache/

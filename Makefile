@@ -1,9 +1,9 @@
-#  Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+#  Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
-PROJECT="reForis Data Collection" 
+PROJECT="reForis Sentinel" 
 # Retrieve version from pyproject.toml 
 VERSION= $(shell sed -En "s/.*version = ['\"](.+)['\"].*/\1/p" pyproject.toml)
 COPYRIGHT_HOLDER="CZ.NIC, z.s.p.o. (https://www.nic.cz/)"
@@ -47,7 +47,7 @@ all:
 
 .PHONY: prepare-dev
 prepare-dev:
-	which npm || curl -sL https://deb.nodesource.com/setup_21.x | sudo -E bash -
+	which npm || curl -sL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 	which npm || sudo apt-get install -y nodejs
 	cd $(JS_DIR); npm install
 
@@ -72,7 +72,7 @@ install:
 	opkg update
 	opkg install foris-controller-sentinel-module
 	REFORIS_NO_JS_BUILD=1 $(PYTHON) -m pip install --index-url $(PIP_EXTRA_INDEX_URL) -e .
-	ln -sf /tmp/reforis-data-collection/reforis_static/reforis_data_collection /tmp/reforis/reforis_static/
+	ln -sf /tmp/reforis-sentinel/reforis_static/reforis_sentinel /tmp/reforis/reforis_static/
 	/etc/init.d/lighttpd restart
 
 .PHONY: install-js
@@ -110,7 +110,7 @@ lint-js-fix:
 
 .PHONY: lint-web
 lint-web: venv
-	$(VENV_BIN)/$(PYTHON) -m ruff check reforis_data_collection
+	$(VENV_BIN)/$(PYTHON) -m ruff check reforis_sentinel
 
 
 # Testing
@@ -141,21 +141,21 @@ test-web: venv
 init-langs: create-messages
 	for lang in $(LANGS); do \
 		$(VENV_BIN)/pybabel init \
-		-i reforis_data_collection/translations/messages.pot \
-		-d reforis_data_collection/translations/ -l $$lang \
+		-i reforis_sentinel/translations/messages.pot \
+		-d reforis_sentinel/translations/ -l $$lang \
 	; done
 
 .PHONY: create-messages
 create-messages: venv
-	$(VENV_BIN)/pybabel extract -F babel.cfg -o ./reforis_data_collection/translations/messages.pot . --project=$(PROJECT) --version=$(VERSION) --copyright-holder=$(COPYRIGHT_HOLDER) --msgid-bugs-address=$(MSGID_BUGS_ADDRESS)
+	$(VENV_BIN)/pybabel extract -F babel.cfg -o ./reforis_sentinel/translations/messages.pot . --project=$(PROJECT) --version=$(VERSION) --copyright-holder=$(COPYRIGHT_HOLDER) --msgid-bugs-address=$(MSGID_BUGS_ADDRESS)
 
 .PHONY: update-messages
 update-messages: venv
-	$(VENV_BIN)/pybabel update -i ./reforis_data_collection/translations/messages.pot -d ./reforis_data_collection/translations --update-header-comment
+	$(VENV_BIN)/pybabel update -i ./reforis_sentinel/translations/messages.pot -d ./reforis_sentinel/translations --update-header-comment
 
 .PHONY: compile-messages
 compile-messages: venv install-js
-	$(VENV_BIN)/pybabel compile -f -d ./reforis_data_collection/translations
+	$(VENV_BIN)/pybabel compile -f -d ./reforis_sentinel/translations
 
 
 # Other
@@ -164,5 +164,5 @@ compile-messages: venv install-js
 clean:
 	find . -name '*.pyc' -exec rm -f {} +
 	rm -rf $(VENV_NAME) *.eggs *.egg-info dist build docs/_build .cache
-	rm -rf $(JS_DIR)/node_modules/ reforis_static/reforis_data_collection/js/app.min.js
-	$(PYTHON) -m pip uninstall -y reforis_data_collection
+	rm -rf $(JS_DIR)/node_modules/ reforis_static/reforis_sentinel/js/app.min.js
+	$(PYTHON) -m pip uninstall -y reforis_sentinel
