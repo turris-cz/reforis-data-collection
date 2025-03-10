@@ -9,9 +9,9 @@ import React, { useEffect } from "react";
 
 import { ForisForm, useAPIGet } from "foris";
 
+import API_URLs from "../API";
 import SentinelOptions from "./SentinelOptions/SentinelOptions";
 import SentinelState from "./SentinelState/SentinelState";
-import API_URLs from "../API";
 import DisabledIfNotAccepted from "../utils/DisabledIfNotAccepted";
 
 export default function Sentinel() {
