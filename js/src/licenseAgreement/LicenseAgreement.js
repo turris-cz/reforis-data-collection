@@ -9,8 +9,8 @@ import React from "react";
 
 import { ForisForm } from "foris";
 
-import EULA from "./EULA/EULA";
 import API_URLs from "../API";
+import EULA from "./EULA/EULA";
 
 export default function LicenseAgreement() {
     return (

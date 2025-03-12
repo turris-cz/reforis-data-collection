@@ -8,6 +8,17 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.0.0] - 2025-03-10
+
+### Added
+
+- Added & updated Weblate translations
+
+### Changed
+
+- Updated several npm dependencies in package.json
+- Renamed plugin from Data Collection to Sentinel and updated related configurations
+
 ## [1.2.1] - 2024-09-26
 
 ### Changed
@@ -144,7 +155,9 @@ and this project adheres to
 
 - Basic EULA agreement
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v1.2.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v2.0.0...master
+[2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v1.2.1...v2.0.0
+[1.2.1]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v1.2.0...v1.2.1
 [1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v1.1.0...v1.2.0
 [1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v0.4.0...v1.0.0
