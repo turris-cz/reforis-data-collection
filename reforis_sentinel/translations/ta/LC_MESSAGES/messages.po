@@ -1,0 +1,259 @@
+# Tamil translations for reForis Sentinel.
+# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis Sentinel
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: reForis Sentinel 1.2.1\n"
+"Report-Msgid-Bugs-To: tech.support@turris.cz\n"
+"POT-Creation-Date: 2025-04-29 19:19+0200\n"
+"PO-Revision-Date: 2025-03-14 13:25+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language: ta\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/turris/reforis-"
+"sentinel-plugin/ta/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
+msgid "Sentinel"
+msgstr "காவலாளி"
+
+#: js/src/app.js:19
+msgid "Overview"
+msgstr "கண்ணோட்டம்"
+
+#: js/src/app.js:24 js/src/licenseAgreement/LicenseAgreement.js:18
+#: js/src/utils/DisabledAlert.js:18
+msgid "License Agreement"
+msgstr "உரிம ஒப்பந்தத்தின்"
+
+#: js/src/licenseAgreement/LicenseAgreement.js:20
+msgid ""
+"It's required to confirm the Terms of Participation in Turris Project to "
+"participate in the threat detection program."
+msgstr ""
+"அச்சுறுத்தல் கண்டறிதல் திட்டத்தில் பங்கேற்க டர்ரிச் திட்டத்தில் "
+"பங்கேற்பின் விதிமுறைகளை உறுதிப்படுத்த வேண்டும்."
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:30
+msgid "Terms of Participation"
+msgstr "பங்கேற்பு விதிமுறைகள்"
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:32
+msgid ""
+"Your consent with the Terms of Participation allows us to analyze "
+"potential threats detected on your router and therefore to build a "
+"dynamic firewall."
+msgstr ""
+"பங்கேற்பு விதிமுறைகளுடனான உங்கள் ஒப்புதல் உங்கள் திசைவியில் கண்டறியப்பட்ட"
+" சாத்தியமான அச்சுறுத்தல்களை பகுப்பாய்வு செய்யவும், எனவே மாறும் ஃபயர்வாலை "
+"உருவாக்கவும் அனுமதிக்கிறது."
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:38
+msgid "Agreement"
+msgstr "ஒப்பந்தம்"
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:68
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr ""
+"டூரிச் திட்டத்தில் (தரவு சேகரிப்பு) பங்கேற்புக்கான <a href = '#'> "
+"விதிமுறைகளை நான் ஏற்றுக்கொள்கிறேன் </a>."
+
+#: js/src/licenseAgreement/EULA/EULAForm.js:83
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr ""
+"டூரிச் திட்டத்தில் பங்கேற்புக்கான <a href = '#'> விதிமுறைகளை நான் "
+"ஏற்கவில்லை (தரவு சேகரிப்பு) </a>."
+
+#: js/src/licenseAgreement/EULA/EULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr "டர்ரிச் திட்டத்தில் பங்கேற்பு விதிமுறைகள் (தரவு சேகரிப்பு)"
+
+#: js/src/sentinel/Sentinel.js:25
+msgid ""
+"Sentinel is a Turris threat detection and attack prevention system, which"
+" provides dynamic firewall and statistics. Here you can set up several "
+"Sentinel components which take part in the threat detection subsystem."
+msgstr ""
+"சென்டினல் என்பது ஒரு டர்ரிச் அச்சுறுத்தல் கண்டறிதல் மற்றும் தாக்குதல் "
+"தடுப்பு முறையாகும், இது மாறும் ஃபயர்வால் மற்றும் புள்ளிவிவரங்களை "
+"வழங்குகிறது. அச்சுறுத்தல் கண்டறிதல் துணை அமைப்பில் பங்கேற்கும் பல "
+"சென்டினல் கூறுகளை இங்கே அமைக்கலாம்."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
+msgid "Sentinel Components"
+msgstr "சென்டினல் கூறுகள்"
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
+msgid "You can select specific components that you want to enable or disable."
+msgstr ""
+"நீங்கள் இயக்க அல்லது முடக்க விரும்பும் குறிப்பிட்ட கூறுகளைத் "
+"தேர்ந்தெடுக்கலாம்."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
+msgid "Enable Firewall Logs"
+msgstr "ஃபயர்வால் பதிவுகளை இயக்கவும்"
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
+msgid "Enable Minipots"
+msgstr "மினி -மைன்களை இயக்கவும்"
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
+msgid "Running on port 80."
+msgstr "துறைமுகம் 80 இல் இயங்குகிறது."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:106
+msgid "Running on port 21."
+msgstr "துறைமுகம் 21 இல் இயங்குகிறது."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:121
+msgid "Running on port 25 and 587."
+msgstr "துறைமுகம் 25 மற்றும் 587 இல் இயங்குகிறது."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:136
+msgid "Running on port 23."
+msgstr "துறைமுகம் 23 இல் இயங்குகிறது."
+
+#: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
+msgid "Enable Survey"
+msgstr "கணக்கெடுப்பை இயக்கு"
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:9
+msgid ""
+"Firewall Logs are logs gathered from iptables firewall. If enabled, "
+"Sentinel uses them to monitor packets coming from outside network and "
+"trying to connect to potentially vulnerable local services. These "
+"techniques, also known as \"port scans\" usually try to detect whether "
+"specific ports are opened on local device. If enabled, Sentinel Firewall "
+"Logs gather information about origin of such malicious packets and about "
+"ports they try to scan on local device."
+msgstr ""
+"ஃபயர்வால் பதிவுகள் இப்டேபிள்ச் ஃபயர்வாலில் இருந்து சேகரிக்கப்பட்ட "
+"பதிவுகள். இயக்கப்பட்டால், வெளிப்புற நெட்வொர்க்கிலிருந்து வரும் "
+"பாக்கெட்டுகளை கண்காணிக்கவும், பாதிக்கப்படக்கூடிய உள்ளக சேவைகளுடன் இணைக்க "
+"முயற்சிக்கவும் சென்டினல் அவற்றைப் பயன்படுத்துகிறது. \"துறைமுகம் ச்கேன்\" "
+"என்றும் அழைக்கப்படும் இந்த நுட்பங்கள் பொதுவாக உள்ளக சாதனத்தில் "
+"குறிப்பிட்ட துறைமுகங்கள் திறக்கப்பட்டுள்ளதா என்பதைக் கண்டறிய "
+"முயற்சிக்கிறது. இயக்கப்பட்டால், சென்டினல் ஃபயர்வால் பதிவுகள் அத்தகைய "
+"தீங்கிழைக்கும் பாக்கெட்டுகளின் தோற்றம் மற்றும் உள்ளக சாதனத்தில் ச்கேன் "
+"செய்ய முயற்சிக்கும் துறைமுகங்கள் பற்றிய தகவல்களை சேகரிக்கின்றன."
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:12
+msgid ""
+"The main purpose of the Sentinel Minipot is to collect authentication "
+"information from the login attempts. It is possible to emulate some of "
+"the often attacked services - Telnet, HTTP, FTP, and SMTP. The goal is to"
+" catch the attacker red-handed when they think they are attacking a real "
+"service."
+msgstr ""
+"உள்நுழைவு முயற்சிகளிலிருந்து அங்கீகார தகவல்களை சேகரிப்பதே சென்டினல் "
+"மினிபோட்டின் முக்கிய நோக்கம். டெல்நெட், எச்.டி.டி.பி, எஃப்.டி.பி மற்றும் "
+"எச்.எம்.டி.பி. தாக்குதல் நடத்தியவர் ஒரு உண்மையான சேவையைத் தாக்குகிறார் "
+"என்று நினைக்கும் போது அவர்கள் சிவப்பு-கையைப் பிடிப்பதே குறிக்கோள்."
+
+#: js/src/sentinel/SentinelOptions/helpTexts.js:15
+msgid ""
+"The Turris survey collects information about installed packages, used "
+"languages, and operating system versions. Based on this, we can focus on "
+"widely used packages and features and provide support."
+msgstr ""
+"டர்ரிச் கணக்கெடுப்பு நிறுவப்பட்ட தொகுப்புகள், பயன்படுத்தப்பட்ட மொழிகள் "
+"மற்றும் இயக்க முறைமை பதிப்புகள் பற்றிய தகவல்களை சேகரிக்கிறது. இதன் "
+"அடிப்படையில், பரவலாகப் பயன்படுத்தப்படும் தொகுப்புகள் மற்றும் அம்சங்களில் "
+"கவனம் செலுத்தலாம் மற்றும் ஆதரவை வழங்கலாம்."
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
+msgid "Status: "
+msgstr "நிலை: "
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:26
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
+msgid "Running"
+msgstr "இயங்கும்"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:30
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
+msgid "Sending"
+msgstr "அனுப்புகிறது"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:34
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
+msgid "Failed"
+msgstr "தோல்வியுற்றது"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:38
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
+msgid "Disabled"
+msgstr "முடக்கப்பட்டது"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
+msgid "Uninstalled"
+msgstr "நிறுவல் நீக்கப்பட்டது"
+
+#: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:46
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
+#: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+#: js/src/sentinel/SentinelState/SentinelState.js:35
+msgid "Sentinel State"
+msgstr "சென்டினல் மாநிலம்"
+
+#: js/src/sentinel/SentinelState/SentinelState.js:38
+msgid "To view Sentinel data, please visit "
+msgstr "சென்டினல் தரவைக் காண, தயவுசெய்து பார்வையிடவும் "
+
+#: js/src/sentinel/SentinelState/SentinelState.js:52
+msgid "There you can also see and filter "
+msgstr "அங்கு நீங்கள் பார்க்கவும் வடிகட்டவும் முடியும் "
+
+#: js/src/sentinel/SentinelState/SentinelState.js:108
+msgid "Device token"
+msgstr "சாதனம் கிள்ளாக்கு"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:27
+msgid "Sentinel Proxy"
+msgstr "சென்டினல் பதிலாள்"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:31
+msgid "Firewall Logs"
+msgstr "ஃபயர்வால் பதிவுகள்"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:35
+msgid "Minipots"
+msgstr "மினிபோட்டுகள்"
+
+#: js/src/sentinel/SentinelState/SentinelStateTable.js:39
+msgid "Survey"
+msgstr "கணக்கெடுப்பு"
+
+#: js/src/utils/DisabledAlert.js:16
+msgid "Please accept the "
+msgstr "தயவுசெய்து ஏற்றுக்கொள்ளுங்கள் "
+
+#: js/src/utils/DisabledAlert.js:20
+msgid " to manage Sentinel."
+msgstr " சென்டினலை நிர்வகிக்க."
+
+#: reforis_sentinel/__init__.py:46
+msgid "Cannot update Sentinel settings"
+msgstr "சென்டினல் அமைப்புகளை புதுப்பிக்க முடியாது"
+
