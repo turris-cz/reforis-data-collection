@@ -5,8 +5,9 @@
  * See /LICENSE for more information.
  */
 
-const webpack = require("webpack");
 const path = require("path");
+
+const webpack = require("webpack");
 
 module.exports = () => ({
     mode: "development",
@@ -15,19 +16,13 @@ module.exports = () => ({
         // Build js app to ../reforis_static{python_module_name}/app.min.js
         // See https://gitlab.labs.nic.cz/turris/reforis/reforis-distutils/blob/master/reforis_distutils/__init__.py#L11
         filename: "app.min.js",
-        path: path.join(
-            __dirname,
-            "../reforis_static/reforis_sentinel/js/"
-        ),
+        path: path.join(__dirname, "../reforis_static/reforis_sentinel/js/"),
     },
     resolve: {
         modules: [
             path.resolve(__dirname, "./src"),
             path.resolve(__dirname, "./node_modules"),
         ],
-        alias: {
-            process: "process/browser",
-        },
     },
     module: {
         rules: [
@@ -44,7 +39,7 @@ module.exports = () => ({
     },
     plugins: [
         new webpack.ProvidePlugin({
-            process: "process/browser",
+            process: "process/browser.js",
         }),
     ],
     // Equal to peerDependencies in package.json
