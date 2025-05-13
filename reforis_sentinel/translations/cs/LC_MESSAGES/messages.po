@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-29 19:19+0200\n"
-"PO-Revision-Date: 2024-11-15 14:00+0000\n"
+"PO-Revision-Date: 2025-05-14 21:02+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"reforis-sentinel-plugin/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis-"
-"data-collection-plugin/cs/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -52,7 +53,7 @@ msgid ""
 "dynamic firewall."
 msgstr ""
 "Váš souhlas s Podmínkami účasti nám umožňuje analyzovat potenciální "
-"bezpečnostní hrozby detekované na vašem routeru a tedy aktualizovat "
+"bezpečnostní hrozby detekované na vašem směrovači a tedy aktualizovat "
 "dynamický firewall."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:38
@@ -82,9 +83,9 @@ msgid ""
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
 "Sentinel je systém detekce a prevence bezpečnostních hrozeb, který je "
-"součástí projektu Turris a poskytuje dynamický firewall a statistiky. Zde"
-" můžete nastavit různé komponenty systému Sentinel, které se využívají v "
-"subsystému detekce hrozeb."
+"součástí projektu Turris a poskytuje dynamický firewall a statistiky. Zde "
+"můžete nastavit různé komponenty systému Sentinel, které se využívají v "
+"podsystému detekce hrozeb."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
@@ -92,7 +93,8 @@ msgstr "Komponenty systému Sentinel"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
-msgstr "Můžete vybrat konkrétní komponenty, které chcete povolit nebo zakázat."
+msgstr ""
+"Je možné vybrat konkrétní komponenty, které chcete povolit nebo zakázat."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
@@ -212,7 +214,7 @@ msgstr "Stav Sentinelu"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:38
 msgid "To view Sentinel data, please visit "
-msgstr "Chcete-li zobrazit data Sentinel, navštivte prosím "
+msgstr "Pokud si chcete zobrazit data ze Sentinel, navštivte prosím "
 
 #: js/src/sentinel/SentinelState/SentinelState.js:52
 msgid "There you can also see and filter "
@@ -248,7 +250,7 @@ msgstr " , abyste mohli ovládat Sentinel."
 
 #: reforis_sentinel/__init__.py:46
 msgid "Cannot update Sentinel settings"
-msgstr "Nelze aktualizovat nastavení pro Sentinel"
+msgstr "Nebylo možné aktualizovat nastavení pro Sentinel"
 
 #~ msgid "Cannot update sentinel settings"
 #~ msgstr "Nelze aktualizovat nastavení Sentinelu"
@@ -330,4 +332,3 @@ msgstr "Nelze aktualizovat nastavení pro Sentinel"
 #~ "Pro správu systému Sentinel prosím "
 #~ "přijměte <a "
 #~ "href=\"${ForisURLs.sentinelAgreement}\">licenční smlouvu</a>."
-
