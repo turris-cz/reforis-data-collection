@@ -74,10 +74,12 @@ msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Ich akzeptiere die <a href='#'>Teilnahmebedingungen des Turris-Projekts "
+"(Datensammlung)</a> nicht."
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr "Teilnahmebedingungen im Turris-Projekt (Datensammlung)"
+msgstr "Teilnahmebedingungen des Turris-Projekts (Datensammlung)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""
