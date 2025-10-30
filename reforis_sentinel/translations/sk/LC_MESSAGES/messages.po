@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-29 19:19+0200\n"
-"PO-Revision-Date: 2024-10-30 19:08+0000\n"
+"POT-Creation-Date: 2025-10-30 18:27+0300\n"
+"PO-Revision-Date: 2025-10-14 22:05+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language: sk\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:38
 msgid "Agreement"
-msgstr "Zmluva"
+msgstr "Podmienky"
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:68
 msgid ""
@@ -64,7 +64,7 @@ msgid ""
 "Collection)</a>."
 msgstr ""
 "Súhlasím s <a href='#'>Podmienkami účasti v projekte Turris (zber "
-"dát)</a>."
+"údajov)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
 msgid ""
@@ -72,11 +72,11 @@ msgid ""
 "(Data Collection)</a>."
 msgstr ""
 "Nesúhlasím s <a href='#'>Podmienkami účasti v projekte Turris (zber "
-"dát)</a>."
+"údajov)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr "Podmienky účasti v projekte Turris (zber dát)"
+msgstr "Podmienky účasti v projekte Turris (zber údajov)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""

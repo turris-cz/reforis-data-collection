@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-29 19:19+0200\n"
-"PO-Revision-Date: 2023-09-08 13:52+0000\n"
+"POT-Creation-Date: 2025-10-30 18:27+0300\n"
+"PO-Revision-Date: 2025-07-16 23:01+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language: de\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr "Teilnahmebedingungen im Turris-Projekt (Datensammlung)"
+msgstr "Teilnahmebedingungen des Turris-Projekts (Datensammlung)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""
@@ -221,11 +221,11 @@ msgstr "Sentinel-Zustand"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:38
 msgid "To view Sentinel data, please visit "
-msgstr ""
+msgstr "Zum Ansehen von Sentinel-Daten besuchen Sie bitte "
 
 #: js/src/sentinel/SentinelState/SentinelState.js:52
 msgid "There you can also see and filter "
-msgstr ""
+msgstr "Dort haben Sie auch die Möglichkeit zum Betrachten und Filtern von "
 
 #: js/src/sentinel/SentinelState/SentinelState.js:108
 msgid "Device token"
@@ -249,11 +249,11 @@ msgstr "Erhebung"
 
 #: js/src/utils/DisabledAlert.js:16
 msgid "Please accept the "
-msgstr ""
+msgstr "Bitte akzeptieren Sie die "
 
 #: js/src/utils/DisabledAlert.js:20
 msgid " to manage Sentinel."
-msgstr ""
+msgstr " um Sentinel verwalten zu können."
 
 #: reforis_sentinel/__init__.py:46
 msgid "Cannot update Sentinel settings"
