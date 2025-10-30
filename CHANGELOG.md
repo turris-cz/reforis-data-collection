@@ -8,6 +8,16 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.2.0] - 2025-10-30
+
+### Added
+
+- Added & updated Weblate translations
+
+### Changed
+
+- Updated dependencies in package.json
+
 ## [2.1.0] - 2025-04-29
 
 ### Added
@@ -167,7 +177,8 @@ and this project adheres to
 
 - Basic EULA agreement
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v2.1.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v2.2.0...master
+[2.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v2.1.0...v2.2.0
 [2.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v2.0.0...v2.1.0
 [2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v1.2.1...v2.0.0
 [1.2.1]: https://gitlab.nic.cz/turris/reforis/reforis-sentinel/-/compare/v1.2.0...v1.2.1
