@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "reforis-sentinel"
-version = "2.1.0"
+version = "2.2.0"
 description = "reForis Sentinel plugin is a key source of data which are used to build the dynamic firewall and other analyses."
 readme = "README.md"
 license = "GPL-3.0-or-later"
