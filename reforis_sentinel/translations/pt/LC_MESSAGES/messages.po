@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reForis Sentinel 2.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2026-05-04 02:14+0000\n"
+"PO-Revision-Date: 2026-05-07 00:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis-sentinel-plugin/pt/>\n"
@@ -204,11 +204,11 @@ msgstr ""
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:31
 msgid "Firewall Logs"
-msgstr ""
+msgstr "Relatórios da Firewall"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:35
 msgid "Minipots"
-msgstr ""
+msgstr "Mini potes"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:39
 msgid "Survey"
