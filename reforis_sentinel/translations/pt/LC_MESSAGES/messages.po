@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reForis Sentinel 2.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2026-05-08 23:11+0000\n"
+"PO-Revision-Date: 2026-05-11 18:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis-sentinel-plugin/pt/>\n"
@@ -32,7 +32,7 @@ msgstr "Visão geral"
 #: js/src/app.js:24 js/src/licenseAgreement/LicenseAgreement.js:18
 #: js/src/utils/DisabledAlert.js:18
 msgid "License Agreement"
-msgstr ""
+msgstr "Contrato de Licença"
 
 #: js/src/licenseAgreement/LicenseAgreement.js:20
 msgid ""
@@ -42,7 +42,7 @@ msgstr ""
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:30
 msgid "Terms of Participation"
-msgstr ""
+msgstr "Termos de Participação"
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:32
 msgid ""
@@ -53,7 +53,7 @@ msgstr ""
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:38
 msgid "Agreement"
-msgstr ""
+msgstr "Contrato"
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:68
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
-msgstr ""
+msgstr "Componentes do Sentinela"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
@@ -88,7 +88,7 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
-msgstr ""
+msgstr "Ativar Relatórios da Firewall"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
 msgid "Enable Minipots"
@@ -144,7 +144,7 @@ msgstr ""
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
 msgid "Status: "
-msgstr ""
+msgstr "Estado: "
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:26
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
@@ -168,19 +168,19 @@ msgstr ""
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
-msgstr ""
+msgstr "Desativado"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:44
 msgid "Uninstalled"
-msgstr ""
+msgstr "Desinstalado"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:46
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:35
 msgid "Sentinel State"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: js/src/sentinel/SentinelState/SentinelState.js:108
 msgid "Device token"
-msgstr ""
+msgstr "Testemunho de dispositivo"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:27
 msgid "Sentinel Proxy"
