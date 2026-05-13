@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reForis Sentinel 2.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2026-05-12 19:11+0000\n"
+"PO-Revision-Date: 2026-05-14 00:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis-sentinel-plugin/pt/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -65,16 +65,20 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Eu aceito os <a href='#'>Termos de Participação no Projeto Turris (Recolha "
+"de Dados)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Eu não aceito os <a href='#'>Termos de Participação no Projeto Turris "
+"(Recolha de Dados)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Termos de Participação no Projeto Turris (Recolha de Dados)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""
@@ -82,6 +86,10 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
+"O Sentinela é um sistema de detecção de ameaças e prevenção de ataques do "
+"Turris, que fornece firewall dinâmica e estatísticas. Aqui pode configurar "
+"vários componentes do Sentinela que fazem parte do sub-sistema de detecção "
+"de ameaças."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
@@ -90,6 +98,7 @@ msgstr "Componentes do Sentinela"
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
 msgstr ""
+"Pode selecionar os componentes específicos que deseja ativar ou desativar."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
@@ -97,27 +106,27 @@ msgstr "Ativar Relatórios da Firewall"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
 msgid "Enable Minipots"
-msgstr ""
+msgstr "Ativar Mini Potes"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
 msgid "Running on port 80."
-msgstr ""
+msgstr "A correr no porto 80."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:106
 msgid "Running on port 21."
-msgstr ""
+msgstr "A correr no porto 21."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:121
 msgid "Running on port 25 and 587."
-msgstr ""
+msgstr "A correr no porto 25 e 587."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:136
 msgid "Running on port 23."
-msgstr ""
+msgstr "A correr no porto 23."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
 msgid "Enable Survey"
-msgstr ""
+msgstr "Ativar Inquérito"
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:9
 msgid ""
@@ -161,13 +170,13 @@ msgstr "A correr"
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
 msgid "Sending"
-msgstr ""
+msgstr "A enviar"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:34
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
 msgid "Failed"
-msgstr ""
+msgstr "Falhou"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:38
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
@@ -221,12 +230,12 @@ msgstr ""
 
 #: js/src/utils/DisabledAlert.js:16
 msgid "Please accept the "
-msgstr ""
+msgstr "Por favor aceite o "
 
 #: js/src/utils/DisabledAlert.js:20
 msgid " to manage Sentinel."
-msgstr ""
+msgstr " para gerir o Sentinela."
 
 #: reforis_sentinel/__init__.py:46
 msgid "Cannot update Sentinel settings"
-msgstr ""
+msgstr "Não pode atualizar definições do Sentinela"
