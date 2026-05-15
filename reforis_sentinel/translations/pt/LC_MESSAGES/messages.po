@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reForis Sentinel 2.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2026-05-14 00:11+0000\n"
+"PO-Revision-Date: 2026-05-15 22:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis-sentinel-plugin/pt/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5.dev0\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -138,6 +138,14 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
+"Firewall Logs são relatórios recolhidos a partir da firewall iptables. Se "
+"ativo, o Sentinela usa-os para monitorizar pacotes vindos de fora da rede a "
+"tentarem ligarem-se a serviços locais potencialmente vulneráveis. Estas "
+"técnicas, também chamadas de \"sondagens de porto\" geralmente tentam "
+"detectar se portos específicos estão abertos num dispositivo local. Se "
+"ativo, os Relatórios de Firewall do Sentinela recolhem informação sobre a "
+"origem de tais pacotes maliciosos e sobre os portos que tentam sondar no "
+"dispositivo local."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -147,6 +155,11 @@ msgid ""
 " catch the attacker red-handed when they think they are attacking a real "
 "service."
 msgstr ""
+"O objetivo principal do Mini Pote do Sentinela é recolher informação de "
+"autenticação a partir das tentativas de login. É possível emular alguns dos "
+"serviços atacados frequentemente - Telnet, HTTP, FTP, e SMTP. O objetivo é "
+"apanhar o atacante em flagrante quando ele pensa que está a atacar um "
+"serviço real."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -154,6 +167,10 @@ msgid ""
 "languages, and operating system versions. Based on this, we can focus on "
 "widely used packages and features and provide support."
 msgstr ""
+"O inquérito do Turris recolhe informação acerca de pacotes instalados, "
+"linguagens usadas, e versões de sistema operativo. Com base nisto, podemos "
+"focar-nos nos pacotes e funcionalidades que são amplamente usados e fornecer "
+"suporte."
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
@@ -198,15 +215,15 @@ msgstr "Desconhecido"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:35
 msgid "Sentinel State"
-msgstr ""
+msgstr "Estado do Sentinela"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:38
 msgid "To view Sentinel data, please visit "
-msgstr ""
+msgstr "Para ver dados do Sentinela, por favor visite "
 
 #: js/src/sentinel/SentinelState/SentinelState.js:52
 msgid "There you can also see and filter "
-msgstr ""
+msgstr "Lá também pode ver e filtrar "
 
 #: js/src/sentinel/SentinelState/SentinelState.js:108
 msgid "Device token"
@@ -214,7 +231,7 @@ msgstr "Testemunho de dispositivo"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:27
 msgid "Sentinel Proxy"
-msgstr ""
+msgstr "Proxy do Sentinela"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:31
 msgid "Firewall Logs"
@@ -226,7 +243,7 @@ msgstr "Mini potes"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:39
 msgid "Survey"
-msgstr ""
+msgstr "Inquérito"
 
 #: js/src/utils/DisabledAlert.js:16
 msgid "Please accept the "
