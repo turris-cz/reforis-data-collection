@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2026-01-08 19:01+0000\n"
+"PO-Revision-Date: 2026-07-04 23:01+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis-"
 "sentinel-plugin/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
@@ -60,7 +60,7 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
-"Jag godtar <a href='#'>Villkoren för deltagande i Turris-projektet "
+"Jag accepterar <a href='#'>Villkor för deltagande i Turris-projektet "
 "(Insamling av data)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
@@ -172,7 +172,7 @@ msgstr "Misslyckades"
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
-msgstr "Avstängt"
+msgstr "Inaktiverat"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
