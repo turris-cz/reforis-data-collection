@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2026-07-04 23:01+0000\n"
+"PO-Revision-Date: 2026-07-06 00:01+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis-"
 "sentinel-plugin/sv/>\n"
@@ -84,7 +84,7 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
-msgstr ""
+msgstr "Sentinel-komponenter"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
