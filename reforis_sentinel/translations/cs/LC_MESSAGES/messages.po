@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-10-30 18:27+0300\n"
 "PO-Revision-Date: 2026-09-04 13:53+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language: cs\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis-"
 "sentinel-plugin/cs/>\n"
@@ -85,8 +85,8 @@ msgid ""
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
 "Sentinel je systém detekce a prevence bezpečnostních hrozeb, který je "
-"součástí projektu Turris a poskytuje dynamický firewall a statistiky. Zde"
-" můžete nastavit různé komponenty systému Sentinel, které se využívají v "
+"součástí projektu Turris a poskytuje dynamický firewall a statistiky. Zde "
+"můžete nastavit různé komponenty systému Sentinel, které se využívají v "
 "podsystému detekce hrozeb."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
@@ -95,7 +95,8 @@ msgstr "Komponenty systému Sentinel"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
-msgstr "Je možné vybrat konkrétní komponenty, které chcete povolit nebo zakázat."
+msgstr ""
+"Je možné vybrat konkrétní komponenty, které chcete povolit nebo zakázat."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
