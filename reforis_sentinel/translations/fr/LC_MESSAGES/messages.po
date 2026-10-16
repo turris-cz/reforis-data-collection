@@ -1,25 +1,24 @@
 # French translations for reForis Sentinel.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Sentinel
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-30 18:27+0300\n"
+"POT-Creation-Date: 2026-10-16 15:07+0300\n"
 "PO-Revision-Date: 2026-09-04 13:53+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris/reforis-"
-"sentinel-plugin/fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris"
+"/reforis-sentinel-plugin/fr/>\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.9\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -39,8 +38,8 @@ msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in the threat detection program."
 msgstr ""
-"Afin de participer au programme de détection de menaces, il est requis d'en "
-"accepted les termes."
+"Afin de participer au programme de détection de menaces, il est requis "
+"d'en accepted les termes."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:30
 msgid "Terms of Participation"
@@ -52,9 +51,9 @@ msgid ""
 "potential threats detected on your router and therefore to build a "
 "dynamic firewall."
 msgstr ""
-"Votre consentement aux termes de participation nous permet d'analyser les "
-"menaces potentielles détectées sur votre routeur et ainsi de construire un "
-"pare-feu dynamique."
+"Votre consentement aux termes de participation nous permet d'analyser les"
+" menaces potentielles détectées sur votre routeur et ainsi de construire "
+"un pare-feu dynamique."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:38
 msgid "Agreement"
@@ -65,16 +64,16 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
-"J'accepte les <a href='#'>Termes de participation au projet Turris (collecte "
-"de données)</a>."
+"J'accepte les <a href='#'>Termes de participation au projet Turris "
+"(collecte de données)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
-"je n'accepte pas les <a href='#'>termes de participation au projet Turris "
-"(collecte de données)</a>."
+"je n'accepte pas les <a href='#'>termes de participation au projet Turris"
+" (collecte de données)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
@@ -87,9 +86,10 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
-"Sentinel est un dispositif Turris de détection et prévention des attaques "
-"permettant de fournir un pare-feu dynamique. Ici vous pouvez ajuster "
-"plusieurs composants de Sentinel qui contribuent aux fonctions de détection."
+"Sentinel est un dispositif Turris de détection et prévention des attaques"
+" permettant de fournir un pare-feu dynamique. Ici vous pouvez ajuster "
+"plusieurs composants de Sentinel qui contribuent aux fonctions de "
+"détection."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
@@ -304,3 +304,4 @@ msgstr "Impossible de mettre à jour les paramètres de Sentinel"
 #~ "href=\"${ForisURLs.sentinelAgreement}\">License Agreement</a>"
 #~ " to manage Sentinel."
 #~ msgstr ""
+

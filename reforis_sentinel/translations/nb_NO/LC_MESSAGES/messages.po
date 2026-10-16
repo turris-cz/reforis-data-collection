@@ -1,25 +1,25 @@
 # Norwegian Bokmål (Norway) translations for reForis Sentinel.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Sentinel
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-30 18:27+0300\n"
+"POT-Creation-Date: 2026-10-16 15:07+0300\n"
 "PO-Revision-Date: 2026-09-04 13:53+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: nb_NO\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"reforis-sentinel-plugin/nb_NO/>\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/reforis-sentinel-"
+"plugin/nb_NO/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"X-Generator: Weblate 2026.9\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -39,8 +39,8 @@ msgid ""
 "It's required to confirm the Terms of Participation in Turris Project to "
 "participate in the threat detection program."
 msgstr ""
-"Det kreves at du samtykker til vilkårene for deltagelse i Turris-prosjektet "
-"for å delta i trusseloppdagelsesprogrammet."
+"Det kreves at du samtykker til vilkårene for deltagelse i Turris-"
+"prosjektet for å delta i trusseloppdagelsesprogrammet."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:30
 msgid "Terms of Participation"
@@ -53,7 +53,8 @@ msgid ""
 "dynamic firewall."
 msgstr ""
 "Ditt samtykke til vilkårene for deltagelse lar oss analysere potensielle "
-"trusler oppdaget på ruteren din og lar oss derfor bygge en dynamisk brannmur."
+"trusler oppdaget på ruteren din og lar oss derfor bygge en dynamisk "
+"brannmur."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:38
 #, fuzzy
@@ -74,8 +75,8 @@ msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
-"Jeg godtar ikke <a href='#'>Vilkår for deltagelse i datainnsamling i Turris-"
-"prosjektet</a>."
+"Jeg godtar ikke <a href='#'>Vilkår for deltagelse i datainnsamling i "
+"Turris-prosjektet</a>."
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 #, fuzzy
@@ -89,8 +90,8 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
-"Sentinel er et system for trusselsoppdagelse og angrepsforebygging som gir "
-"dynamisk brannmur og statistikk. Her kan du sette opp flere Sentinel-"
+"Sentinel er et system for trusselsoppdagelse og angrepsforebygging som "
+"gir dynamisk brannmur og statistikk. Her kan du sette opp flere Sentinel-"
 "komponenter som deler i trusseloppdagelsessystemet."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
@@ -143,13 +144,13 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
-"Brannmurslogger er logger som hentes fra iptables-brannmuren. Hvis det skrus "
-"på bruker Sentinel dem til å overvåke pakker som prøver å koble til mulig "
-"sårbare lokale tjenester fra andre nettverk. Disse teknikkene kalles gjerne "
-"ofte «portskanning», og brukes vanligvis til å oppdage om gitte porter er "
-"åpne på en lokal enhet. Hvis påskrudd vil Sentinel-brannmursloggene hente "
-"info om opphavet til slike ondsinnede pakker og hvilke porter de prøver å "
-"skanne på den lokale enheten."
+"Brannmurslogger er logger som hentes fra iptables-brannmuren. Hvis det "
+"skrus på bruker Sentinel dem til å overvåke pakker som prøver å koble til"
+" mulig sårbare lokale tjenester fra andre nettverk. Disse teknikkene "
+"kalles gjerne ofte «portskanning», og brukes vanligvis til å oppdage om "
+"gitte porter er åpne på en lokal enhet. Hvis påskrudd vil Sentinel-"
+"brannmursloggene hente info om opphavet til slike ondsinnede pakker og "
+"hvilke porter de prøver å skanne på den lokale enheten."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 #, fuzzy
@@ -161,9 +162,10 @@ msgid ""
 "service."
 msgstr ""
 "Hovedformålet til Sentinel-minihonningkrukken e rå samle "
-"identitetbekreftelsesinfo om innloggingsforsøk. Det er mulig å emulere noen "
-"av de tjeenstene som angripes often, altså Telnet, HTTP, FTP, og SMTP. Målet "
-"er å fange angriperen i akten mens de tror de angriper en ekte tjeneste."
+"identitetbekreftelsesinfo om innloggingsforsøk. Det er mulig å emulere "
+"noen av de tjeenstene som angripes often, altså Telnet, HTTP, FTP, og "
+"SMTP. Målet er å fange angriperen i akten mens de tror de angriper en "
+"ekte tjeneste."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 #, fuzzy
@@ -172,9 +174,9 @@ msgid ""
 "languages, and operating system versions. Based on this, we can focus on "
 "widely used packages and features and provide support."
 msgstr ""
-"Turris-undersøkelsen samler inn info om installerte pakker, brukte språk, og "
-"operativsystemsversjoner. Basert på dette kan Turris fokusere på pakker som "
-"brukes mye, og tilby funksjoner og støtte deretter."
+"Turris-undersøkelsen samler inn info om installerte pakker, brukte språk,"
+" og operativsystemsversjoner. Basert på dette kan Turris fokusere på "
+"pakker som brukes mye, og tilby funksjoner og støtte deretter."
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
@@ -343,3 +345,4 @@ msgstr "Kan ikke oppdatere Sentinel-innstillinger"
 #~ "Godta <a "
 #~ "href=\"${ForisURLs.sentinelAgreement}\">Lisensavtalen</a> for"
 #~ " å håndtere Sentinel."
+

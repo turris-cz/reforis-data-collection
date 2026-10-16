@@ -1,25 +1,24 @@
-# Translations template for reForis Sentinel.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Portuguese translations for reForis Sentinel.
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Sentinel
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis Sentinel 2.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2025-10-30 18:27+0300\n"
+"POT-Creation-Date: 2026-10-16 15:07+0300\n"
 "PO-Revision-Date: 2026-09-04 13:53+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
-"reforis-sentinel-plugin/pt/>\n"
 "Language: pt\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/turris"
+"/reforis-sentinel-plugin/pt/>\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.9\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -53,8 +52,8 @@ msgid ""
 "dynamic firewall."
 msgstr ""
 "O seu consentimento com os Termos de Participação permite-nos analisar "
-"potenciais ameaças detectadas no seu router e assim construir uma firewall "
-"dinâmica."
+"potenciais ameaças detectadas no seu router e assim construir uma "
+"firewall dinâmica."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:38
 msgid "Agreement"
@@ -65,8 +64,8 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
-"Eu aceito os <a href='#'>Termos de Participação no Projeto Turris (Recolha "
-"de Dados)</a>."
+"Eu aceito os <a href='#'>Termos de Participação no Projeto Turris "
+"(Recolha de Dados)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
 msgid ""
@@ -86,10 +85,10 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
-"O Sentinela é um sistema de detecção de ameaças e prevenção de ataques do "
-"Turris, que fornece firewall dinâmica e estatísticas. Aqui pode configurar "
-"vários componentes do Sentinela que fazem parte do sub-sistema de detecção "
-"de ameaças."
+"O Sentinela é um sistema de detecção de ameaças e prevenção de ataques do"
+" Turris, que fornece firewall dinâmica e estatísticas. Aqui pode "
+"configurar vários componentes do Sentinela que fazem parte do sub-sistema"
+" de detecção de ameaças."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
@@ -97,8 +96,7 @@ msgstr "Componentes do Sentinela"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
-msgstr ""
-"Pode selecionar os componentes específicos que deseja ativar ou desativar."
+msgstr "Pode selecionar os componentes específicos que deseja ativar ou desativar."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
@@ -138,14 +136,14 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
-"Firewall Logs são relatórios recolhidos a partir da firewall iptables. Se "
-"ativo, o Sentinela usa-os para monitorizar pacotes vindos de fora da rede a "
-"tentarem ligarem-se a serviços locais potencialmente vulneráveis. Estas "
-"técnicas, também chamadas de \"sondagens de porto\" geralmente tentam "
-"detectar se portos específicos estão abertos num dispositivo local. Se "
-"ativo, os Relatórios de Firewall do Sentinela recolhem informação sobre a "
-"origem de tais pacotes maliciosos e sobre os portos que tentam sondar no "
-"dispositivo local."
+"Firewall Logs são relatórios recolhidos a partir da firewall iptables. Se"
+" ativo, o Sentinela usa-os para monitorizar pacotes vindos de fora da "
+"rede a tentarem ligarem-se a serviços locais potencialmente vulneráveis. "
+"Estas técnicas, também chamadas de \"sondagens de porto\" geralmente "
+"tentam detectar se portos específicos estão abertos num dispositivo "
+"local. Se ativo, os Relatórios de Firewall do Sentinela recolhem "
+"informação sobre a origem de tais pacotes maliciosos e sobre os portos "
+"que tentam sondar no dispositivo local."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -156,10 +154,10 @@ msgid ""
 "service."
 msgstr ""
 "O objetivo principal do Mini Pote do Sentinela é recolher informação de "
-"autenticação a partir das tentativas de login. É possível emular alguns dos "
-"serviços atacados frequentemente - Telnet, HTTP, FTP, e SMTP. O objetivo é "
-"apanhar o atacante em flagrante quando ele pensa que está a atacar um "
-"serviço real."
+"autenticação a partir das tentativas de login. É possível emular alguns "
+"dos serviços atacados frequentemente - Telnet, HTTP, FTP, e SMTP. O "
+"objetivo é apanhar o atacante em flagrante quando ele pensa que está a "
+"atacar um serviço real."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -168,9 +166,9 @@ msgid ""
 "widely used packages and features and provide support."
 msgstr ""
 "O inquérito do Turris recolhe informação acerca de pacotes instalados, "
-"linguagens usadas, e versões de sistema operativo. Com base nisto, podemos "
-"focar-nos nos pacotes e funcionalidades que são amplamente usados e fornecer "
-"suporte."
+"linguagens usadas, e versões de sistema operativo. Com base nisto, "
+"podemos focar-nos nos pacotes e funcionalidades que são amplamente usados"
+" e fornecer suporte."
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
@@ -256,3 +254,4 @@ msgstr " para gerir o Sentinela."
 #: reforis_sentinel/__init__.py:46
 msgid "Cannot update Sentinel settings"
 msgstr "Não pode atualizar definições do Sentinela"
+

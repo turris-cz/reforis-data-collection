@@ -1,25 +1,24 @@
 # Spanish translations for reForis Sentinel.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Sentinel
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-30 18:27+0300\n"
+"POT-Creation-Date: 2026-10-16 15:07+0300\n"
 "PO-Revision-Date: 2026-09-04 13:53+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/reforis-"
-"sentinel-plugin/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris"
+"/reforis-sentinel-plugin/es/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"X-Generator: Weblate 2026.9\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -73,8 +72,8 @@ msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
-"No acepto los <a href='#'>términos de participación en el proyecto Turris "
-"(recopilación de datos)</a>."
+"No acepto los <a href='#'>términos de participación en el proyecto Turris"
+" (recopilación de datos)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
@@ -86,10 +85,10 @@ msgid ""
 " provides dynamic firewall and statistics. Here you can set up several "
 "Sentinel components which take part in the threat detection subsystem."
 msgstr ""
-"Sentinel es un sistema de detección de amenazas y prevención de ataques de "
-"Turris, que proporciona un cortafuegos dinámico y estadísticas. Aquí puedes "
-"configurar varios componentes de Sentinel que intervienen el subsistema de "
-"detección de amenazas."
+"Sentinel es un sistema de detección de amenazas y prevención de ataques "
+"de Turris, que proporciona un cortafuegos dinámico y estadísticas. Aquí "
+"puedes configurar varios componentes de Sentinel que intervienen el "
+"subsistema de detección de amenazas."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
@@ -98,7 +97,8 @@ msgstr "Componentes de Sentinel"
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
 msgstr ""
-"Puedes seleccionar componentes específicos que desees activar o desactivar."
+"Puedes seleccionar componentes específicos que desees activar o "
+"desactivar."
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
@@ -138,14 +138,15 @@ msgid ""
 "Logs gather information about origin of such malicious packets and about "
 "ports they try to scan on local device."
 msgstr ""
-"Los registros del cortafuegos son registros recopilados por el cortafuegos "
-"iptables. Si están activados, Sentinel los utiliza para supervisar los "
-"paquetes procedentes de la red exterior que intentan conectarse a servicios "
-"locales potencialmente vulnerables. Estas técnicas, también conocidas como "
-"\"análisis de puertos\", suelen intentar detectar si hay puertos específicos "
-"abiertos en el dispositivo local. Si están activados, los registros del "
-"cortafuegos Sentinel recopilan información sobre el origen de estos paquetes "
-"maliciosos y sobre los puertos que intentan explorar en el dispositivo local."
+"Los registros del cortafuegos son registros recopilados por el "
+"cortafuegos iptables. Si están activados, Sentinel los utiliza para "
+"supervisar los paquetes procedentes de la red exterior que intentan "
+"conectarse a servicios locales potencialmente vulnerables. Estas "
+"técnicas, también conocidas como \"análisis de puertos\", suelen intentar"
+" detectar si hay puertos específicos abiertos en el dispositivo local. Si"
+" están activados, los registros del cortafuegos Sentinel recopilan "
+"información sobre el origen de estos paquetes maliciosos y sobre los "
+"puertos que intentan explorar en el dispositivo local."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:12
 msgid ""
@@ -156,10 +157,10 @@ msgid ""
 "service."
 msgstr ""
 "El objetivo principal de Sentinel Minipot es recopilar información de "
-"autenticación de los intentos de inicio de sesión. Es posible emular algunos "
-"de los servicios atacados con frecuencia: Telnet, HTTP, FTP y SMTP. El "
-"objetivo es pillar al atacante con las manos en la masa cuando piense que "
-"está atacando un servicio real."
+"autenticación de los intentos de inicio de sesión. Es posible emular "
+"algunos de los servicios atacados con frecuencia: Telnet, HTTP, FTP y "
+"SMTP. El objetivo es pillar al atacante con las manos en la masa cuando "
+"piense que está atacando un servicio real."
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:15
 msgid ""
@@ -168,9 +169,9 @@ msgid ""
 "widely used packages and features and provide support."
 msgstr ""
 "La encuesta Turris recoge información sobre los paquetes instalados, los "
-"idiomas utilizados y las versiones del sistema operativo. A partir de ahí, "
-"podemos centrarnos en los paquetes y funciones más utilizados y ofrecerles "
-"asistencia."
+"idiomas utilizados y las versiones del sistema operativo. A partir de "
+"ahí, podemos centrarnos en los paquetes y funciones más utilizados y "
+"ofrecerles asistencia."
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
@@ -346,3 +347,4 @@ msgstr "No se puede actualizar la configuración de Sentinel"
 #~ "Por favor, aceptael <a "
 #~ "href=\"${ForisURLs.sentinelAgreement}\">Contrato de "
 #~ "licencia</a> para gestionar Sentinel."
+
