@@ -1,17 +1,16 @@
 # Swedish translations for reForis Sentinel.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Sentinel
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2025-03-01 03:02+0000\n"
-"Last-Translator: Kristoffer Grundström "
-"<swedishsailfishosuser@tutanota.com>\n"
+"POT-Creation-Date: 2026-10-16 15:07+0300\n"
+"PO-Revision-Date: 2026-09-04 13:53+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: sv\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris"
 "/reforis-sentinel-plugin/sv/>\n"
@@ -19,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -53,14 +52,14 @@ msgstr ""
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:38
 msgid "Agreement"
-msgstr "Avtal"
+msgstr "Överrenskommelse"
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:68
 msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
-"Jag godtar <a href='#'>Villkoren för deltagande i Turris-projektet "
+"Jag accepterar <a href='#'>Villkor för deltagande i Turris-projektet "
 "(Insamling av data)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
@@ -84,7 +83,7 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:41
 msgid "Sentinel Components"
-msgstr ""
+msgstr "Sentinel-komponenter"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:44
 msgid "You can select specific components that you want to enable or disable."
@@ -92,11 +91,11 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:49
 msgid "Enable Firewall Logs"
-msgstr ""
+msgstr "Aktivera Brandväggsloggar"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:63
 msgid "Enable Minipots"
-msgstr ""
+msgstr "Aktivera Minipots"
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:91
 msgid "Running on port 80."
@@ -116,7 +115,7 @@ msgstr ""
 
 #: js/src/sentinel/SentinelOptions/SentinelOptions.js:142
 msgid "Enable Survey"
-msgstr ""
+msgstr "Aktivera undersökning"
 
 #: js/src/sentinel/SentinelOptions/helpTexts.js:9
 msgid ""
@@ -148,31 +147,31 @@ msgstr ""
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:19
 msgid "Status: "
-msgstr ""
+msgstr "Status: "
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:26
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:22
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:24
 msgid "Running"
-msgstr ""
+msgstr "Körs"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:30
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:27
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:29
 msgid "Sending"
-msgstr ""
+msgstr "Skickar"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:34
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:32
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:34
 msgid "Failed"
-msgstr ""
+msgstr "Misslyckades"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:38
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
-msgstr "Avstängt"
+msgstr "Inaktiverat"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
@@ -204,7 +203,7 @@ msgstr ""
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:27
 msgid "Sentinel Proxy"
-msgstr ""
+msgstr "Sentinel-proxy"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:31
 msgid "Firewall Logs"
@@ -212,19 +211,19 @@ msgstr "Brandväggsloggar"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:35
 msgid "Minipots"
-msgstr ""
+msgstr "Minipots"
 
 #: js/src/sentinel/SentinelState/SentinelStateTable.js:39
 msgid "Survey"
-msgstr ""
+msgstr "Undersökning"
 
 #: js/src/utils/DisabledAlert.js:16
 msgid "Please accept the "
-msgstr ""
+msgstr "Vänligen acceptera "
 
 #: js/src/utils/DisabledAlert.js:20
 msgid " to manage Sentinel."
-msgstr ""
+msgstr " för att hantera Sentinel."
 
 #: reforis_sentinel/__init__.py:46
 msgid "Cannot update Sentinel settings"

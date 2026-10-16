@@ -1,16 +1,16 @@
 # Hungarian translations for reForis Sentinel.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Sentinel
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2021-05-30 16:34+0000\n"
-"Last-Translator: Zoli <boritek@gmail.com>\n"
+"POT-Creation-Date: 2026-10-16 15:07+0300\n"
+"PO-Revision-Date: 2026-09-29 18:51+0000\n"
+"Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris"
 "/reforis-sentinel-plugin/hu/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -56,22 +56,24 @@ msgid "Agreement"
 msgstr "Licencszerződés"
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:68
-#, fuzzy
 msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
-msgstr "A Turris Projektben való részvétel feltételei (adatgyűjtés)"
+msgstr ""
+"Elfogadom a <a href='#'>Turris Projekt (Adatgyűjtés) részvételi "
+"feltételeit</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
-#, fuzzy
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
-msgstr "A Turris Projektben való részvétel feltételei (adatgyűjtés)"
+msgstr ""
+"Nem fogadom el a <a href='#'>Turris projektben való részvétel feltételeit"
+" (adatgyűjtés)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr "A Turris Projektben való részvétel feltételei (adatgyűjtés)"
+msgstr "A Turris projektben való részvétel feltételei (adatgyűjtés)"
 
 #: js/src/sentinel/Sentinel.js:25
 msgid ""
@@ -170,7 +172,7 @@ msgstr ""
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:37
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:39
 msgid "Disabled"
-msgstr ""
+msgstr "Letiltva"
 
 #: js/src/sentinel/SentinelState/SentinelProxyStateIcon.js:42
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:42
@@ -182,7 +184,7 @@ msgstr ""
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:47
 #: js/src/sentinel/SentinelState/SentinelStateBadge.js:49
 msgid "Unknown"
-msgstr ""
+msgstr "Ismeretlen"
 
 #: js/src/sentinel/SentinelState/SentinelState.js:35
 #, fuzzy

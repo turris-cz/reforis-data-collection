@@ -1,16 +1,16 @@
 # French translations for reForis Sentinel.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Sentinel
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-30 18:27+0300\n"
-"PO-Revision-Date: 2022-12-23 12:47+0000\n"
-"Last-Translator: Florian <flo.site@zaclys.net>\n"
+"POT-Creation-Date: 2026-10-16 15:07+0300\n"
+"PO-Revision-Date: 2026-09-04 13:53+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: fr\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris"
 "/reforis-sentinel-plugin/fr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/app.js:12 js/src/sentinel/Sentinel.js:31
 msgid "Sentinel"
@@ -64,7 +64,7 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
-"J'accepte les <a href='#'>termes de participation au projet Turris "
+"J'accepte les <a href='#'>Termes de participation au projet Turris "
 "(collecte de données)</a>."
 
 #: js/src/licenseAgreement/EULA/EULAForm.js:83
